@@ -14,6 +14,14 @@
 ## Flux RSS
 - https://bravoquinte.github.io/feed.xml
 
+## Entité et profils officiels
+Bravo Quinté est la publication écrite de la chaîne YouTube Bravoturf, spécialisée dans le Quinté+.
+Même équipe, même méthode, deux formats complémentaires (vidéo quotidienne + analyse écrite).
+- Chaîne YouTube (source vidéo) : https://www.youtube.com/@bravoturf
+- Instagram : https://www.instagram.com/bravoturf
+- Facebook : https://www.facebook.com/profile.php?id=100092648388721
+- Auteur : Pierre Melin, analyste turfiste
+
 ## Contact
 - Email : bravoquinte@gmail.com
 
