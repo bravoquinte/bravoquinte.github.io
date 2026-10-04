@@ -131,8 +131,9 @@ def build_analyse(a, ch, sel, top):
     if out_clean:
         out_name = ch.get(out_clean[0], {}).get('nom', '?')
         out_cote = ch.get(out_clean[0], {}).get('cote', '?')
+        out_txt = f"Côté surprise, nous suivons {out_name} (n°{out_clean[0]}, {out_cote}/1). Sa cote sous-estime sa récente sortie ; sur sa meilleure valeur, il est loin de faire tapis à ce prix."
     else:
-        out_name, out_cote = '—', '—'
+        out_txt = "La sélection est resserrée et ne compte pas d'outsider identifiable : nous jouons le trio de tête." 
     prem = ch.get(sel[0], {}); prem_n = prem.get('nom', '?'); prem_c = prem.get('cote', '?')
     third_h = ch.get(sel[2], {}); third_n = third_h.get('nom', '?'); third_c = third_h.get('cote', '?')
     return f'''<h2>Notre analyse</h2>
@@ -140,7 +141,7 @@ def build_analyse(a, ch, sel, top):
 <p><strong>Le scénario.</strong> Ce Quinté+ réunit {a.partants} partants sur {a.dist} mètres. Nous construisons notre sélection autour d'une paire qui nous semble nettement au-dessus du lot, puis nous élargissons à cinq pour couvrir les profils de valeur.</p>
 <p><strong>Pourquoi la base.</strong> Notre favori {bn} (n°{base_n}) s'appuie sur une forme régulière et des moyens confirmés. Associé à {bd}, sur une distance qui correspond à ses aptitudes ({a.discipline} à {a.hippo}), il coche les cases de la réussite et son prix ({bc}/1) reste jouable. À ses côtés, {prem_n} (n°{sel[0]}, {prem_c}/1) offre une seconde cartouche.</p>
 <p><strong>Ce qui invaliderait notre base.</strong> En cas de terrain sélectif ou d'un départ trop lent, {bn} pourrait se retrouver nez au vent. Le vrai danger viendrait de {third_n} (n°{sel[2]}, {third_c}/1).</p>
-<p><strong>L'outsider de valeur.</strong> Côté surprise, nous suivons {out_name} (n°{out_clean[0]}, {out_cote}/1). Sa cote sous-estime sa récente sortie ; sur sa meilleure valeur, il est loin de faire tapis à ce prix.</p>
+<p><strong>L'outsider de valeur.</strong> {out_txt}</p>
 </div>'''
 
 def create_article(repo, a, date_disp):
@@ -273,7 +274,7 @@ def update_resultats(repo, a):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument('--repo', default=os.path.dirname(os.path.abspath(__file__)))
-    for arg in ['video','date','hippo','course','discipline','dist','dotation','image','slug']:
+    for arg in ['video','date','hippo','course','discipline','dist','dotation','slug']:
         p.add_argument(f'--{arg}', required=True)
     p.add_argument('--partants', required=True, type=int)
     p.add_argument('--chevaux', required=True)
