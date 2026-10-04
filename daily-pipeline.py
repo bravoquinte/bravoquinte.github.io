@@ -272,7 +272,7 @@ def update_resultats(repo, a):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('--repo', default=r'C:\Users\brahi\AppData\Local\Temp\opencode\bravoquinte-export')
+    p.add_argument('--repo', default=os.path.dirname(os.path.abspath(__file__)))
     for arg in ['video','date','hippo','course','discipline','dist','dotation','image','slug']:
         p.add_argument(f'--{arg}', required=True)
     p.add_argument('--partants', required=True, type=int)
