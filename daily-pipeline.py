@@ -250,6 +250,14 @@ def update_blog_posts(repo, a, date_disp):
         print(f"  BLOG_POSTS: {a.slug} (d\u00e9j\u00e0 pr\u00e9sent, ignor\u00e9)")
         return
     c = re.sub(r'(var BLOG_POSTS=\[\n?)', f'\\1{post},\n', c)
+
+    # noscript: crawlable fallback sans JS
+    if f"href='{a.slug}.html'" not in c:
+        li = f"<li><a href='{a.slug}.html'>Pronostic Quint\u00e9 {a.hippo} {date_disp} - {title}</a></li>"
+        c2, n = re.subn(r"(<noscript>\s*<ul[^>]*>)", f"\\1\n{li}", c, count=1)
+        if n:
+            c = c2
+
     with open(fp, 'w', encoding='utf-8', newline='') as fh: fh.write(c)
     print(f"  BLOG_POSTS: {a.slug}")
 
