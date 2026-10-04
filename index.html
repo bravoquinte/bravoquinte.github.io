@@ -346,7 +346,17 @@ tr:hover td{background:#f0fdf4}
 <div class='container' style='text-align:center;'>
 <p style='margin:0;'><a href='methodologie.html'>Méthodologie</a> &nbsp;·&nbsp; <a href='mentions-legales.html'>Mentions légales</a> &nbsp;·&nbsp; <a href='apropos.html'>À propos</a> &nbsp;·&nbsp; <a href='track-record.html'>Track Record</a> &nbsp;·&nbsp; <a href='feed.xml'>Flux RSS</a></p>
 <p style='margin:.5rem 0 0;'>&#169; 2026 Bravo Quinte &#8212; Tous droits réservés</p>
-<p style='margin:.5rem 0 0;font-size:.875rem;'><a href='https://joueurs-info-service.fr' rel='noopener' target='_blank'>Joueurs Info Service : 09 74 75 13 13</a></p>
+<p style='margin:.75rem 0 0;'>
+  <a href='https://www.youtube.com/@bravoquinte' rel='noopener' target='_blank' aria-label='Chaîne YouTube Bravo Quinté' title='YouTube'>
+    <svg width='22' height='22' viewBox='0 0 24 24' fill='#dc2626' aria-hidden='true' focusable='false'><path d='M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z'/></svg>
+  </a>
+  &nbsp;&middot;&nbsp;
+  <a href='mailto:bravoquinte@gmail.com' aria-label='Contacter Bravo Quinté par email' title='Email'>
+    <svg width='22' height='22' viewBox='0 0 24 24' fill='#475569' aria-hidden='true' focusable='false'><path d='M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z'/></svg>
+  </a>
+  &nbsp;&middot;&nbsp;
+  <a href='https://joueurs-info-service.fr' rel='noopener' target='_blank' style='font-size:.875rem;'>Joueurs Info Service : 09 74 75 13 13</a>
+</p>
 </div>
 </footer>
 <script>
@@ -556,12 +566,29 @@ function navigate(page){
   if(window.gtag&&window.__gaReady)gtag('config','G-PD9CES68Q0',{page_path:'/'+page});
 }
 
-document.addEventListener('DOMContentLoaded',function(){
+function renderAll(){
   renderPartants();renderSelection();renderTop5();renderArchives();renderPricing();renderBlogPosts();renderResultats();
+}
+function deferredInit(){
+  renderAll();
   var hash=location.hash.slice(1);
   if(hash&&document.querySelector('.page[data-page-id="'+hash+'"]'))navigate(hash);
   if(window.__BRAVO_PAGE_TYPE==='item')navigate('blog');
   window.__gaReady=true;
+}
+document.addEventListener('DOMContentLoaded',function(){
+  // hash + page d'un article : rendu synchrone, sinon on differe
+  var deep=!!(location.hash.slice(1)||window.__BRAVO_PAGE_TYPE==='item');
+  if(deep){renderAll();navigate(location.hash.slice(1)||'blog');window.__gaReady=true;return;}
+  requestAnimationFrame(function(){
+    requestAnimationFrame(function(){
+      if('requestIdleCallback' in window){
+        requestIdleCallback(deferredInit,{timeout:1500});
+      }else{
+        setTimeout(deferredInit,0);
+      }
+    });
+  });
 });
 
 })();
