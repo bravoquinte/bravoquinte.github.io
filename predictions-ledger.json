@@ -566,6 +566,28 @@
         ],
         "winner": 1
       }
+    },
+    {
+      "date": "2026-10-06",
+      "hippo": "Auteuil",
+      "course": "Prix Guillaume de Pracomtal",
+      "discipline": "Galop Steeple",
+      "dist": "3600m",
+      "slug": "pronostic-quinte-auteuil-6-octobre",
+      "selection": [
+        7,
+        15,
+        3,
+        4,
+        2,
+        9,
+        12,
+        14
+      ],
+      "base": 7,
+      "resultat": null,
+      "arrivee": null,
+      "metrics": null
     }
   ]
 }
