@@ -1,12 +1,12 @@
 {
   "generated": "2026-09-28T23:49:16.542366Z",
   "stats": {
-    "total_validated": 10,
-    "base_in_top5_rate": "5/10",
-    "base_wins_rate": "2/10",
-    "selection_avg_in_top5": "3.4/5",
-    "exact_order_rate": "0/10",
-    "top5_avg_in_top5": "2.1/5"
+    "total_validated": 11,
+    "base_in_top5_rate": "5/11",
+    "base_wins_rate": "2/11",
+    "selection_avg_in_top5": "3.3/5",
+    "exact_order_rate": "0/11",
+    "top5_avg_in_top5": "2.0/5"
   },
   "predictions": [
     {
@@ -27,10 +27,33 @@
         11
       ],
       "base": 1,
-      "resultat": null,
-      "arrivee": null,
-      "metrics": null,
-      "statut": "non_suivi"
+      "resultat": [
+        13,
+        8,
+        10,
+        4,
+        16
+      ],
+      "arrivee": [
+        13,
+        8,
+        10,
+        4,
+        16
+      ],
+      "metrics": {
+        "top5": [
+          13,
+          8,
+          10,
+          4,
+          16
+        ],
+        "selection_in_top5": 2,
+        "base_in_top5": false,
+        "exact_order": false
+      },
+      "statut": "valide"
     },
     {
       "date": "2026-09-25",
