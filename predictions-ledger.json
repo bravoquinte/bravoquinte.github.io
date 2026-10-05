@@ -1,11 +1,11 @@
 {
   "generated": "2026-09-28T23:49:16.542366Z",
   "stats": {
-    "total_validated": 9,
-    "base_in_top5_rate": "5/9",
-    "base_wins_rate": "2/9",
-    "selection_avg_in_top5": "3.3/5",
-    "exact_order_rate": "0/9",
+    "total_validated": 10,
+    "base_in_top5_rate": "5/10",
+    "base_wins_rate": "2/10",
+    "selection_avg_in_top5": "3.4/5",
+    "exact_order_rate": "0/10",
     "top5_avg_in_top5": "2.1/5"
   },
   "predictions": [
@@ -506,9 +506,44 @@
         1
       ],
       "base": 5,
-      "resultat": null,
-      "arrivee": null,
-      "metrics": null
+      "resultat": "3-7-9-13-11",
+      "arrivee": [
+        [
+          3,
+          "OLIVER SCHERMER"
+        ],
+        [
+          7,
+          "LUCIUS DE PUCH"
+        ],
+        [
+          9,
+          "BLACK HEUVELLAND"
+        ],
+        [
+          13,
+          "L'AS DES ISLES"
+        ],
+        [
+          11,
+          "LONGWOOD D'HERIPRE"
+        ]
+      ],
+      "metrics": {
+        "base_in_top5": false,
+        "base_wins": false,
+        "selection_in_top5": 4,
+        "top5_in_top5": 2,
+        "exact_order": false,
+        "top5": [
+          3,
+          7,
+          9,
+          13,
+          11
+        ],
+        "winner": 3
+      }
     },
     {
       "date": "2026-10-04",
