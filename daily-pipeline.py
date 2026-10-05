@@ -209,7 +209,7 @@ def create_article(repo, a, date_disp):
 {tickets}
 <div class="card"><ul><li><strong>Gestion bankroll :</strong> max 5% par ticket</li><li><strong>Jeu responsable :</strong> ne jouez que ce que vous pouvez perdre</li></ul></div>
 <p style="text-align:center;margin:2rem 0;"><a href="https://bravoquinte.github.io/" class="btn">Retour à l'accueil</a></p>
-<footer style="text-align:center;padding:2rem;color:var(--gray);font-size:.85rem;border-top:1px solid var(--border);margin-top:2rem;"><p><strong>Bravo Quinté</strong> &#8212; Pronostics gratuits</p><p><a href="https://bravoquinte.github.io/methodologie.html">Méthodologie</a> &#183; <a href="https://bravoquinte.github.io/mentions-legales.html">Mentions légales</a> &#183; <a href="https://bravoquinte.github.io/track-record.html">Track Record</a> &#183; <a href="https://bravoquinte.github.io/feed.xml">RSS</a></p><p>Jeu responsable : 09 74 75 13 13</p></footer>
+<footer style="text-align:center;padding:2rem;color:var(--gray);font-size:.85rem;border-top:1px solid var(--border);margin-top:2rem;"><p><strong>Bravo Quinté</strong> &#8212; Pronostics gratuits</p><p><a href="https://bravoquinte.github.io/methodologie.html">Méthodologie</a> &#183; <a href="https://bravoquinte.github.io/mentions-legales.html">Mentions légales</a> &#183; <a href="https://bravoquinte.github.io/presse.html">Presse</a> &#183; <a href="https://bravoquinte.github.io/track-record.html">Track Record</a> &#183; <a href="https://bravoquinte.github.io/feed.xml">RSS</a></p><p>Jeu responsable : 09 74 75 13 13</p></footer>
 </div></body></html>'''
     with open(os.path.join(repo, f'{a.slug}.html'), 'w', encoding='utf-8', newline='') as fh: fh.write(html)
     print(f"  article: {a.slug}.html")
