@@ -160,6 +160,14 @@ def create_article(repo, a, date_disp):
 
     html = f'''<!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XQPLYLFL4D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XQPLYLFL4D');
+</script>
 <title>Pronostic Quinté {a.hippo} {date_disp} - {a.course}</title>
 <meta name="description" content="Pronostic gratuit quinté {a.hippo} {date_disp} : {a.course}. Analyse, sélection, top 5 et tickets.">
 <link rel="canonical" href="https://bravoquinte.github.io/{a.slug}.html">
