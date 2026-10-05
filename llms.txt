@@ -9,7 +9,6 @@
 - Track Record : https://bravoquinte.github.io/track-record.html
 - Archives : https://bravoquinte.github.io/archives.html
 - Résultats : https://bravoquinte.github.io/resultats.html
-- Presse et citations : https://bravoquinte.github.io/presse.html
 - Mentions légales : https://bravoquinte.github.io/mentions-legales.html
 
 ## Flux RSS
