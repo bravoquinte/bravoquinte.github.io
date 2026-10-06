@@ -326,7 +326,7 @@ def main():
     update_resultats(a.repo, a)
 
     # sitemap
-    sp = os.path.join(a.repo, '..', 'gen-sitemap.py')
+    sp = os.path.join(a.repo, 'gen-sitemap.py')
     if os.path.exists(sp):
         subprocess.run([sys.executable, sp], check=True)
         print("  sitemap: régénéré")

@@ -133,3 +133,11 @@ _up = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_up)
 if not _up.update(repo):
     print('ATTENTION : incohérence entre le ledger et les stats, à vérifier')
+
+# 5. sitemap.xml : pages HTML reellement presentes
+import subprocess, sys as _sys
+_sp = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gen-sitemap.py')
+if os.path.exists(_sp):
+    subprocess.run([_sys.executable, _sp], check=True)
+else:
+    print('ATTENTION : gen-sitemap.py introuvable')
