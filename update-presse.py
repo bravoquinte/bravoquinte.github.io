@@ -50,7 +50,7 @@ def update(repo=REPO):
     # la date doit matcher que le marqueur soit present (1er run) ou non (runs suivants)
     DATE_RE = r'Derni\u00e8re mise \u00e0 jour : (?:UPDATED:)?(?:<!--.*?-->)?[^.<]*\.'
     avant = re.search(DATE_RE, c)
-    c2 = re.sub(DATE_RE, f'Derni\u00e8re mise \u00e0 jour : {mois}.', c)
+    c2 = re.sub(DATE_RE, f'Derni\u00e8re mise \u00e0 jour : {mois}.', c2)
     # ne signaler que si la date n'a pas ete trouvee, pas si le fichier est deja a jour
     if not avant:
         print('  ATTENTION : motif de date introuvable dans presse.html')

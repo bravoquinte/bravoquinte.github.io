@@ -164,7 +164,7 @@ def create_article(repo, a, date_disp):
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQPLYLFL4D"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
   gtag('config', 'G-XQPLYLFL4D');
 </script>

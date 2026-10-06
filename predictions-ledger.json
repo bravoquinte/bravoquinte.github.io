@@ -1,12 +1,12 @@
 {
   "generated": "2026-09-28T23:49:16.542366Z",
   "stats": {
-    "total_validated": 11,
-    "base_in_top5_rate": "5/11",
-    "base_wins_rate": "2/11",
+    "total_validated": 12,
+    "base_in_top5_rate": "6/12",
+    "base_wins_rate": "2/12",
     "selection_avg_in_top5": "3.3/5",
-    "exact_order_rate": "0/11",
-    "top5_avg_in_top5": "2.0/5"
+    "exact_order_rate": "0/12",
+    "top5_avg_in_top5": "2.2/5"
   },
   "predictions": [
     {
@@ -643,6 +643,63 @@
         14
       ],
       "base": 7,
+      "resultat": "8-2-7-3-15",
+      "arrivee": [
+        [
+          8,
+          "FALCON JET"
+        ],
+        [
+          2,
+          "DINADAME"
+        ],
+        [
+          7,
+          "ROMAN SKIES"
+        ],
+        [
+          3,
+          "MASKINA"
+        ],
+        [
+          15,
+          "OVALIE"
+        ]
+      ],
+      "metrics": {
+        "base_in_top5": true,
+        "base_wins": false,
+        "selection_in_top5": 4,
+        "top5_in_top5": 4,
+        "exact_order": false,
+        "top5": [
+          8,
+          2,
+          7,
+          3,
+          15
+        ],
+        "winner": 8
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "hippo": "Enghien",
+      "course": "Prix des Gobelins",
+      "discipline": "Trot Attelé",
+      "dist": "2875m",
+      "slug": "pronostic-quinte-enghien-7-octobre",
+      "selection": [
+        17,
+        16,
+        12,
+        13,
+        15,
+        11,
+        18,
+        14
+      ],
+      "base": 17,
       "resultat": null,
       "arrivee": null,
       "metrics": null
