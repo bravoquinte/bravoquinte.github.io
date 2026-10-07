@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-28T23:49:16.542366Z",
+  "generated": "2026-10-07T13:26:44.871Z",
   "stats": {
-    "total_validated": 12,
-    "base_in_top5_rate": "6/12",
-    "base_wins_rate": "2/12",
+    "total_validated": 13,
+    "base_in_top5_rate": "6/13",
+    "base_wins_rate": "2/13",
     "selection_avg_in_top5": "3.3/5",
-    "exact_order_rate": "0/12",
+    "exact_order_rate": "0/13",
     "top5_avg_in_top5": "2.2/5"
   },
   "predictions": [
@@ -700,6 +700,55 @@
         14
       ],
       "base": 17,
+      "resultat": [
+        16,
+        5,
+        14,
+        13,
+        2
+      ],
+      "arrivee": [
+        16,
+        5,
+        14,
+        13,
+        2
+      ],
+      "metrics": {
+        "top5": [
+          16,
+          5,
+          14,
+          13,
+          2
+        ],
+        "selection_in_top5": 3,
+        "top5_in_top5": 2,
+        "base_in_top5": false,
+        "base_wins": false,
+        "winner": 16,
+        "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-08",
+      "hippo": "Saint-Cloud",
+      "course": "Prix de Versailles",
+      "discipline": "Galop Plat",
+      "dist": "2000m",
+      "slug": "pronostic-quinte-saint-cloud-8-octobre",
+      "selection": [
+        5,
+        1,
+        8,
+        9,
+        3,
+        16,
+        11,
+        15
+      ],
+      "base": 5,
       "resultat": null,
       "arrivee": null,
       "metrics": null
