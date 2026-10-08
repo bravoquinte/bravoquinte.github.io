@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-07T13:26:44.871Z",
+  "generated": "2026-10-08T15:11:16.682Z",
   "stats": {
-    "total_validated": 13,
-    "base_in_top5_rate": "6/13",
-    "base_wins_rate": "2/13",
+    "total_validated": 14,
+    "base_in_top5_rate": "7/14",
+    "base_wins_rate": "2/14",
     "selection_avg_in_top5": "3.3/5",
-    "exact_order_rate": "0/13",
-    "top5_avg_in_top5": "2.2/5"
+    "exact_order_rate": "0/14",
+    "top5_avg_in_top5": "2.3/5"
   },
   "predictions": [
     {
@@ -749,6 +749,55 @@
         15
       ],
       "base": 5,
+      "resultat": [
+        1,
+        5,
+        8,
+        4,
+        15
+      ],
+      "arrivee": [
+        1,
+        5,
+        8,
+        4,
+        15
+      ],
+      "metrics": {
+        "top5": [
+          1,
+          5,
+          8,
+          4,
+          15
+        ],
+        "selection_in_top5": 4,
+        "top5_in_top5": 3,
+        "base_in_top5": true,
+        "base_wins": false,
+        "winner": 1,
+        "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-09",
+      "hippo": "Vincennes",
+      "course": "Prix Héra",
+      "discipline": "Trot Attelé",
+      "dist": "2850m",
+      "slug": "pronostic-quinte-vincennes-9-octobre",
+      "selection": [
+        10,
+        13,
+        6,
+        14,
+        5,
+        15,
+        2,
+        12
+      ],
+      "base": 10,
       "resultat": null,
       "arrivee": null,
       "metrics": null
