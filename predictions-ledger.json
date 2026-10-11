@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-10T15:30:00.000Z",
+  "generated": "2026-10-11T18:00:00.000Z",
   "stats": {
-    "total_validated": 16,
-    "base_in_top5_rate": "9/16",
-    "base_wins_rate": "2/16",
-    "selection_avg_in_top5": "3.4/5",
-    "exact_order_rate": "0/16",
-    "top5_avg_in_top5": "2.3/5"
+    "total_validated": 17,
+    "base_in_top5_rate": "10/17",
+    "base_wins_rate": "3/17",
+    "selection_avg_in_top5": "3.5/5",
+    "exact_order_rate": "0/17",
+    "top5_avg_in_top5": "2.4/5"
   },
   "predictions": [
     {
@@ -874,6 +874,55 @@
         "base_in_top5": true,
         "base_wins": false,
         "winner": 9,
+        "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-11",
+      "hippo": "Auteuil",
+      "course": "Prix Montgomery",
+      "discipline": "Galop Steeple",
+      "dist": "4700m",
+      "slug": "pronostic-quinte-auteuil-11-octobre",
+      "selection": [
+        15,
+        1,
+        16,
+        2,
+        14,
+        6,
+        8,
+        3
+      ],
+      "base": 15,
+      "resultat": [
+        15,
+        2,
+        3,
+        12,
+        1
+      ],
+      "arrivee": [
+        15,
+        2,
+        3,
+        12,
+        1
+      ],
+      "metrics": {
+        "top5": [
+          15,
+          2,
+          3,
+          12,
+          1
+        ],
+        "selection_in_top5": 4,
+        "top5_in_top5": 3,
+        "base_in_top5": true,
+        "base_wins": true,
+        "winner": 15,
         "exact_order": false
       },
       "statut": "valide"
