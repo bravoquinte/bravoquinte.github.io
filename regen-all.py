@@ -72,7 +72,7 @@ kpis = f'''<div class="container">
 <div class="stat"><p class="stat-value">{stats["base_in_top5_rate"]}</p><p class="stat-label">Base dans le top 5</p></div>
 <div class="stat"><p class="stat-value">{stats["base_wins_rate"]}</p><p class="stat-label">Base gagnante</p></div>
 <div class="stat"><p class="stat-value">{stats["top5_avg_in_top5"]}</p><p class="stat-label">Nos 5 premiers dans le top 5 (moy.)</p></div>
-<div class="stat"><p class="stat-value">{stats["exact_order_rate"]}</p><p class="stat-label">Ordre exact</p></div>
+<div class="stat"><p class="stat-value">{stats["desordre_rate"]}</p><p class="stat-label">Désordre</p></div>
 </div>'''
 
 rows = []
@@ -98,7 +98,7 @@ method = '''<h2>Comment lire ces chiffres</h2>
 <div class="card"><ul>
 <li><strong>Base dans top 5</strong> : le cheval que nous avons mis en premier est-il dans les 5 premiers à l'arrivée ?</li>
 <li><strong>Nos 5 premiers dans le top 5</strong> : combien de nos 5 premiers chevaux figurent dans le top 5 réel.</li>
-<li><strong>Ordre exact</strong> : les 5 chevaux arrivés dans l'ordre prédit — le cas le plus difficile.</li>
+<li><strong>Désordre</strong> : les 5 chevaux de l'arrivée tous présents dans notre sélection, peu importe l'ordre.</li>
 </ul></div>
 <p><strong>Intégrité :</strong> chaque prédiction est enregistrée avant publication des résultats. Rien n'est modifié rétroactivement.</p>
 <p style="text-align:center;margin:2rem 0;"><a href="https://bravoquinte.github.io/" class="btn">Retour à l'accueil</a></p>

@@ -5,7 +5,7 @@
     "base_in_top5_rate": "10/17",
     "base_wins_rate": "3/17",
     "selection_avg_in_top5": "3.5/5",
-    "exact_order_rate": "0/17",
+    "desordre_rate": "0/17",
     "top5_avg_in_top5": "2.4/5"
   },
   "predictions": [
