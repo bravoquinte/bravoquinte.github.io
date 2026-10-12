@@ -1,11 +1,11 @@
 {
   "generated": "2026-10-11T18:00:00.000Z",
   "stats": {
-    "total_validated": 17,
-    "base_in_top5_rate": "10/17",
-    "base_wins_rate": "3/17",
-    "selection_avg_in_top5": "3.5/5",
-    "desordre_rate": "0/17",
+    "total_validated": 18,
+    "base_in_top5_rate": "11/18",
+    "base_wins_rate": "4/18",
+    "selection_avg_in_top5": "3.4/5",
+    "desordre_rate": "0/18",
     "top5_avg_in_top5": "2.4/5"
   },
   "predictions": [
@@ -923,6 +923,55 @@
         "base_in_top5": true,
         "base_wins": true,
         "winner": 15,
+        "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-12",
+      "hippo": "Marseille-Borély",
+      "course": "Prix Jacques Rossi",
+      "discipline": "Galop Plat",
+      "dist": "2100m",
+      "slug": "pronostic-quinte-marseille-12-octobre",
+      "selection": [
+        2,
+        4,
+        3,
+        7,
+        11,
+        15,
+        10,
+        1
+      ],
+      "base": 2,
+      "resultat": [
+        2,
+        10,
+        14,
+        11,
+        12
+      ],
+      "arrivee": [
+        2,
+        10,
+        14,
+        11,
+        12
+      ],
+      "metrics": {
+        "top5": [
+          2,
+          10,
+          14,
+          11,
+          12
+        ],
+        "selection_in_top5": 3,
+        "top5_in_top5": 2,
+        "base_in_top5": true,
+        "base_wins": true,
+        "winner": 2,
         "exact_order": false
       },
       "statut": "valide"
