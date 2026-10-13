@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-11T18:00:00.000Z",
   "stats": {
-    "total_validated": 18,
-    "base_in_top5_rate": "11/18",
-    "base_wins_rate": "4/18",
+    "total_validated": 19,
+    "base_in_top5_rate": "11/19",
+    "base_wins_rate": "4/19",
     "selection_avg_in_top5": "3.4/5",
-    "desordre_rate": "0/18",
-    "top5_avg_in_top5": "2.4/5"
+    "desordre_rate": "0/19",
+    "top5_avg_in_top5": "2.3/5"
   },
   "predictions": [
     {
@@ -972,6 +972,55 @@
         "base_in_top5": true,
         "base_wins": true,
         "winner": 2,
+        "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-13",
+      "hippo": "ParisLongchamp",
+      "course": "Prix de la Galerie des Variétés",
+      "discipline": "Galop Plat",
+      "dist": "1600m",
+      "slug": "pronostic-quinte-longchamp-13-octobre",
+      "selection": [
+        3,
+        14,
+        11,
+        9,
+        7,
+        16,
+        13,
+        15
+      ],
+      "base": 3,
+      "resultat": [
+        9,
+        16,
+        2,
+        14,
+        1
+      ],
+      "arrivee": [
+        9,
+        16,
+        2,
+        14,
+        1
+      ],
+      "metrics": {
+        "top5": [
+          9,
+          16,
+          2,
+          14,
+          1
+        ],
+        "selection_in_top5": 3,
+        "top5_in_top5": 1,
+        "base_in_top5": false,
+        "base_wins": false,
+        "winner": 9,
         "exact_order": false
       },
       "statut": "valide"
