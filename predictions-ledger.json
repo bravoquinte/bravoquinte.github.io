@@ -1,11 +1,11 @@
 {
   "generated": "2026-10-11T18:00:00.000Z",
   "stats": {
-    "total_validated": 19,
-    "base_in_top5_rate": "11/19",
-    "base_wins_rate": "4/19",
-    "selection_avg_in_top5": "3.4/5",
-    "desordre_rate": "0/19",
+    "total_validated": 20,
+    "base_in_top5_rate": "11/20",
+    "base_wins_rate": "4/20",
+    "selection_avg_in_top5": "3.5/5",
+    "desordre_rate": "0/20",
     "top5_avg_in_top5": "2.3/5"
   },
   "predictions": [
@@ -1021,6 +1021,55 @@
         "base_in_top5": false,
         "base_wins": false,
         "winner": 9,
+        "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-14",
+      "hippo": "Reims",
+      "course": "Grand National du Trot",
+      "discipline": "Trot Attelé",
+      "dist": "2550m",
+      "slug": "pronostic-quinte-reims-14-octobre",
+      "selection": [
+        2,
+        10,
+        8,
+        6,
+        9,
+        15,
+        13,
+        12
+      ],
+      "base": 2,
+      "resultat": [
+        10,
+        15,
+        13,
+        5,
+        9
+      ],
+      "arrivee": [
+        10,
+        15,
+        13,
+        5,
+        9
+      ],
+      "metrics": {
+        "top5": [
+          10,
+          15,
+          13,
+          5,
+          9
+        ],
+        "selection_in_top5": 4,
+        "top5_in_top5": 2,
+        "base_in_top5": false,
+        "base_wins": false,
+        "winner": 10,
         "exact_order": false
       },
       "statut": "valide"
