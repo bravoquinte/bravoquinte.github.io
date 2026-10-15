@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-11T18:00:00.000Z",
   "stats": {
-    "total_validated": 20,
-    "base_in_top5_rate": "11/20",
-    "base_wins_rate": "4/20",
-    "selection_avg_in_top5": "3.5/5",
-    "desordre_rate": "0/20",
-    "top5_avg_in_top5": "2.3/5"
+    "total_validated": 21,
+    "base_in_top5_rate": "11/21",
+    "base_wins_rate": "4/21",
+    "selection_avg_in_top5": "3.4/5",
+    "desordre_rate": "0/21",
+    "top5_avg_in_top5": "2.2/5"
   },
   "predictions": [
     {
@@ -1070,6 +1070,55 @@
         "base_in_top5": false,
         "base_wins": false,
         "winner": 10,
+        "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-15",
+      "hippo": "Chantilly",
+      "course": "Prix de la Vierge de Lorette",
+      "discipline": "Galop Plat",
+      "dist": "1200m",
+      "slug": "pronostic-quinte-chantilly-15-octobre",
+      "selection": [
+        10,
+        1,
+        7,
+        2,
+        9,
+        5,
+        4,
+        11
+      ],
+      "base": 10,
+      "resultat": [
+        12,
+        11,
+        8,
+        9,
+        15
+      ],
+      "arrivee": [
+        12,
+        11,
+        8,
+        9,
+        15
+      ],
+      "metrics": {
+        "top5": [
+          12,
+          11,
+          8,
+          9,
+          15
+        ],
+        "selection_in_top5": 2,
+        "top5_in_top5": 1,
+        "base_in_top5": false,
+        "base_wins": false,
+        "winner": 12,
         "exact_order": false
       },
       "statut": "valide"
