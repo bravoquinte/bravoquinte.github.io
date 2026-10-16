@@ -108,6 +108,12 @@ if os.path.exists(lp):
         err.append(f"stats.base_in_top5_rate={st.get('base_in_top5_rate')} mais {b5}/{n}")
     if st.get('base_wins_rate') != f'{bw}/{n}':
         err.append(f"stats.base_wins_rate={st.get('base_wins_rate')} mais {bw}/{n}")
+    wins = sum(1 for p in val if p['metrics']['top5'][0] in p['selection'])
+    if st.get('winner_in_selection_rate') != f'{wins}/{n}':
+        err.append(f"stats.winner_in_selection_rate={st.get('winner_in_selection_rate')} mais {wins}/{n}")
+    t3 = sum(1 for p in val if p['metrics'].get('selection_in_top5', 0) >= 3)
+    if st.get('top3_in_top5_rate') != f'{t3}/{n}':
+        err.append(f"stats.top3_in_top5_rate={st.get('top3_in_top5_rate')} mais {t3}/{n}")
 
     idx = os.path.join(REPO, 'index.html')
     if os.path.exists(idx):
@@ -129,8 +135,9 @@ if os.path.exists(lp):
     tr = os.path.join(REPO, 'track-record.html')
     if os.path.exists(tr):
         t = io.open(tr, encoding='utf-8').read()
-        if f'{bw}/{n}' not in t:
-            err.append(f'track-record.html ne contient pas base_wins {bw}/{n} (regen requis)')
+        for kpi in ('winner_in_selection_rate', 'top3_in_top5_rate', 'selection_avg_in_top5'):
+            if st.get(kpi) not in t:
+                err.append(f'track-record.html ne contient pas {kpi}={st.get(kpi)} (regen requis)')
         wait = len(re.findall(r'<span class="badge badge-wait">En attente</span>', t))
         att = len(L['predictions']) - n
         if wait != att:

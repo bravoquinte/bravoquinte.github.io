@@ -5,6 +5,8 @@
     "base_in_top5_rate": "11/22",
     "base_wins_rate": "4/22",
     "selection_avg_in_top5": "3.4/5",
+    "winner_in_selection_rate": "17/22",
+    "top3_in_top5_rate": "19/22",
     "desordre_rate": "0/22",
     "top5_avg_in_top5": "2.2/5"
   },

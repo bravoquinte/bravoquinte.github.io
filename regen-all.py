@@ -70,9 +70,9 @@ kpis = f'''<div class="container">
 <div class="card"><p><strong>Statistiques publiques</strong> — mises à jour après chaque course pronostiquée. Chaque donnée est vérifiable : le tableau ci-dessous reprend chaque prédiction et son résultat.</p></div>
 <div style="text-align:center;margin:1.5rem 0;">
 <div class="stat"><p class="stat-value">{stats["base_in_top5_rate"]}</p><p class="stat-label">Base dans le top 5</p></div>
-<div class="stat"><p class="stat-value">{stats["base_wins_rate"]}</p><p class="stat-label">Base gagnante</p></div>
-<div class="stat"><p class="stat-value">{stats["top5_avg_in_top5"]}</p><p class="stat-label">Nos 5 premiers dans le top 5 (moy.)</p></div>
-<div class="stat"><p class="stat-value">{stats["desordre_rate"]}</p><p class="stat-label">Désordre</p></div>
+<div class="stat"><p class="stat-value">{stats["selection_avg_in_top5"]}</p><p class="stat-label">Sélection dans le top 5 (moy.)</p></div>
+<div class="stat"><p class="stat-value">{stats["winner_in_selection_rate"]}</p><p class="stat-label">Gagnant dans notre sélection</p></div>
+<div class="stat"><p class="stat-value">{stats["top3_in_top5_rate"]}</p><p class="stat-label">3 chevaux ou + dans le top 5</p></div>
 </div>'''
 
 rows = []
@@ -96,9 +96,10 @@ table = f'''<h2>Historique des prédictions</h2>
 
 method = '''<h2>Comment lire ces chiffres</h2>
 <div class="card"><ul>
-<li><strong>Base dans top 5</strong> : le cheval que nous avons mis en premier est-il dans les 5 premiers à l'arrivée ?</li>
-<li><strong>Nos 5 premiers dans le top 5</strong> : combien de nos 5 premiers chevaux figurent dans le top 5 réel.</li>
-<li><strong>Désordre</strong> : les 5 chevaux de l'arrivée tous présents dans notre sélection, peu importe l'ordre.</li>
+<li><strong>Base dans le top 5</strong> : le cheval que nous avons mis en premier est-il dans les 5 premiers à l'arrivée ?</li>
+<li><strong>Sélection dans le top 5 (moy.)</strong> : en moyenne, combien de nos chevaux (notés sur 5) figurent parmi les 5 premiers à l'arrivée.</li>
+<li><strong>Gagnant dans notre sélection</strong> : le vainqueur de la course faisait-il partie de notre sélection ?</li>
+<li><strong>3 chevaux ou + dans le top 5</strong> : nombre de courses où au moins 3 de nos chevaux terminent dans les 5 premiers.</li>
 </ul></div>
 <p><strong>Intégrité :</strong> chaque prédiction est enregistrée avant publication des résultats. Rien n'est modifié rétroactivement.</p>
 <p style="text-align:center;margin:2rem 0;"><a href="https://bravoquinte.github.io/" class="btn">Retour à l'accueil</a></p>
