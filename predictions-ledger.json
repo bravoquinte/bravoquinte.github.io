@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T18:00:00.000Z",
+  "generated": "2026-10-16T21:00:00.000Z",
   "stats": {
-    "total_validated": 21,
-    "base_in_top5_rate": "11/21",
-    "base_wins_rate": "4/21",
+    "total_validated": 22,
+    "base_in_top5_rate": "11/22",
+    "base_wins_rate": "4/22",
     "selection_avg_in_top5": "3.4/5",
-    "desordre_rate": "0/21",
+    "desordre_rate": "0/22",
     "top5_avg_in_top5": "2.2/5"
   },
   "predictions": [
@@ -1120,6 +1120,64 @@
         "base_wins": false,
         "winner": 12,
         "exact_order": false
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-16",
+      "hippo": "Vincennes",
+      "course": "Prix Thémis",
+      "discipline": "Trot Attelé",
+      "dist": "2850m",
+      "slug": "pronostic-quinte-vincennes-16-octobre",
+      "selection": [
+        3,
+        12,
+        4,
+        6,
+        7,
+        11,
+        5,
+        15
+      ],
+      "base": 3,
+      "resultat": "4-11-7-6-13",
+      "arrivee": [
+        [
+          4,
+          "KISS ME AGAIN"
+        ],
+        [
+          11,
+          "READLY LAVEC"
+        ],
+        [
+          7,
+          "KEROSEN DU GERS"
+        ],
+        [
+          6,
+          "DOMENIK JET"
+        ],
+        [
+          13,
+          "COLBERT WF"
+        ]
+      ],
+      "metrics": {
+        "base_in_top5": false,
+        "base_wins": false,
+        "selection_in_top5": 4,
+        "top5_in_top5": 3,
+        "exact_order": false,
+        "top5": [
+          4,
+          11,
+          7,
+          6,
+          13
+        ],
+        "winner": 4
       },
       "statut": "valide"
     }
