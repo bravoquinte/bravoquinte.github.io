@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-16T21:00:00.000Z",
+  "generated": "2026-10-17T21:00:00.000Z",
   "stats": {
-    "total_validated": 22,
-    "base_in_top5_rate": "11/22",
-    "base_wins_rate": "4/22",
+    "total_validated": 23,
+    "base_in_top5_rate": "12/23",
+    "base_wins_rate": "4/23",
     "selection_avg_in_top5": "3.4/5",
-    "winner_in_selection_rate": "17/22",
-    "top3_in_top5_rate": "19/22",
-    "desordre_rate": "0/22",
+    "winner_in_selection_rate": "17/23",
+    "top3_in_top5_rate": "20/23",
+    "desordre_rate": "0/23",
     "top5_avg_in_top5": "2.2/5"
   },
   "predictions": [
@@ -1180,6 +1180,64 @@
           13
         ],
         "winner": 4
+      },
+      "statut": "valide"
+    },
+    {
+      "date": "2026-10-17",
+      "hippo": "Auteuil",
+      "course": "Prix Prince d'Ecouen - Grand Handicap d'Automne",
+      "discipline": "Galop Obstacle",
+      "dist": "4300m",
+      "slug": "pronostic-quinte-auteuil-17-octobre",
+      "selection": [
+        2,
+        12,
+        6,
+        11,
+        8,
+        4,
+        5,
+        10
+      ],
+      "base": 2,
+      "resultat": "1-6-4-11-2",
+      "arrivee": [
+        [
+          1,
+          "GOLIATH D'AUNOU"
+        ],
+        [
+          6,
+          "GREY FIGHTER"
+        ],
+        [
+          4,
+          "GARDONS LE SOURIRE"
+        ],
+        [
+          11,
+          "ROBIN HILL"
+        ],
+        [
+          2,
+          "LOQUAS"
+        ]
+      ],
+      "metrics": {
+        "top5": [
+          1,
+          6,
+          4,
+          11,
+          2
+        ],
+        "selection_in_top5": 4,
+        "top5_in_top5": 3,
+        "base_in_top5": true,
+        "base_wins": false,
+        "winner": 1,
+        "exact_order": false
       },
       "statut": "valide"
     }
