@@ -1,0 +1,18 @@
+{
+  "1":  {"numero": 1,  "nom": "Tiego The First",  "driver": "Barzalona M.", "entraineur": "P&J Brandt",        "poids": "61.5", "corde": 7,  "age": 4, "sexe": "M"},
+  "2":  {"numero": 2,  "nom": "Zeloro",           "driver": "Guyon M.",     "entraineur": "P&J Brandt",        "poids": "60",   "corde": 11, "age": 5, "sexe": "H"},
+  "3":  {"numero": 3,  "nom": "Rock Blanc",       "driver": "Mendizabal I.","entraineur": "Delzangles M.",     "poids": "58.5", "corde": 13, "age": 9, "sexe": "H"},
+  "4":  {"numero": 4,  "nom": "Celestial",        "driver": "Lecoeuvre C.", "entraineur": "Wattel S.",         "poids": "58.5", "corde": 15, "age": 5, "sexe": "H"},
+  "5":  {"numero": 5,  "nom": "Al Max",           "driver": "Demuro C.",    "entraineur": "Decouz P.",         "poids": "57.5", "corde": 16, "age": 4, "sexe": "H"},
+  "6":  {"numero": 6,  "nom": "Roman Forum",      "driver": "Bachelot T.",  "entraineur": "Gourdain C.",       "poids": "57.5", "corde": 12, "age": 4, "sexe": "H"},
+  "7":  {"numero": 7,  "nom": "Wakaburn",         "driver": "Lemaitre A.",  "entraineur": "Krebs M.",          "poids": "57",   "corde": 10, "age": 7, "sexe": "H"},
+  "8":  {"numero": 8,  "nom": "Guillerette",      "driver": "Valle Skar F.","entraineur": "Barande Barbe C.",  "poids": "55.5", "corde": 6,  "age": 4, "sexe": "F"},
+  "9":  {"numero": 9,  "nom": "Wedgewood Pearl",  "driver": "Molins A.",    "entraineur": "De Chevigny P.",    "poids": "55.5", "corde": 4,  "age": 5, "sexe": "F"},
+  "10": {"numero": 10, "nom": "Everstar",         "driver": "Grandin M.",   "entraineur": "Gadbin L.",         "poids": "55",   "corde": 8,  "age": 5, "sexe": "H"},
+  "11": {"numero": 11, "nom": "Nolito",           "driver": "Piccone T.",   "entraineur": "Gavilan S.",        "poids": "55",   "corde": 14, "age": 6, "sexe": "H"},
+  "12": {"numero": 12, "nom": "Allurre",          "driver": "Provost D.",   "entraineur": "Cesandri M.",       "poids": "55",   "corde": 2,  "age": 7, "sexe": "F"},
+  "13": {"numero": 13, "nom": "Fearless Cheetah", "driver": "Pasquier S.",  "entraineur": "Bresson F.",        "poids": "54.5", "corde": 5,  "age": 6, "sexe": "F"},
+  "14": {"numero": 14, "nom": "East Grey",        "driver": "Pouchin A.",   "entraineur": "Libaud E.",         "poids": "54.5", "corde": 9,  "age": 4, "sexe": "F"},
+  "15": {"numero": 15, "nom": "Senorito",         "driver": "Mangione R.",  "entraineur": "Perret N.",         "poids": "54.5", "corde": 3,  "age": 4, "sexe": "H"},
+  "16": {"numero": 16, "nom": "Ciccio Boy",       "driver": "Justum M.",    "entraineur": "Justum M.",         "poids": "54",   "corde": 1,  "age": 8, "sexe": "M"}
+}
