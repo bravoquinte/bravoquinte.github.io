@@ -1,0 +1,158 @@
+name: Publier le Quinté du jour
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date de la course (AAAA-MM-JJ)"
+        required: true
+      hippo:
+        description: "Hippodrome (ex: Deauville)"
+        required: true
+      course:
+        description: "Nom de la course (ex: Prix de la Forêt de Lyons)"
+        required: true
+      discipline:
+        description: "Discipline (ex: Plat PSF, Trot Attelé, Galop Obstacle)"
+        required: true
+      dist:
+        description: "Distance (ex: 1900m)"
+        required: true
+      dotation:
+        description: "Allocation (ex: 50900)"
+        required: true
+      slug:
+        description: "Slug de l'article (ex: pronostic-quinte-deauville-19-octobre)"
+        required: true
+      partants:
+        description: "Nombre de partants"
+        required: true
+      video_id:
+        description: "ID YouTube seulement (ex: Aofd-FxHmOY)"
+        required: true
+      selection:
+        description: "Sélection, 8 numéros séparés par des virgules (ordre affiché)"
+        required: true
+      top5:
+        description: "Top 5 : 5 numéros séparés par des virgules"
+        required: true
+      base:
+        description: "Numéro de la base"
+        required: true
+      chevaux:
+        description: "JSON des partants (contenu du fichier chevaux-...json)"
+        required: true
+      resultat_prec:
+        description: "Arrivée du Quinté précédent (optionnel, ex: 4-5-9-10-11)"
+        required: false
+        default: ""
+      date_prec:
+        description: "Date du Quinté précédent (optionnel, AAAA-MM-JJ)"
+        required: false
+        default: ""
+      hippo_prec:
+        description: "Hippodrome précédent (optionnel)"
+        required: false
+        default: ""
+      course_prec:
+        description: "Course précédente (optionnel)"
+        required: false
+        default: ""
+      discipline_prec:
+        description: "Discipline précédente (optionnel)"
+        required: false
+        default: ""
+      dist_prec:
+        description: "Distance précédente (optionnel)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publication-quinte
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    env:
+      IN_DATE: ${{ inputs.date }}
+      IN_HIPPO: ${{ inputs.hippo }}
+      IN_COURSE: ${{ inputs.course }}
+      IN_DISCIPLINE: ${{ inputs.discipline }}
+      IN_DIST: ${{ inputs.dist }}
+      IN_DOTATION: ${{ inputs.dotation }}
+      IN_SLUG: ${{ inputs.slug }}
+      IN_PARTANTS: ${{ inputs.partants }}
+      IN_VIDEO: ${{ inputs.video_id }}
+      IN_SELECTION: ${{ inputs.selection }}
+      IN_TOP5: ${{ inputs.top5 }}
+      IN_BASE: ${{ inputs.base }}
+      IN_CHEVAUX: ${{ inputs.chevaux }}
+      IN_RES_PREC: ${{ inputs.resultat_prec }}
+      IN_DATE_PREC: ${{ inputs.date_prec }}
+      IN_HIPPO_PREC: ${{ inputs.hippo_prec }}
+      IN_COURSE_PREC: ${{ inputs.course_prec }}
+      IN_DISC_PREC: ${{ inputs.discipline_prec }}
+      IN_DIST_PREC: ${{ inputs.dist_prec }}
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python et Pillow
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+
+      - name: Fichier des partants
+        run: printf '%s' "$IN_CHEVAUX" > chevaux-$IN_DATE.json && python -c "import json;d=json.load(open('chevaux-$IN_DATE.json'));print(len(d),'partants')"
+
+      - name: Vignette de la vidéo
+        run: |
+          set -e
+          ok=0
+          for q in maxresdefault hqdefault; do
+            if curl -fsSL "https://i.ytimg.com/vi/$IN_VIDEO/$q.jpg" -o /tmp/vid.jpg; then ok=1; echo "vignette: $q"; break; fi
+          done
+          test "$ok" = 1
+          python - << 'PY'
+          import os
+          from PIL import Image
+          im = Image.open('/tmp/vid.jpg').convert('RGB')
+          date = os.environ['IN_DATE']
+          im.save('images/video-hero.webp', 'WEBP', quality=82)
+          im.save(f'images/quinte-{date}.webp', 'WEBP', quality=82)
+          print('images créées')
+          PY
+
+      - name: Lancer le pipeline
+        run: |
+          ARGS=(--video "$IN_VIDEO" --date "$IN_DATE" --hippo "$IN_HIPPO" --course "$IN_COURSE" \
+                --discipline "$IN_DISCIPLINE" --dist "$IN_DIST" --dotation "$IN_DOTATION" \
+                --slug "$IN_SLUG" --partants "$IN_PARTANTS" --chevaux "@chevaux-$IN_DATE.json" \
+                --selection "$IN_SELECTION" --top5 "$IN_TOP5" --base "$IN_BASE")
+          if [ -n "$IN_RES_PREC" ]; then
+            ARGS+=(--resultat "$IN_RES_PREC" --date-prev "$IN_DATE_PREC" --hippo-prev "$IN_HIPPO_PREC" \
+                   --course-prev "$IN_COURSE_PREC" --discipline-prev "$IN_DISC_PREC" --dist-prev "$IN_DIST_PREC")
+          fi
+          python daily-pipeline.py "${ARGS[@]}"
+
+      - name: Mettre à jour le sitemap et le track record
+        run: |
+          if [ -f gen-sitemap.py ]; then python gen-sitemap.py; fi
+          if [ -f regen-all.py ]; then python regen-all.py || true; fi
+
+      - name: Commit et push
+        run: |
+          git config user.name "bravoquinte-bot"
+          git config user.email "bravoquinte@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Rien à publier."
+          else
+            git commit -m "Daily $IN_DATE: $IN_HIPPO $IN_COURSE - video + pronostics + post"
+            git push origin HEAD:main
+          fi
