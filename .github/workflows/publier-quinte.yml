@@ -156,3 +156,4 @@ jobs:
             git commit -m "Daily $IN_DATE: $IN_HIPPO $IN_COURSE - video + pronostics + post"
             git push origin HEAD:main
           fi
+
