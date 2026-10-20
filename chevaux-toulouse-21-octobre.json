@@ -1,0 +1,15 @@
+{
+  "1":  {"numero": 1,  "nom": "Enea Font",        "driver": "Chavatte J.",  "entraineur": "Guarato S.",  "musique": "-", "cote": "5,6",  "poids": "2 950 m", "corde": 1, "age": 6, "sexe": "M"},
+  "2":  {"numero": 2,  "nom": "I Am Phyt's",     "driver": "Treich JH.",   "entraineur": "Treich JH.",  "musique": "-", "cote": "26,7", "poids": "2 950 m", "corde": 2, "age": 8, "sexe": "H"},
+  "3":  {"numero": 3,  "nom": "Invictus Nar",    "driver": "Marty F.",     "entraineur": "Marty F.",    "musique": "-", "cote": "78",   "poids": "2 950 m", "corde": 3, "age": 8, "sexe": "H"},
+  "4":  {"numero": 4,  "nom": "Harlem de l'Iton","driver": "Cinier M.",    "entraineur": "Cinier D.",   "musique": "-", "cote": "35,1", "poids": "2 950 m", "corde": 4, "age": 9, "sexe": "H"},
+  "5":  {"numero": 5,  "nom": "Ghost de Beaulieu","driver": "Geray P.",    "entraineur": "Asselie J.",  "musique": "-", "cote": "32",   "poids": "2 950 m", "corde": 5, "age": 10, "sexe": "H"},
+  "6":  {"numero": 6,  "nom": "Irrati Duem",     "driver": "Le Moel P.",   "entraineur": "Herserant C.","musique": "-", "cote": "50,1", "poids": "2 950 m", "corde": 6, "age": 8, "sexe": "H"},
+  "7":  {"numero": 7,  "nom": "Incredible Go",   "driver": "Ducos T.",     "entraineur": "Terry F.",    "musique": "-", "cote": "6",    "poids": "2 950 m", "corde": 7, "age": 8, "sexe": "H"},
+  "8":  {"numero": 8,  "nom": "Icare de Phyt's", "driver": "Grasset M.",   "entraineur": "Laloum S.",   "musique": "-", "cote": "20,8", "poids": "2 975 m", "corde": 8, "age": 8, "sexe": "H"},
+  "9":  {"numero": 9,  "nom": "Hélios d'Ela",    "driver": "Gazengel C.",  "entraineur": "Gazengel C.","musique": "-", "cote": "130",  "poids": "2 975 m", "corde": 9, "age": 9, "sexe": "H"},
+  "10": {"numero": 10, "nom": "Freedom",         "driver": "Raffin O.",    "entraineur": "Raffin O.",   "musique": "-", "cote": "6",    "poids": "2 975 m", "corde": 10, "age": 8, "sexe": "H"},
+  "11": {"numero": 11, "nom": "Galant de Carel", "driver": "Tijou M.",     "entraineur": "Gazengel C.","musique": "-", "cote": "39,2", "poids": "2 975 m", "corde": 11, "age": 10, "sexe": "H"},
+  "12": {"numero": 12, "nom": "Géricault",       "driver": "Briand T.",    "entraineur": "Martens V.",  "musique": "-", "cote": "3,5",  "poids": "2 975 m", "corde": 12, "age": 7, "sexe": "H"},
+  "13": {"numero": 13, "nom": "Icare du Beryl",  "driver": "Criado M.",    "entraineur": "Lacombe Y.",  "musique": "-", "cote": "10",   "poids": "2 975 m", "corde": 13, "age": 8, "sexe": "H"}
+}
