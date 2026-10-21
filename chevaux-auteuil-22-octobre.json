@@ -1,0 +1,18 @@
+{
+  "1":  {"numero": 1,  "nom": "King Pineau",      "driver": "Thomas D.",     "entraineur": "Juillet G.",    "musique": "-", "cote": "-", "poids": "72 kg", "corde": 1, "age": 6, "sexe": "H"},
+  "2":  {"numero": 2,  "nom": "Juval",            "driver": "Defontaine Q.", "entraineur": "Quinton P.",    "musique": "-", "cote": "-", "poids": "72 kg", "corde": 2, "age": 6, "sexe": "H"},
+  "3":  {"numero": 3,  "nom": "Keasy Storm",      "driver": "Le Clerc B.",   "entraineur": "Le Clerc A.",   "musique": "-", "cote": "-", "poids": "71.5 kg", "corde": 3, "age": 6, "sexe": "H"},
+  "4":  {"numero": 4,  "nom": "Lakadame",         "driver": "Journiac T.",   "entraineur": "Delaunay J.",   "musique": "-", "cote": "-", "poids": "71 kg", "corde": 4, "age": 5, "sexe": "F"},
+  "5":  {"numero": 5,  "nom": "L'Arrabiato",      "driver": "Richard G.",    "entraineur": "Chaillé-Chaillé A.", "musique": "-", "cote": "-", "poids": "71 kg", "corde": 5, "age": 7, "sexe": "H"},
+  "6":  {"numero": 6,  "nom": "Dream du Lemo",    "driver": "Beaurain T.",   "entraineur": "Foucher F.",    "musique": "-", "cote": "-", "poids": "71 kg", "corde": 6, "age": 6, "sexe": "H"},
+  "7":  {"numero": 7,  "nom": "Maniysa Bleue",   "driver": "Nabet K.",      "entraineur": "Pitart M.",     "musique": "-", "cote": "-", "poids": "60.5 kg", "corde": 7, "age": 5, "sexe": "F"},
+  "8":  {"numero": 8,  "nom": "Elian",            "driver": "Ré G.",         "entraineur": "Chaillé-Chaillé A.", "musique": "-", "cote": "-", "poids": "69.5 kg", "corde": 8, "age": 5, "sexe": "H"},
+  "9":  {"numero": 9,  "nom": "Héraliste",       "driver": "Masure G.",     "entraineur": "Chaillé-Chaillé A.", "musique": "-", "cote": "-", "poids": "69.5 kg", "corde": 9, "age": 9, "sexe": "H"},
+  "10": {"numero": 10, "nom": "Tutti Bella",      "driver": "Meunier G.",    "entraineur": "Pacault I.",    "musique": "-", "cote": "-", "poids": "-", "corde": 10, "age": 5, "sexe": "F"},
+  "11": {"numero": 11, "nom": "Hurrick des Obeaux", "driver": "Jouin O.",   "entraineur": "Devilder N.",   "musique": "-", "cote": "-", "poids": "69 kg", "corde": 11, "age": 9, "sexe": "H"},
+  "12": {"numero": 12, "nom": "Kate des Genièvres", "driver": "Bréchet LP.", "entraineur": "Fouin Y.",     "musique": "-", "cote": "-", "poids": "-", "corde": 12, "age": 5, "sexe": "F"},
+  "13": {"numero": 13, "nom": "King S Boum",     "driver": "Chevillard T.", "entraineur": "Foucher F.",    "musique": "-", "cote": "-", "poids": "69 kg", "corde": 13, "age": 6, "sexe": "H"},
+  "14": {"numero": 14, "nom": "Filippino",       "driver": "Phelippe JA.",  "entraineur": "Leenders G.",   "musique": "-", "cote": "-", "poids": "-", "corde": 14, "age": 5, "sexe": "H"},
+  "15": {"numero": 15, "nom": "Hokusai Vallis",  "driver": "de Giles F.",   "entraineur": "Mérienne H.",   "musique": "-", "cote": "-", "poids": "68 kg", "corde": 15, "age": 9, "sexe": "H"},
+  "16": {"numero": 16, "nom": "Itiepy",          "driver": "Chailloleau W.", "entraineur": "Pacault AS.",  "musique": "-", "cote": "-", "poids": "68 kg", "corde": 16, "age": 8, "sexe": "F"}
+}
