@@ -332,6 +332,12 @@ def main():
         subprocess.run([sys.executable, sp], check=True)
         print("  sitemap: régénéré")
 
+    # track record (resultats.html)
+    rr = os.path.join(a.repo, 'regen-resultats.py')
+    if os.path.exists(rr):
+        subprocess.run([sys.executable, rr], check=True)
+        print("  track record: régénéré")
+
     if a.commit:
         subprocess.run(['git', '-C', a.repo, 'add', '-A'], check=True)
         msg = f"Daily {a.date}: {a.hippo} {a.course} - video + pronostics + post"
