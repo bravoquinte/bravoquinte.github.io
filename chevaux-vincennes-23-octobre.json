@@ -1,0 +1,20 @@
+{
+  "1":  {"numero": 1,  "nom": "Jardyland",       "driver": "?",          "entraineur": "Jublot L.",    "musique": "-", "cote": "-", "poids": "-", "corde": 1, "age": 7, "sexe": "H"},
+  "2":  {"numero": 2,  "nom": "Gitano Jack",     "driver": "Nivard F.",   "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 2, "age": 10, "sexe": "H"},
+  "3":  {"numero": 3,  "nom": "Iroise de Madker","driver": "?",          "entraineur": "Mallet CA.",   "musique": "-", "cote": "-", "poids": "-", "corde": 3, "age": 8, "sexe": "F"},
+  "4":  {"numero": 4,  "nom": "Général de Connée","driver": "Thomain D.", "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 4, "age": 7, "sexe": "H"},
+  "5":  {"numero": 5,  "nom": "In Race Lorraine","driver": "Pou Pou GA.", "entraineur": "Pou Pou GA.",  "musique": "-", "cote": "-", "poids": "-", "corde": 5, "age": 7, "sexe": "F"},
+  "6":  {"numero": 6,  "nom": "Joker Géma",      "driver": "Rochard B.", "entraineur": "Sassier M.",   "musique": "-", "cote": "-", "poids": "-", "corde": 6, "age": 7, "sexe": "H"},
+  "7":  {"numero": 7,  "nom": "Ienisse de Barbray","driver": "Raffin E.", "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 7, "age": 7, "sexe": "H"},
+  "8":  {"numero": 8,  "nom": "Halfan Speed",   "driver": "Ploquin PP.", "entraineur": "Lelièvre P.",  "musique": "-", "cote": "-", "poids": "-", "corde": 8, "age": 7, "sexe": "H"},
+  "9":  {"numero": 9,  "nom": "Jewel de la Côte","driver": "Gelormini G.","entraineur": "Guarato S.",  "musique": "-", "cote": "-", "poids": "-", "corde": 9, "age": 7, "sexe": "H"},
+  "10": {"numero": 10, "nom": "Jadou du Lupin", "driver": "Wiels A.",    "entraineur": "Marmion JP.",  "musique": "-", "cote": "-", "poids": "-", "corde": 10, "age": 7, "sexe": "H"},
+  "11": {"numero": 11, "nom": "Jazz de Padd",   "driver": "Abrivard A.", "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 11, "age": 7, "sexe": "H"},
+  "12": {"numero": 12, "nom": "In Love Réglisse","driver": "De Jésus E.", "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 12, "age": 8, "sexe": "H"},
+  "13": {"numero": 13, "nom": "Jibi du Fruitier","driver": "Mottier M.",  "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 13, "age": 7, "sexe": "H"},
+  "14": {"numero": 14, "nom": "Ioupy Tolleville","driver": "Ouvrie F.",   "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 14, "age": 7, "sexe": "H"},
+  "15": {"numero": 15, "nom": "Just du Châtelet","driver": "Bonne D.",    "entraineur": "Randon A.",    "musique": "-", "cote": "-", "poids": "-", "corde": 15, "age": 7, "sexe": "H"},
+  "16": {"numero": 16, "nom": "Hinden",          "driver": "Barrier A.",  "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 16, "age": 7, "sexe": "H"},
+  "17": {"numero": 17, "nom": "Ivoire Dairpet", "driver": "Terry C.",    "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 17, "age": 7, "sexe": "H"},
+  "18": {"numero": 18, "nom": "Jézabelle Bie",  "driver": "?",           "entraineur": "?",            "musique": "-", "cote": "-", "poids": "-", "corde": 18, "age": 7, "sexe": "F"}
+}
