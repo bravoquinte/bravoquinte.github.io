@@ -1,0 +1,17 @@
+{
+  "1":  {"numero": 1,  "nom": "Sir Marvel",        "driver": "Philipperon L.", "entraineur": "Seror M.",    "musique": "-", "cote": "-", "poids": "73.5 kg", "corde": 1, "age": 5, "sexe": "H"},
+  "2":  {"numero": 2,  "nom": "Coute Que Coute",   "driver": "Reveley J.",    "entraineur": "Merienne H.", "musique": "-", "cote": "-", "poids": "72 kg", "corde": 2, "age": 5, "sexe": "F"},
+  "3":  {"numero": 3,  "nom": "Belle Gosse",       "driver": "Zuliani A.",    "entraineur": "Nicolle F.",  "musique": "-", "cote": "-", "poids": "72 kg", "corde": 3, "age": 5, "sexe": "F"},
+  "4":  {"numero": 4,  "nom": "Louba",             "driver": "Le Clerc B.",   "entraineur": "Bellemere F.","musique": "-", "cote": "-", "poids": "71.5 kg", "corde": 4, "age": 5, "sexe": "F"},
+  "5":  {"numero": 5,  "nom": "Lady Lady Lay",     "driver": "Charron J.",    "entraineur": "Leenders G.", "musique": "-", "cote": "-", "poids": "71.5 kg", "corde": 5, "age": 5, "sexe": "F"},
+  "6":  {"numero": 6,  "nom": "Le Colombar",       "driver": "Phelippe J.",   "entraineur": "Seror M.",    "musique": "-", "cote": "-", "poids": "70.5 kg", "corde": 6, "age": 5, "sexe": "H"},
+  "7":  {"numero": 7,  "nom": "Mon Petit Prince",  "driver": "Chevillard T.", "entraineur": "Leenders G.", "musique": "-", "cote": "-", "poids": "70.5 kg", "corde": 7, "age": 5, "sexe": "H"},
+  "8":  {"numero": 8,  "nom": "Lady Ange Win",     "driver": "Le Clerc BR.",  "entraineur": "Le Clerc A.", "musique": "-", "cote": "-", "poids": "69.5 kg", "corde": 8, "age": 5, "sexe": "F"},
+  "9":  {"numero": 9,  "nom": "Le Coeur Sauvage",  "driver": "Nabet K.",      "entraineur": "Peltier P.",  "musique": "-", "cote": "-", "poids": "69 kg", "corde": 9, "age": 5, "sexe": "H"},
+  "10": {"numero": 10, "nom": "Flying Trix",      "driver": "Beaurain T.",   "entraineur": "Carberry L.", "musique": "-", "cote": "-", "poids": "69 kg", "corde": 10, "age": 5, "sexe": "H"},
+  "11": {"numero": 11, "nom": "Jocasta",          "driver": "Servier T.",    "entraineur": "Menato G.",   "musique": "-", "cote": "-", "poids": "69 kg", "corde": 11, "age": 5, "sexe": "F"},
+  "12": {"numero": 12, "nom": "Libre Arbitre",    "driver": "Giles F.",      "entraineur": "Merienne H.", "musique": "-", "cote": "-", "poids": "68 kg", "corde": 12, "age": 5, "sexe": "H"},
+  "13": {"numero": 13, "nom": "King Lane",        "driver": "Bayle F.",      "entraineur": "Rolland M.",  "musique": "-", "cote": "-", "poids": "67.5 kg", "corde": 13, "age": 5, "sexe": "H"},
+  "14": {"numero": 14, "nom": "Captain Flag",     "driver": "Ferreira N.",   "entraineur": "Schmidlin R.","musique": "-", "cote": "-", "poids": "67 kg", "corde": 14, "age": 5, "sexe": "H"},
+  "15": {"numero": 15, "nom": "Lerika",           "driver": "Beaubois L.",   "entraineur": "Windrif D.",  "musique": "-", "cote": "-", "poids": "64 kg", "corde": 15, "age": 5, "sexe": "F"}
+}
