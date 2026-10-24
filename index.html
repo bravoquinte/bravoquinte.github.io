@@ -409,10 +409,10 @@ window.__BRAVO_PAGE_TYPE='';
 (function(){
 'use strict';
 
-var chevaux=[{num:1,nom:"Sir Marvel",driver:"Philipperon L.",entraineur:"Seror M.",musique:"-",cote:"-"},{num:2,nom:"Coute Que Coute",driver:"Reveley J.",entraineur:"Merienne H.",musique:"-",cote:"-"},{num:3,nom:"Belle Gosse",driver:"Zuliani A.",entraineur:"Nicolle F.",musique:"-",cote:"-"},{num:4,nom:"Louba",driver:"Le Clerc B.",entraineur:"Bellemere F.",musique:"-",cote:"-"},{num:5,nom:"Lady Lady Lay",driver:"Charron J.",entraineur:"Leenders G.",musique:"-",cote:"-"},{num:6,nom:"Le Colombar",driver:"Phelippe J.",entraineur:"Seror M.",musique:"-",cote:"-"},{num:7,nom:"Mon Petit Prince",driver:"Chevillard T.",entraineur:"Leenders G.",musique:"-",cote:"-"},{num:8,nom:"Lady Ange Win",driver:"Le Clerc BR.",entraineur:"Le Clerc A.",musique:"-",cote:"-"},{num:9,nom:"Le Coeur Sauvage",driver:"Nabet K.",entraineur:"Peltier P.",musique:"-",cote:"-"},{num:10,nom:"Flying Trix",driver:"Beaurain T.",entraineur:"Carberry L.",musique:"-",cote:"-"},{num:11,nom:"Jocasta",driver:"Servier T.",entraineur:"Menato G.",musique:"-",cote:"-"},{num:12,nom:"Libre Arbitre",driver:"Giles F.",entraineur:"Merienne H.",musique:"-",cote:"-"},{num:13,nom:"King Lane",driver:"Bayle F.",entraineur:"Rolland M.",musique:"-",cote:"-"},{num:14,nom:"Captain Flag",driver:"Ferreira N.",entraineur:"Schmidlin R.",musique:"-",cote:"-"},{num:15,nom:"Lerika",driver:"Beaubois L.",entraineur:"Windrif D.",musique:"-",cote:"-"}];
+var chevaux=[{num:1,nom:"Agile",driver:"Velon M.",entraineur:"Beguigne J-M.",musique:"-",cote:"-"},{num:2,nom:"Shrihara",driver:"Hamelin A.",entraineur:"Fey C.",musique:"-",cote:"-"},{num:3,nom:"Maia Star",driver:"Boudot P-C.",entraineur:"Dubois J-P.",musique:"-",cote:"-"},{num:4,nom:"American Glory",driver:"Lemaitre A.",entraineur:"Perret N.",musique:"-",cote:"-"},{num:5,nom:"Hasapiko",driver:"Bachelot T.",entraineur:"Wattel S.",musique:"-",cote:"-"},{num:6,nom:"Weemagatee",driver:"Grandin M.",entraineur:"Andreu J.",musique:"-",cote:"-"},{num:7,nom:"Ame d Or",driver:"Barzalona M.",entraineur:"Graffard F-H.",musique:"-",cote:"-"},{num:8,nom:"Cristabel",driver:"d Andigne O.",entraineur:"Couetil A.",musique:"-",cote:"-"},{num:9,nom:"Marinaleda",driver:"Lecoeuvre C.",entraineur:"Baratti M.",musique:"-",cote:"-"},{num:10,nom:"Britania",driver:"Mendizabal I.",entraineur:"Rohaut F.",musique:"-",cote:"-"},{num:11,nom:"Golden Belle",driver:"Guyon M.",entraineur:"Fouassier A.",musique:"-",cote:"-"},{num:12,nom:"Foxey Lady",driver:"Favriaux M.",entraineur:"Beguigne J-M.",musique:"-",cote:"-"},{num:13,nom:"Nancy des Places",driver:"Hardouin E.",entraineur:"Fey C.",musique:"-",cote:"-"},{num:14,nom:"Teardrop Explodes",driver:"Veron F.",entraineur:"Boutin C.",musique:"-",cote:"-"},{num:15,nom:"Janah",driver:"Pasquier S.",entraineur:"Clement N.",musique:"-",cote:"-"},{num:16,nom:"Gareya",driver:"Madamet A.",entraineur:"Delzangles M.",musique:"-",cote:"-"}];
 
-var selection=[4,7,9,8,2,6,10,1];
-var top5=[4,7,9,8,2];
+var selection=[2,15,8,13,7,11,9,3];
+var top5=[2,15,8,13,7];
 
 function renderPartants(){
   var el=document.getElementById('partants-tbody');
@@ -420,7 +420,7 @@ function renderPartants(){
   var h='';
   for(var i=0;i<chevaux.length;i++){
     var c=chevaux[i];
-    h+='<tr><td'+(c.num===4?' style="font-weight:700;color:#15803d"':'')+'>'+(c.num)+'</td>';
+    h+='<tr><td'+(c.num===2||c.num===15?' style="font-weight:700;color:#15803d"':'')+'>'+(c.num)+'</td>';
     h+='<td'+(selection.indexOf(c.num)!==-1?' style="color:#15803d;font-weight:500"':'')+'>'+c.nom+'</td>';
     h+='<td>'+c.driver+'</td><td>'+c.entraineur+'</td><td>'+c.cote+'</td>';
     h+='<td>'+(c.statut?'<span class="'+c.cls+'">'+c.statut+'</span>':'&#8212;')+'</td></tr>';
