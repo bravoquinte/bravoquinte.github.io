@@ -1,1245 +1,1503 @@
 {
-  "generated": "2026-10-17T21:00:00.000Z",
-  "stats": {
-    "total_validated": 23,
-    "base_in_top5_rate": "12/23",
-    "base_wins_rate": "4/23",
-    "selection_avg_in_top5": "3.4/5",
-    "winner_in_selection_rate": "17/23",
-    "top3_in_top5_rate": "20/23",
-    "desordre_rate": "0/23",
-    "top5_avg_in_top5": "2.2/5"
+ "generated": "2026-10-26T12:58:03.000Z",
+ "stats": {
+  "total_validated": 28,
+  "base_in_top5_rate": "15/28",
+  "base_wins_rate": "5/28",
+  "selection_avg_in_top5": "3.3/5",
+  "winner_in_selection_rate": "21/28",
+  "top3_in_top5_rate": "24/28",
+  "desordre_rate": "0/28",
+  "top5_avg_in_top5": "2.1/5"
+ },
+ "predictions": [
+  {
+   "date": "2026-09-24",
+   "hippo": "Compiègne",
+   "course": "Prix de la Basse Automne",
+   "discipline": "Galop Plat",
+   "dist": "2150m",
+   "slug": "pronostic-quinte-compiegne-24-septembre",
+   "selection": [
+    1,
+    4,
+    7,
+    2,
+    12,
+    14,
+    10,
+    11
+   ],
+   "base": 1,
+   "resultat": [
+    13,
+    8,
+    10,
+    4,
+    16
+   ],
+   "arrivee": [
+    13,
+    8,
+    10,
+    4,
+    16
+   ],
+   "metrics": {
+    "top5": [
+     13,
+     8,
+     10,
+     4,
+     16
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
   },
-  "predictions": [
-    {
-      "date": "2026-09-24",
-      "hippo": "Compiègne",
-      "course": "Prix de la Basse Automne",
-      "discipline": "Galop Plat",
-      "dist": "2150m",
-      "slug": "pronostic-quinte-compiegne-24-septembre",
-      "selection": [
-        1,
-        4,
-        7,
-        2,
-        12,
-        14,
-        10,
-        11
-      ],
-      "base": 1,
-      "resultat": [
-        13,
-        8,
-        10,
-        4,
-        16
-      ],
-      "arrivee": [
-        13,
-        8,
-        10,
-        4,
-        16
-      ],
-      "metrics": {
-        "top5": [
-          13,
-          8,
-          10,
-          4,
-          16
-        ],
-        "selection_in_top5": 2,
-        "base_in_top5": false,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-09-25",
-      "hippo": "Vincennes",
-      "course": "Prix Austria",
-      "discipline": "Trot Attelé",
-      "dist": "2700m",
-      "slug": "pronostic-quinte-vincennes-25-septembre",
-      "selection": [
-        18,
-        13,
-        9,
-        3,
-        12,
-        15,
-        6,
-        7
-      ],
-      "base": 18,
-      "resultat": "13-11-12-10-15",
-      "arrivee": [
-        [
-          13,
-          "HALFAN SPEED"
-        ],
-        [
-          11,
-          "HORACE D'ARTHENAY"
-        ],
-        [
-          12,
-          "GENERAL DE CONNEE"
-        ],
-        [
-          10,
-          "HERDUNO"
-        ],
-        [
-          15,
-          "HIRIUS DE GUEZ"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": false,
-        "base_wins": false,
-        "selection_in_top5": 3,
-        "exact_order": false,
-        "top5": [
-          13,
-          11,
-          12,
-          10,
-          15
-        ],
-        "winner": 13,
-        "top5_in_top5": 2
-      }
-    },
-    {
-      "date": "2026-09-27",
-      "hippo": "Vincennes",
-      "course": "Grand Prix du Portugal",
-      "discipline": "Trot Attelé",
-      "dist": "2700m",
-      "slug": "pronostic-quinte-vincennes-27-septembre",
-      "selection": [
-        12,
-        11,
-        2,
-        3,
-        8,
-        4,
-        10,
-        14
-      ],
-      "base": 12,
-      "resultat": "8-12-14-10-9",
-      "arrivee": [
-        [
-          8,
-          "HOMARD LAND"
-        ],
-        [
-          12,
-          "JET EXPRESS"
-        ],
-        [
-          14,
-          "JAZZ DE PADD"
-        ],
-        [
-          10,
-          "JEWEL TOUCH"
-        ],
-        [
-          9,
-          "JONGLEUSE DE LUNE"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": true,
-        "base_wins": false,
-        "selection_in_top5": 4,
-        "exact_order": false,
-        "top5": [
-          8,
-          12,
-          14,
-          10,
-          9
-        ],
-        "winner": 8,
-        "top5_in_top5": 2
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "hippo": "Enghien",
-      "course": "Prix de Saint-Chamond",
-      "discipline": "Trot Attelé",
-      "dist": "2700m",
-      "slug": "pronostic-quinte-enghien-28-septembre",
-      "selection": [
-        10,
-        14,
-        4,
-        1,
-        15,
-        12,
-        11,
-        2
-      ],
-      "base": 10,
-      "resultat": "15-4-14-5-7",
-      "arrivee": [
-        [
-          15,
-          "INTREPIDE DES BOIS"
-        ],
-        [
-          4,
-          "JOS MAZA"
-        ],
-        [
-          14,
-          "JAZZ DE PADD"
-        ],
-        [
-          5,
-          "HAPPY PACHA"
-        ],
-        [
-          7,
-          "IN LOVE REGLISSE"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": false,
-        "base_wins": false,
-        "selection_in_top5": 3,
-        "exact_order": false,
-        "top5": [
-          15,
-          4,
-          14,
-          5,
-          7
-        ],
-        "winner": 15,
-        "top5_in_top5": 3
-      }
-    },
-    {
-      "date": "2026-09-29",
-      "hippo": "Chantilly",
-      "course": "Prix de la Chambre du Duc",
-      "discipline": "Galop Plat",
-      "dist": "1900m",
-      "slug": "pronostic-quinte-chantilly-29-septembre",
-      "selection": [
-        2,
-        4,
-        6,
-        1,
-        12,
-        9,
-        3,
-        7
-      ],
-      "base": 2,
-      "resultat": "1-9-15-2-4",
-      "arrivee": [
-        [
-          1,
-          "ANSSIO"
-        ],
-        [
-          9,
-          "PRESA DIRETTA"
-        ],
-        [
-          15,
-          "SPEEDY GREEN"
-        ],
-        [
-          2,
-          "ZELORO"
-        ],
-        [
-          4,
-          "CENTRAL PARK WEST"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": true,
-        "base_wins": false,
-        "selection_in_top5": 4,
-        "exact_order": false,
-        "top5": [
-          1,
-          9,
-          15,
-          2,
-          4
-        ],
-        "winner": 1,
-        "top5_in_top5": 3
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "hippo": "Laval",
-      "course": "Grand Prix Anjou-Maine",
-      "discipline": "Trot Attelé",
-      "dist": "2850m",
-      "slug": "pronostic-quinte-laval-30-septembre",
-      "selection": [
-        4,
-        12,
-        3,
-        14,
-        7,
-        5,
-        13,
-        15
-      ],
-      "base": 4,
-      "resultat": "5-9-7-14-15",
-      "arrivee": [
-        [
-          5,
-          "JILORD VIVA"
-        ],
-        [
-          9,
-          "IBISCUS MAN"
-        ],
-        [
-          7,
-          "L'AS DESBOIS"
-        ],
-        [
-          14,
-          "IDÉAL LIGNERIES"
-        ],
-        [
-          15,
-          "INMAROSA"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": false,
-        "base_wins": false,
-        "selection_in_top5": 4,
-        "exact_order": false,
-        "top5": [
-          5,
-          9,
-          7,
-          14,
-          15
-        ],
-        "winner": 5,
-        "top5_in_top5": 2
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "hippo": "Auteuil",
-      "course": "Prix Céréaliste",
-      "discipline": "Galop Obstacle",
-      "dist": "3600m",
-      "slug": "pronostic-quinte-auteuil-1er-octobre",
-      "selection": [
-        3,
-        7,
-        4,
-        13,
-        9,
-        1,
-        14,
-        12
-      ],
-      "base": 3,
-      "resultat": "15-3-14-1-9",
-      "arrivee": [
-        [
-          15,
-          "LIPRIKA D'ANJOU"
-        ],
-        [
-          3,
-          "GREY FIGHTER"
-        ],
-        [
-          14,
-          "LUTÈCE ALLEN"
-        ],
-        [
-          1,
-          "WEBCAM"
-        ],
-        [
-          9,
-          "LACRYMA CHRISTI"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": true,
-        "base_wins": false,
-        "selection_in_top5": 4,
-        "exact_order": false,
-        "top5": [
-          15,
-          3,
-          14,
-          1,
-          9
-        ],
-        "winner": 15,
-        "top5_in_top5": 2
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "hippo": "Vincennes",
-      "course": "Prix Ludovica",
-      "discipline": "Trot Attelé",
-      "dist": "2700m",
-      "slug": "pronostic-quinte-vincennes-2-octobre",
-      "selection": [
-        6,
-        9,
-        4,
-        13,
-        5,
-        14,
-        11,
-        3
-      ],
-      "base": 6,
-      "resultat": "4-11-13-12-7",
-      "arrivee": [
-        [
-          4,
-          "JAIFA DE L'ITON"
-        ],
-        [
-          11,
-          "JEWEL DE BANVILLE"
-        ],
-        [
-          13,
-          "JOHNNY MIX"
-        ],
-        [
-          12,
-          "JOEY DU NOYER"
-        ],
-        [
-          7,
-          "JOB DES LOUANGES"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": false,
-        "base_wins": false,
-        "selection_in_top5": 3,
-        "exact_order": false,
-        "top5": [
-          4,
-          11,
-          13,
-          12,
-          7
-        ],
-        "winner": 4,
-        "top5_in_top5": 2
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "hippo": "ParisLongchamp",
-      "course": "Qatar Prix de la Place des Vosges",
-      "discipline": "Galop Plat",
-      "dist": "2500m",
-      "slug": "pronostic-quinte-longchamp-3-octobre",
-      "selection": [
-        4,
-        9,
-        13,
-        18,
-        16,
-        7,
-        11,
-        15
-      ],
-      "base": 4,
-      "resultat": "4-5-8-17-3",
-      "arrivee": [
-        [
-          4,
-          "REMBRAND TO GO"
-        ],
-        [
-          5,
-          "SHRIHARA"
-        ],
-        [
-          8,
-          "COLGAN SENORA"
-        ],
-        [
-          17,
-          "KING TREZY"
-        ],
-        [
-          3,
-          "GOLDEN WEAVER"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": true,
-        "base_wins": true,
-        "selection_in_top5": 1,
-        "top5_in_top5": 1,
-        "exact_order": false,
-        "top5": [
-          4,
-          5,
-          8,
-          17,
-          3
-        ],
-        "winner": 4
-      }
-    },
-    {
-      "date": "2026-10-05",
-      "hippo": "Enghien",
-      "course": "Prix des Buttes Chaumont",
-      "discipline": "Trot Attelé",
-      "dist": "2875m",
-      "slug": "pronostic-quinte-enghien-5-octobre",
-      "selection": [
-        5,
-        8,
-        13,
-        9,
-        12,
-        3,
-        11,
-        1
-      ],
-      "base": 5,
-      "resultat": "3-7-9-13-11",
-      "arrivee": [
-        [
-          3,
-          "OLIVER SCHERMER"
-        ],
-        [
-          7,
-          "LUCIUS DE PUCH"
-        ],
-        [
-          9,
-          "BLACK HEUVELLAND"
-        ],
-        [
-          13,
-          "L'AS DES ISLES"
-        ],
-        [
-          11,
-          "LONGWOOD D'HERIPRE"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": false,
-        "base_wins": false,
-        "selection_in_top5": 4,
-        "top5_in_top5": 2,
-        "exact_order": false,
-        "top5": [
-          3,
-          7,
-          9,
-          13,
-          11
-        ],
-        "winner": 3
-      }
-    },
-    {
-      "date": "2026-10-04",
-      "hippo": "ParisLongchamp",
-      "course": "Qatar Prix de l'Arc de Triomphe",
-      "discipline": "Galop Plat",
-      "dist": "2400m",
-      "slug": "pronostic-quinte-arc-de-triomphe-4-octobre",
-      "selection": [
-        1,
-        9,
-        14,
-        11,
-        12,
-        8,
-        16,
-        10
-      ],
-      "base": 1,
-      "resultat": "1-7-16-10-9",
-      "arrivee": [
-        [
-          1,
-          "DARYZ"
-        ],
-        [
-          7,
-          "BAY CITY ROLLER"
-        ],
-        [
-          16,
-          "DIAMOND NECKLACE"
-        ],
-        [
-          10,
-          "FRIENDLY SOUL"
-        ],
-        [
-          9,
-          "KALPANA"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": true,
-        "base_wins": true,
-        "selection_in_top5": 4,
-        "top5_in_top5": 2,
-        "exact_order": false,
-        "top5": [
-          1,
-          7,
-          16,
-          10,
-          9
-        ],
-        "winner": 1
-      }
-    },
-    {
-      "date": "2026-10-06",
-      "hippo": "Auteuil",
-      "course": "Prix Guillaume de Pracomtal",
-      "discipline": "Galop Steeple",
-      "dist": "3600m",
-      "slug": "pronostic-quinte-auteuil-6-octobre",
-      "selection": [
-        7,
-        15,
-        3,
-        4,
-        2,
-        9,
-        12,
-        14
-      ],
-      "base": 7,
-      "resultat": "8-2-7-3-15",
-      "arrivee": [
-        [
-          8,
-          "FALCON JET"
-        ],
-        [
-          2,
-          "DINADAME"
-        ],
-        [
-          7,
-          "ROMAN SKIES"
-        ],
-        [
-          3,
-          "MASKINA"
-        ],
-        [
-          15,
-          "OVALIE"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": true,
-        "base_wins": false,
-        "selection_in_top5": 4,
-        "top5_in_top5": 4,
-        "exact_order": false,
-        "top5": [
-          8,
-          2,
-          7,
-          3,
-          15
-        ],
-        "winner": 8
-      }
-    },
-    {
-      "date": "2026-10-07",
-      "hippo": "Enghien",
-      "course": "Prix des Gobelins",
-      "discipline": "Trot Attelé",
-      "dist": "2875m",
-      "slug": "pronostic-quinte-enghien-7-octobre",
-      "selection": [
-        17,
-        16,
-        12,
-        13,
-        15,
-        11,
-        18,
-        14
-      ],
-      "base": 17,
-      "resultat": [
-        16,
-        5,
-        14,
-        13,
-        2
-      ],
-      "arrivee": [
-        16,
-        5,
-        14,
-        13,
-        2
-      ],
-      "metrics": {
-        "top5": [
-          16,
-          5,
-          14,
-          13,
-          2
-        ],
-        "selection_in_top5": 3,
-        "top5_in_top5": 2,
-        "base_in_top5": false,
-        "base_wins": false,
-        "winner": 16,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-08",
-      "hippo": "Saint-Cloud",
-      "course": "Prix de Versailles",
-      "discipline": "Galop Plat",
-      "dist": "2000m",
-      "slug": "pronostic-quinte-saint-cloud-8-octobre",
-      "selection": [
-        5,
-        1,
-        8,
-        9,
-        3,
-        16,
-        11,
-        15
-      ],
-      "base": 5,
-      "resultat": [
-        1,
-        5,
-        8,
-        4,
-        15
-      ],
-      "arrivee": [
-        1,
-        5,
-        8,
-        4,
-        15
-      ],
-      "metrics": {
-        "top5": [
-          1,
-          5,
-          8,
-          4,
-          15
-        ],
-        "selection_in_top5": 4,
-        "top5_in_top5": 3,
-        "base_in_top5": true,
-        "base_wins": false,
-        "winner": 1,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-09",
-      "hippo": "Vincennes",
-      "course": "Prix Héra",
-      "discipline": "Trot Attelé",
-      "dist": "2850m",
-      "slug": "pronostic-quinte-vincennes-9-octobre",
-      "selection": [
-        10,
-        13,
-        6,
-        14,
-        5,
-        15,
-        2,
-        12
-      ],
-      "base": 10,
-      "resultat": [
-        14,
-        6,
-        15,
-        7,
-        10
-      ],
-      "arrivee": [
-        14,
-        6,
-        15,
-        7,
-        10
-      ],
-      "metrics": {
-        "top5": [
-          14,
-          6,
-          15,
-          7,
-          10
-        ],
-        "selection_in_top5": 4,
-        "top5_in_top5": 3,
-        "base_in_top5": true,
-        "base_wins": false,
-        "winner": 14,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-10",
-      "hippo": "Caen",
-      "course": "Prix de la Ville de Caen",
-      "discipline": "Trot Attelé",
-      "dist": "2450m",
-      "slug": "pronostic-quinte-caen-10-octobre",
-      "selection": [
-        2,
-        18,
-        8,
-        15,
-        10,
-        4,
-        3,
-        11
-      ],
-      "base": 2,
-      "resultat": [
-        9,
-        10,
-        4,
-        3,
-        2
-      ],
-      "arrivee": [
-        9,
-        10,
-        4,
-        3,
-        2
-      ],
-      "metrics": {
-        "top5": [
-          9,
-          10,
-          4,
-          3,
-          2
-        ],
-        "selection_in_top5": 4,
-        "top5_in_top5": 2,
-        "base_in_top5": true,
-        "base_wins": false,
-        "winner": 9,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-11",
-      "hippo": "Auteuil",
-      "course": "Prix Montgomery",
-      "discipline": "Galop Steeple",
-      "dist": "4700m",
-      "slug": "pronostic-quinte-auteuil-11-octobre",
-      "selection": [
-        15,
-        1,
-        16,
-        2,
-        14,
-        6,
-        8,
-        3
-      ],
-      "base": 15,
-      "resultat": [
-        15,
-        2,
-        3,
-        12,
-        1
-      ],
-      "arrivee": [
-        15,
-        2,
-        3,
-        12,
-        1
-      ],
-      "metrics": {
-        "top5": [
-          15,
-          2,
-          3,
-          12,
-          1
-        ],
-        "selection_in_top5": 4,
-        "top5_in_top5": 3,
-        "base_in_top5": true,
-        "base_wins": true,
-        "winner": 15,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-12",
-      "hippo": "Marseille-Borély",
-      "course": "Prix Jacques Rossi",
-      "discipline": "Galop Plat",
-      "dist": "2100m",
-      "slug": "pronostic-quinte-marseille-12-octobre",
-      "selection": [
-        2,
-        4,
-        3,
-        7,
-        11,
-        15,
-        10,
-        1
-      ],
-      "base": 2,
-      "resultat": [
-        2,
-        10,
-        14,
-        11,
-        12
-      ],
-      "arrivee": [
-        2,
-        10,
-        14,
-        11,
-        12
-      ],
-      "metrics": {
-        "top5": [
-          2,
-          10,
-          14,
-          11,
-          12
-        ],
-        "selection_in_top5": 3,
-        "top5_in_top5": 2,
-        "base_in_top5": true,
-        "base_wins": true,
-        "winner": 2,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-13",
-      "hippo": "ParisLongchamp",
-      "course": "Prix de la Galerie des Variétés",
-      "discipline": "Galop Plat",
-      "dist": "1600m",
-      "slug": "pronostic-quinte-longchamp-13-octobre",
-      "selection": [
-        3,
-        14,
-        11,
-        9,
-        7,
-        16,
-        13,
-        15
-      ],
-      "base": 3,
-      "resultat": [
-        9,
-        16,
-        2,
-        14,
-        1
-      ],
-      "arrivee": [
-        9,
-        16,
-        2,
-        14,
-        1
-      ],
-      "metrics": {
-        "top5": [
-          9,
-          16,
-          2,
-          14,
-          1
-        ],
-        "selection_in_top5": 3,
-        "top5_in_top5": 1,
-        "base_in_top5": false,
-        "base_wins": false,
-        "winner": 9,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-14",
-      "hippo": "Reims",
-      "course": "Grand National du Trot",
-      "discipline": "Trot Attelé",
-      "dist": "2550m",
-      "slug": "pronostic-quinte-reims-14-octobre",
-      "selection": [
-        2,
-        10,
-        8,
-        6,
-        9,
-        15,
-        13,
-        12
-      ],
-      "base": 2,
-      "resultat": [
-        10,
-        15,
-        13,
-        5,
-        9
-      ],
-      "arrivee": [
-        10,
-        15,
-        13,
-        5,
-        9
-      ],
-      "metrics": {
-        "top5": [
-          10,
-          15,
-          13,
-          5,
-          9
-        ],
-        "selection_in_top5": 4,
-        "top5_in_top5": 2,
-        "base_in_top5": false,
-        "base_wins": false,
-        "winner": 10,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-15",
-      "hippo": "Chantilly",
-      "course": "Prix de la Vierge de Lorette",
-      "discipline": "Galop Plat",
-      "dist": "1200m",
-      "slug": "pronostic-quinte-chantilly-15-octobre",
-      "selection": [
-        10,
-        1,
-        7,
-        2,
-        9,
-        5,
-        4,
-        11
-      ],
-      "base": 10,
-      "resultat": [
-        12,
-        11,
-        8,
-        9,
-        15
-      ],
-      "arrivee": [
-        12,
-        11,
-        8,
-        9,
-        15
-      ],
-      "metrics": {
-        "top5": [
-          12,
-          11,
-          8,
-          9,
-          15
-        ],
-        "selection_in_top5": 2,
-        "top5_in_top5": 1,
-        "base_in_top5": false,
-        "base_wins": false,
-        "winner": 12,
-        "exact_order": false
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-16",
-      "hippo": "Vincennes",
-      "course": "Prix Thémis",
-      "discipline": "Trot Attelé",
-      "dist": "2850m",
-      "slug": "pronostic-quinte-vincennes-16-octobre",
-      "selection": [
-        3,
-        12,
-        4,
-        6,
-        7,
-        11,
-        5,
-        15
-      ],
-      "base": 3,
-      "resultat": "4-11-7-6-13",
-      "arrivee": [
-        [
-          4,
-          "KISS ME AGAIN"
-        ],
-        [
-          11,
-          "READLY LAVEC"
-        ],
-        [
-          7,
-          "KEROSEN DU GERS"
-        ],
-        [
-          6,
-          "DOMENIK JET"
-        ],
-        [
-          13,
-          "COLBERT WF"
-        ]
-      ],
-      "metrics": {
-        "base_in_top5": false,
-        "base_wins": false,
-        "selection_in_top5": 4,
-        "top5_in_top5": 3,
-        "exact_order": false,
-        "top5": [
-          4,
-          11,
-          7,
-          6,
-          13
-        ],
-        "winner": 4
-      },
-      "statut": "valide"
-    },
-    {
-      "date": "2026-10-17",
-      "hippo": "Auteuil",
-      "course": "Prix Prince d'Ecouen - Grand Handicap d'Automne",
-      "discipline": "Galop Obstacle",
-      "dist": "4300m",
-      "slug": "pronostic-quinte-auteuil-17-octobre",
-      "selection": [
-        2,
-        12,
-        6,
-        11,
-        8,
-        4,
-        5,
-        10
-      ],
-      "base": 2,
-      "resultat": "1-6-4-11-2",
-      "arrivee": [
-        [
-          1,
-          "GOLIATH D'AUNOU"
-        ],
-        [
-          6,
-          "GREY FIGHTER"
-        ],
-        [
-          4,
-          "GARDONS LE SOURIRE"
-        ],
-        [
-          11,
-          "ROBIN HILL"
-        ],
-        [
-          2,
-          "LOQUAS"
-        ]
-      ],
-      "metrics": {
-        "top5": [
-          1,
-          6,
-          4,
-          11,
-          2
-        ],
-        "selection_in_top5": 4,
-        "top5_in_top5": 3,
-        "base_in_top5": true,
-        "base_wins": false,
-        "winner": 1,
-        "exact_order": false
-      },
-      "statut": "valide"
-    }
-  ]
+  {
+   "date": "2026-09-25",
+   "hippo": "Vincennes",
+   "course": "Prix Austria",
+   "discipline": "Trot Attelé",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-25-septembre",
+   "selection": [
+    18,
+    13,
+    9,
+    3,
+    12,
+    15,
+    6,
+    7
+   ],
+   "base": 18,
+   "resultat": "13-11-12-10-15",
+   "arrivee": [
+    [
+     13,
+     "HALFAN SPEED"
+    ],
+    [
+     11,
+     "HORACE D'ARTHENAY"
+    ],
+    [
+     12,
+     "GENERAL DE CONNEE"
+    ],
+    [
+     10,
+     "HERDUNO"
+    ],
+    [
+     15,
+     "HIRIUS DE GUEZ"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": false,
+    "base_wins": false,
+    "selection_in_top5": 3,
+    "exact_order": false,
+    "top5": [
+     13,
+     11,
+     12,
+     10,
+     15
+    ],
+    "winner": 13,
+    "top5_in_top5": 2
+   }
+  },
+  {
+   "date": "2026-09-27",
+   "hippo": "Vincennes",
+   "course": "Grand Prix du Portugal",
+   "discipline": "Trot Attelé",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-27-septembre",
+   "selection": [
+    12,
+    11,
+    2,
+    3,
+    8,
+    4,
+    10,
+    14
+   ],
+   "base": 12,
+   "resultat": "8-12-14-10-9",
+   "arrivee": [
+    [
+     8,
+     "HOMARD LAND"
+    ],
+    [
+     12,
+     "JET EXPRESS"
+    ],
+    [
+     14,
+     "JAZZ DE PADD"
+    ],
+    [
+     10,
+     "JEWEL TOUCH"
+    ],
+    [
+     9,
+     "JONGLEUSE DE LUNE"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": true,
+    "base_wins": false,
+    "selection_in_top5": 4,
+    "exact_order": false,
+    "top5": [
+     8,
+     12,
+     14,
+     10,
+     9
+    ],
+    "winner": 8,
+    "top5_in_top5": 2
+   }
+  },
+  {
+   "date": "2026-09-28",
+   "hippo": "Enghien",
+   "course": "Prix de Saint-Chamond",
+   "discipline": "Trot Attelé",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-enghien-28-septembre",
+   "selection": [
+    10,
+    14,
+    4,
+    1,
+    15,
+    12,
+    11,
+    2
+   ],
+   "base": 10,
+   "resultat": "15-4-14-5-7",
+   "arrivee": [
+    [
+     15,
+     "INTREPIDE DES BOIS"
+    ],
+    [
+     4,
+     "JOS MAZA"
+    ],
+    [
+     14,
+     "JAZZ DE PADD"
+    ],
+    [
+     5,
+     "HAPPY PACHA"
+    ],
+    [
+     7,
+     "IN LOVE REGLISSE"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": false,
+    "base_wins": false,
+    "selection_in_top5": 3,
+    "exact_order": false,
+    "top5": [
+     15,
+     4,
+     14,
+     5,
+     7
+    ],
+    "winner": 15,
+    "top5_in_top5": 3
+   }
+  },
+  {
+   "date": "2026-09-29",
+   "hippo": "Chantilly",
+   "course": "Prix de la Chambre du Duc",
+   "discipline": "Galop Plat",
+   "dist": "1900m",
+   "slug": "pronostic-quinte-chantilly-29-septembre",
+   "selection": [
+    2,
+    4,
+    6,
+    1,
+    12,
+    9,
+    3,
+    7
+   ],
+   "base": 2,
+   "resultat": "1-9-15-2-4",
+   "arrivee": [
+    [
+     1,
+     "ANSSIO"
+    ],
+    [
+     9,
+     "PRESA DIRETTA"
+    ],
+    [
+     15,
+     "SPEEDY GREEN"
+    ],
+    [
+     2,
+     "ZELORO"
+    ],
+    [
+     4,
+     "CENTRAL PARK WEST"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": true,
+    "base_wins": false,
+    "selection_in_top5": 4,
+    "exact_order": false,
+    "top5": [
+     1,
+     9,
+     15,
+     2,
+     4
+    ],
+    "winner": 1,
+    "top5_in_top5": 3
+   }
+  },
+  {
+   "date": "2026-09-30",
+   "hippo": "Laval",
+   "course": "Grand Prix Anjou-Maine",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-laval-30-septembre",
+   "selection": [
+    4,
+    12,
+    3,
+    14,
+    7,
+    5,
+    13,
+    15
+   ],
+   "base": 4,
+   "resultat": "5-9-7-14-15",
+   "arrivee": [
+    [
+     5,
+     "JILORD VIVA"
+    ],
+    [
+     9,
+     "IBISCUS MAN"
+    ],
+    [
+     7,
+     "L'AS DESBOIS"
+    ],
+    [
+     14,
+     "IDÉAL LIGNERIES"
+    ],
+    [
+     15,
+     "INMAROSA"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": false,
+    "base_wins": false,
+    "selection_in_top5": 4,
+    "exact_order": false,
+    "top5": [
+     5,
+     9,
+     7,
+     14,
+     15
+    ],
+    "winner": 5,
+    "top5_in_top5": 2
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "hippo": "Auteuil",
+   "course": "Prix Céréaliste",
+   "discipline": "Galop Obstacle",
+   "dist": "3600m",
+   "slug": "pronostic-quinte-auteuil-1er-octobre",
+   "selection": [
+    3,
+    7,
+    4,
+    13,
+    9,
+    1,
+    14,
+    12
+   ],
+   "base": 3,
+   "resultat": "15-3-14-1-9",
+   "arrivee": [
+    [
+     15,
+     "LIPRIKA D'ANJOU"
+    ],
+    [
+     3,
+     "GREY FIGHTER"
+    ],
+    [
+     14,
+     "LUTÈCE ALLEN"
+    ],
+    [
+     1,
+     "WEBCAM"
+    ],
+    [
+     9,
+     "LACRYMA CHRISTI"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": true,
+    "base_wins": false,
+    "selection_in_top5": 4,
+    "exact_order": false,
+    "top5": [
+     15,
+     3,
+     14,
+     1,
+     9
+    ],
+    "winner": 15,
+    "top5_in_top5": 2
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "hippo": "Vincennes",
+   "course": "Prix Ludovica",
+   "discipline": "Trot Attelé",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-2-octobre",
+   "selection": [
+    6,
+    9,
+    4,
+    13,
+    5,
+    14,
+    11,
+    3
+   ],
+   "base": 6,
+   "resultat": "4-11-13-12-7",
+   "arrivee": [
+    [
+     4,
+     "JAIFA DE L'ITON"
+    ],
+    [
+     11,
+     "JEWEL DE BANVILLE"
+    ],
+    [
+     13,
+     "JOHNNY MIX"
+    ],
+    [
+     12,
+     "JOEY DU NOYER"
+    ],
+    [
+     7,
+     "JOB DES LOUANGES"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": false,
+    "base_wins": false,
+    "selection_in_top5": 3,
+    "exact_order": false,
+    "top5": [
+     4,
+     11,
+     13,
+     12,
+     7
+    ],
+    "winner": 4,
+    "top5_in_top5": 2
+   }
+  },
+  {
+   "date": "2026-10-03",
+   "hippo": "ParisLongchamp",
+   "course": "Qatar Prix de la Place des Vosges",
+   "discipline": "Galop Plat",
+   "dist": "2500m",
+   "slug": "pronostic-quinte-longchamp-3-octobre",
+   "selection": [
+    4,
+    9,
+    13,
+    18,
+    16,
+    7,
+    11,
+    15
+   ],
+   "base": 4,
+   "resultat": "4-5-8-17-3",
+   "arrivee": [
+    [
+     4,
+     "REMBRAND TO GO"
+    ],
+    [
+     5,
+     "SHRIHARA"
+    ],
+    [
+     8,
+     "COLGAN SENORA"
+    ],
+    [
+     17,
+     "KING TREZY"
+    ],
+    [
+     3,
+     "GOLDEN WEAVER"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": true,
+    "base_wins": true,
+    "selection_in_top5": 1,
+    "top5_in_top5": 1,
+    "exact_order": false,
+    "top5": [
+     4,
+     5,
+     8,
+     17,
+     3
+    ],
+    "winner": 4
+   }
+  },
+  {
+   "date": "2026-10-04",
+   "hippo": "ParisLongchamp",
+   "course": "Qatar Prix de l'Arc de Triomphe",
+   "discipline": "Galop Plat",
+   "dist": "2400m",
+   "slug": "pronostic-quinte-arc-de-triomphe-4-octobre",
+   "selection": [
+    1,
+    9,
+    14,
+    11,
+    12,
+    8,
+    16,
+    10
+   ],
+   "base": 1,
+   "resultat": "1-7-16-10-9",
+   "arrivee": [
+    [
+     1,
+     "DARYZ"
+    ],
+    [
+     7,
+     "BAY CITY ROLLER"
+    ],
+    [
+     16,
+     "DIAMOND NECKLACE"
+    ],
+    [
+     10,
+     "FRIENDLY SOUL"
+    ],
+    [
+     9,
+     "KALPANA"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": true,
+    "base_wins": true,
+    "selection_in_top5": 4,
+    "top5_in_top5": 2,
+    "exact_order": false,
+    "top5": [
+     1,
+     7,
+     16,
+     10,
+     9
+    ],
+    "winner": 1
+   }
+  },
+  {
+   "date": "2026-10-05",
+   "hippo": "Enghien",
+   "course": "Prix des Buttes Chaumont",
+   "discipline": "Trot Attelé",
+   "dist": "2875m",
+   "slug": "pronostic-quinte-enghien-5-octobre",
+   "selection": [
+    5,
+    8,
+    13,
+    9,
+    12,
+    3,
+    11,
+    1
+   ],
+   "base": 5,
+   "resultat": "3-7-9-13-11",
+   "arrivee": [
+    [
+     3,
+     "OLIVER SCHERMER"
+    ],
+    [
+     7,
+     "LUCIUS DE PUCH"
+    ],
+    [
+     9,
+     "BLACK HEUVELLAND"
+    ],
+    [
+     13,
+     "L'AS DES ISLES"
+    ],
+    [
+     11,
+     "LONGWOOD D'HERIPRE"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": false,
+    "base_wins": false,
+    "selection_in_top5": 4,
+    "top5_in_top5": 2,
+    "exact_order": false,
+    "top5": [
+     3,
+     7,
+     9,
+     13,
+     11
+    ],
+    "winner": 3
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "hippo": "Auteuil",
+   "course": "Prix Guillaume de Pracomtal",
+   "discipline": "Galop Steeple",
+   "dist": "3600m",
+   "slug": "pronostic-quinte-auteuil-6-octobre",
+   "selection": [
+    7,
+    15,
+    3,
+    4,
+    2,
+    9,
+    12,
+    14
+   ],
+   "base": 7,
+   "resultat": "8-2-7-3-15",
+   "arrivee": [
+    [
+     8,
+     "FALCON JET"
+    ],
+    [
+     2,
+     "DINADAME"
+    ],
+    [
+     7,
+     "ROMAN SKIES"
+    ],
+    [
+     3,
+     "MASKINA"
+    ],
+    [
+     15,
+     "OVALIE"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": true,
+    "base_wins": false,
+    "selection_in_top5": 4,
+    "top5_in_top5": 4,
+    "exact_order": false,
+    "top5": [
+     8,
+     2,
+     7,
+     3,
+     15
+    ],
+    "winner": 8
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "hippo": "Enghien",
+   "course": "Prix des Gobelins",
+   "discipline": "Trot Attelé",
+   "dist": "2875m",
+   "slug": "pronostic-quinte-enghien-7-octobre",
+   "selection": [
+    17,
+    16,
+    12,
+    13,
+    15,
+    11,
+    18,
+    14
+   ],
+   "base": 17,
+   "resultat": [
+    16,
+    5,
+    14,
+    13,
+    2
+   ],
+   "arrivee": [
+    16,
+    5,
+    14,
+    13,
+    2
+   ],
+   "metrics": {
+    "top5": [
+     16,
+     5,
+     14,
+     13,
+     2
+    ],
+    "selection_in_top5": 3,
+    "top5_in_top5": 2,
+    "base_in_top5": false,
+    "base_wins": false,
+    "winner": 16,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-08",
+   "hippo": "Saint-Cloud",
+   "course": "Prix de Versailles",
+   "discipline": "Galop Plat",
+   "dist": "2000m",
+   "slug": "pronostic-quinte-saint-cloud-8-octobre",
+   "selection": [
+    5,
+    1,
+    8,
+    9,
+    3,
+    16,
+    11,
+    15
+   ],
+   "base": 5,
+   "resultat": [
+    1,
+    5,
+    8,
+    4,
+    15
+   ],
+   "arrivee": [
+    1,
+    5,
+    8,
+    4,
+    15
+   ],
+   "metrics": {
+    "top5": [
+     1,
+     5,
+     8,
+     4,
+     15
+    ],
+    "selection_in_top5": 4,
+    "top5_in_top5": 3,
+    "base_in_top5": true,
+    "base_wins": false,
+    "winner": 1,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-09",
+   "hippo": "Vincennes",
+   "course": "Prix Héra",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-vincennes-9-octobre",
+   "selection": [
+    10,
+    13,
+    6,
+    14,
+    5,
+    15,
+    2,
+    12
+   ],
+   "base": 10,
+   "resultat": [
+    14,
+    6,
+    15,
+    7,
+    10
+   ],
+   "arrivee": [
+    14,
+    6,
+    15,
+    7,
+    10
+   ],
+   "metrics": {
+    "top5": [
+     14,
+     6,
+     15,
+     7,
+     10
+    ],
+    "selection_in_top5": 4,
+    "top5_in_top5": 3,
+    "base_in_top5": true,
+    "base_wins": false,
+    "winner": 14,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-10",
+   "hippo": "Caen",
+   "course": "Prix de la Ville de Caen",
+   "discipline": "Trot Attelé",
+   "dist": "2450m",
+   "slug": "pronostic-quinte-caen-10-octobre",
+   "selection": [
+    2,
+    18,
+    8,
+    15,
+    10,
+    4,
+    3,
+    11
+   ],
+   "base": 2,
+   "resultat": [
+    9,
+    10,
+    4,
+    3,
+    2
+   ],
+   "arrivee": [
+    9,
+    10,
+    4,
+    3,
+    2
+   ],
+   "metrics": {
+    "top5": [
+     9,
+     10,
+     4,
+     3,
+     2
+    ],
+    "selection_in_top5": 4,
+    "top5_in_top5": 2,
+    "base_in_top5": true,
+    "base_wins": false,
+    "winner": 9,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-11",
+   "hippo": "Auteuil",
+   "course": "Prix Montgomery",
+   "discipline": "Galop Steeple",
+   "dist": "4700m",
+   "slug": "pronostic-quinte-auteuil-11-octobre",
+   "selection": [
+    15,
+    1,
+    16,
+    2,
+    14,
+    6,
+    8,
+    3
+   ],
+   "base": 15,
+   "resultat": [
+    15,
+    2,
+    3,
+    12,
+    1
+   ],
+   "arrivee": [
+    15,
+    2,
+    3,
+    12,
+    1
+   ],
+   "metrics": {
+    "top5": [
+     15,
+     2,
+     3,
+     12,
+     1
+    ],
+    "selection_in_top5": 4,
+    "top5_in_top5": 3,
+    "base_in_top5": true,
+    "base_wins": true,
+    "winner": 15,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-12",
+   "hippo": "Marseille-Borély",
+   "course": "Prix Jacques Rossi",
+   "discipline": "Galop Plat",
+   "dist": "2100m",
+   "slug": "pronostic-quinte-marseille-12-octobre",
+   "selection": [
+    2,
+    4,
+    3,
+    7,
+    11,
+    15,
+    10,
+    1
+   ],
+   "base": 2,
+   "resultat": [
+    2,
+    10,
+    14,
+    11,
+    12
+   ],
+   "arrivee": [
+    2,
+    10,
+    14,
+    11,
+    12
+   ],
+   "metrics": {
+    "top5": [
+     2,
+     10,
+     14,
+     11,
+     12
+    ],
+    "selection_in_top5": 3,
+    "top5_in_top5": 2,
+    "base_in_top5": true,
+    "base_wins": true,
+    "winner": 2,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-13",
+   "hippo": "ParisLongchamp",
+   "course": "Prix de la Galerie des Variétés",
+   "discipline": "Galop Plat",
+   "dist": "1600m",
+   "slug": "pronostic-quinte-longchamp-13-octobre",
+   "selection": [
+    3,
+    14,
+    11,
+    9,
+    7,
+    16,
+    13,
+    15
+   ],
+   "base": 3,
+   "resultat": [
+    9,
+    16,
+    2,
+    14,
+    1
+   ],
+   "arrivee": [
+    9,
+    16,
+    2,
+    14,
+    1
+   ],
+   "metrics": {
+    "top5": [
+     9,
+     16,
+     2,
+     14,
+     1
+    ],
+    "selection_in_top5": 3,
+    "top5_in_top5": 1,
+    "base_in_top5": false,
+    "base_wins": false,
+    "winner": 9,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-14",
+   "hippo": "Reims",
+   "course": "Grand National du Trot",
+   "discipline": "Trot Attelé",
+   "dist": "2550m",
+   "slug": "pronostic-quinte-reims-14-octobre",
+   "selection": [
+    2,
+    10,
+    8,
+    6,
+    9,
+    15,
+    13,
+    12
+   ],
+   "base": 2,
+   "resultat": [
+    10,
+    15,
+    13,
+    5,
+    9
+   ],
+   "arrivee": [
+    10,
+    15,
+    13,
+    5,
+    9
+   ],
+   "metrics": {
+    "top5": [
+     10,
+     15,
+     13,
+     5,
+     9
+    ],
+    "selection_in_top5": 4,
+    "top5_in_top5": 2,
+    "base_in_top5": false,
+    "base_wins": false,
+    "winner": 10,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-15",
+   "hippo": "Chantilly",
+   "course": "Prix de la Vierge de Lorette",
+   "discipline": "Galop Plat",
+   "dist": "1200m",
+   "slug": "pronostic-quinte-chantilly-15-octobre",
+   "selection": [
+    10,
+    1,
+    7,
+    2,
+    9,
+    5,
+    4,
+    11
+   ],
+   "base": 10,
+   "resultat": [
+    12,
+    11,
+    8,
+    9,
+    15
+   ],
+   "arrivee": [
+    12,
+    11,
+    8,
+    9,
+    15
+   ],
+   "metrics": {
+    "top5": [
+     12,
+     11,
+     8,
+     9,
+     15
+    ],
+    "selection_in_top5": 2,
+    "top5_in_top5": 1,
+    "base_in_top5": false,
+    "base_wins": false,
+    "winner": 12,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-16",
+   "hippo": "Vincennes",
+   "course": "Prix Thémis",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-vincennes-16-octobre",
+   "selection": [
+    3,
+    12,
+    4,
+    6,
+    7,
+    11,
+    5,
+    15
+   ],
+   "base": 3,
+   "resultat": "4-11-7-6-13",
+   "arrivee": [
+    [
+     4,
+     "KISS ME AGAIN"
+    ],
+    [
+     11,
+     "READLY LAVEC"
+    ],
+    [
+     7,
+     "KEROSEN DU GERS"
+    ],
+    [
+     6,
+     "DOMENIK JET"
+    ],
+    [
+     13,
+     "COLBERT WF"
+    ]
+   ],
+   "metrics": {
+    "base_in_top5": false,
+    "base_wins": false,
+    "selection_in_top5": 4,
+    "top5_in_top5": 3,
+    "exact_order": false,
+    "top5": [
+     4,
+     11,
+     7,
+     6,
+     13
+    ],
+    "winner": 4
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-17",
+   "hippo": "Auteuil",
+   "course": "Prix Prince d'Ecouen - Grand Handicap d'Automne",
+   "discipline": "Galop Obstacle",
+   "dist": "4300m",
+   "slug": "pronostic-quinte-auteuil-17-octobre",
+   "selection": [
+    2,
+    12,
+    6,
+    11,
+    8,
+    4,
+    5,
+    10
+   ],
+   "base": 2,
+   "resultat": "1-6-4-11-2",
+   "arrivee": [
+    [
+     1,
+     "GOLIATH D'AUNOU"
+    ],
+    [
+     6,
+     "GREY FIGHTER"
+    ],
+    [
+     4,
+     "GARDONS LE SOURIRE"
+    ],
+    [
+     11,
+     "ROBIN HILL"
+    ],
+    [
+     2,
+     "LOQUAS"
+    ]
+   ],
+   "metrics": {
+    "top5": [
+     1,
+     6,
+     4,
+     11,
+     2
+    ],
+    "selection_in_top5": 4,
+    "top5_in_top5": 3,
+    "base_in_top5": true,
+    "base_wins": false,
+    "winner": 1,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-19",
+   "hippo": "Deauville",
+   "course": "Prix de la Forêt de Lyons",
+   "discipline": "Plat PSF",
+   "dist": "1900m",
+   "slug": "pronostic-quinte-deauville-19-octobre",
+   "selection": [
+    2,
+    5,
+    10,
+    1,
+    9,
+    4,
+    13,
+    3
+   ],
+   "base": 2,
+   "resultat": [
+    4,
+    2,
+    6,
+    1,
+    13
+   ],
+   "arrivee": [
+    4,
+    2,
+    6,
+    1,
+    13
+   ],
+   "metrics": {
+    "top5": [
+     4,
+     2,
+     6,
+     1,
+     13
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-22",
+   "hippo": "Auteuil",
+   "course": "Prix André Adèle",
+   "discipline": "Galop Obstacle",
+   "dist": "3600m",
+   "slug": "pronostic-quinte-auteuil-22-octobre",
+   "selection": [
+    13,
+    16,
+    6,
+    15,
+    7,
+    5,
+    9,
+    1
+   ],
+   "base": 13,
+   "resultat": [
+    12,
+    5,
+    9,
+    7,
+    3
+   ],
+   "arrivee": [
+    12,
+    5,
+    9,
+    7,
+    3
+   ],
+   "metrics": {
+    "top5": [
+     12,
+     5,
+     9,
+     7,
+     3
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-23",
+   "hippo": "Paris-Vincennes",
+   "course": "Prix Orionis",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-vincennes-23-octobre",
+   "selection": [
+    15,
+    10,
+    11,
+    7,
+    8,
+    17,
+    13,
+    9
+   ],
+   "base": 15,
+   "resultat": [
+    15,
+    12,
+    6,
+    14,
+    16
+   ],
+   "arrivee": [
+    15,
+    12,
+    6,
+    14,
+    16
+   ],
+   "metrics": {
+    "top5": [
+     15,
+     12,
+     6,
+     14,
+     16
+    ],
+    "selection_in_top5": 1,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-24",
+   "hippo": "Compiègne",
+   "course": "Prix de Beaune",
+   "discipline": "Galop Obstacle",
+   "dist": "3600m",
+   "slug": "pronostic-quinte-compiegne-24-octobre",
+   "selection": [
+    4,
+    7,
+    9,
+    8,
+    2,
+    6,
+    10,
+    1
+   ],
+   "base": 4,
+   "resultat": [
+    9,
+    4,
+    7,
+    13,
+    11
+   ],
+   "arrivee": [
+    9,
+    4,
+    7,
+    13,
+    11
+   ],
+   "metrics": {
+    "top5": [
+     9,
+     4,
+     7,
+     13,
+     11
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-25",
+   "hippo": "Saint-Cloud",
+   "course": "Prix de l'Élevage",
+   "discipline": "Galop Plat",
+   "dist": "2500m",
+   "slug": "pronostic-quinte-saint-cloud-25-octobre",
+   "selection": [
+    2,
+    15,
+    8,
+    13,
+    7,
+    11,
+    9,
+    3
+   ],
+   "base": 2,
+   "resultat": [
+    9,
+    13,
+    10,
+    3,
+    4
+   ],
+   "arrivee": [
+    9,
+    13,
+    10,
+    3,
+    4
+   ],
+   "metrics": {
+    "top5": [
+     9,
+     13,
+     10,
+     3,
+     4
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-26",
+   "hippo": "Chantilly",
+   "course": "Prix de la Route des Princes",
+   "discipline": "Galop PSF",
+   "dist": "1600m",
+   "slug": "pronostic-quinte-chantilly-26-octobre",
+   "selection": [
+    3,
+    13,
+    10,
+    12,
+    6,
+    5,
+    4,
+    7
+   ],
+   "base": 3,
+   "resultat": null,
+   "arrivee": null,
+   "metrics": {
+    "top5": [],
+    "selection_in_top5": 0,
+    "base_in_top5": null,
+    "exact_order": false
+   },
+   "statut": "en_attente"
+  }
+ ]
 }
