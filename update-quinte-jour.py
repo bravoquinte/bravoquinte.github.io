@@ -108,16 +108,27 @@ def build_html_partants(chevaux_list, selection_nums):
         pds = h.get('poids', '-')
         is_base = n == selection_nums[0] if selection_nums else False
         is_sel  = n in selection_nums
-        statut  = '<strong style=\'color:#16a34a;\'>BASE</strong>' if is_base else '&#8212;'
-        td_num  = f"<td style='font-weight:700;color:#15803d'>{n}</td>" if is_base else f"<td>{n}</td>"
-        td_nom  = f"<td style='color:#15803d;font-weight:500'>{nom}</td>" if is_sel else f"<td>{nom}</td>"
+        np      = bool(h.get('non_partant'))
+        if np:
+            statut = '<strong style=\'color:#dc2626;\'>NP</strong>'
+            td_nom = f"<td style='color:#94a3b8;text-decoration:line-through;'>{nom}</td>"
+        else:
+            statut = '<strong style=\'color:#16a34a;\'>BASE</strong>' if is_base else '&#8212;'
+            td_num  = f"<td style='font-weight:700;color:#15803d'>{n}</td>" if is_base else f"<td>{n}</td>"
+            td_nom  = f"<td style='color:#15803d;font-weight:500'>{nom}</td>" if is_sel else f"<td>{nom}</td>"
+        if np:
+            td_num = f"<td style='color:#94a3b8;'>{n}</td>"
         rows.append(f"<tr>{td_num}{td_nom}<td>{drv}</td><td>{ent}</td><td>{pds}</td><td>{statut}</td></tr>")
     return '\n'.join(rows)
 
 # ── construire la section Quinté du jour ───────────────────────────────────────
 
 def build_quinte_section(args, chevaux_list, sel, top5):
-    nb      = len(chevaux_list) if chevaux_list else args.partants
+    nb      = (sum(1 for c in chevaux_list if not c.get('non_partant'))
+               if chevaux_list else args.partants)
+    nps     = [int(c['numero']) for c in chevaux_list if c.get('non_partant')]
+    np_note = (' &#8212; non partant' + ('s' if len(nps) > 1 else '') + ' : '
+               + ', '.join(str(x) for x in nps)) if nps else ''
     sel_str = ' &#8212; '.join(str(n) for n in top5)  # top5 dans le simple
     sel8    = ' &#8212; '.join(str(n) for n in sel)
 
@@ -155,7 +166,7 @@ def build_quinte_section(args, chevaux_list, sel, top5):
 <span style='color:#0f172a;font-weight:500;'>Quinté du jour</span>
 </nav>
 <h2 class='font-display' style='font-size:2rem;color:#0f172a;margin:0 0 .5rem;'>{args.course} &#8212; Quinté+</h2>
-<p style='color:#475569;margin:0 0 2rem;'>{args.hippo} &#8226; {args.discipline} &#8226; {args.dist} &#8226; {args.corde} &#8226; {nb} partants</p>
+<p style='color:#475569;margin:0 0 2rem;'>{args.hippo} &#8226; {args.discipline} &#8226; {args.dist} &#8226; {args.corde} &#8226; {nb} partants{np_note}</p>
 <div class='grid-4' style='margin-bottom:3rem;'>
 <div class='kpi-card'><p class='kpi-label'>Hippodrome</p><p class='kpi-value'>{args.hippo}</p></div>
 <div class='kpi-card'><p class='kpi-label'>Type</p><p class='kpi-value'>{args.discipline}</p></div>
