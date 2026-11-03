@@ -1,0 +1,14 @@
+{
+  "1": {"numero":1,"nom":"Jerenal d'Hameline","driver":"A. Wiels","entraineur":"J.-P. Marmion","musique":"3a2a4a","cote":9.1,"poids":"","corde":1,"age":7,"sexe":"H","valeur":"254760"},
+  "2": {"numero":2,"nom":"Idole de Meat","driver":"F. Guinhut","entraineur":"F. Guinhut","musique":"6a4a7a","cote":35.0,"poids":"","corde":2,"age":8,"sexe":"F","valeur":"254890"},
+  "3": {"numero":3,"nom":"Happy Face","driver":"M. Abrivard","entraineur":"C.-A. Mary","musique":"4a5a3a","cote":18.0,"poids":"","corde":3,"age":9,"sexe":"H","valeur":"264985"},
+  "4": {"numero":4,"nom":"Happy Danover","driver":"J. Travers","entraineur":"S. Provoost","musique":"6a7a8a","cote":24.0,"poids":"","corde":4,"age":9,"sexe":"H","valeur":"266855"},
+  "5": {"numero":5,"nom":"Jane Aimée","driver":"J.-P. Monclin","entraineur":"C. Clin","musique":"0a3a5a","cote":22.0,"poids":"","corde":5,"age":7,"sexe":"F","valeur":"271140"},
+  "6": {"numero":6,"nom":"Jentil Dieschoot","driver":"A. Collette","entraineur":"K. Leblanc","musique":"3a4a2a","cote":6.8,"poids":"","corde":6,"age":7,"sexe":"H","valeur":"277260"},
+  "7": {"numero":7,"nom":"Karnac Wood","driver":"H. Monthulé","entraineur":"S. Guarato","musique":"2a3a1a","cote":3.5,"poids":"","corde":7,"age":6,"sexe":"M","valeur":"289206"},
+  "8": {"numero":8,"nom":"Quelle Beauté","driver":"A. Abrivard","entraineur":"L.-C. Abrivard","musique":"3a0a4a","cote":8.6,"poids":"","corde":8,"age":6,"sexe":"F","valeur":"290780"},
+  "9": {"numero":9,"nom":"Harmony la Nuit","driver":"E. Raffin","entraineur":"S. Bourlier","musique":"2a5a1a","cote":7.4,"poids":"","corde":9,"age":9,"sexe":"F","valeur":"294655"},
+  "10": {"numero":10,"nom":"Je Rêve du Bois","driver":"A. Barrier","entraineur":"C.-M. Bruneau","musique":"5a3a2a","cote":12.5,"poids":"","corde":10,"age":7,"sexe":"H","valeur":"419565"},
+  "11": {"numero":11,"nom":"Horatius d'Ela","driver":"B. Rochard","entraineur":"M. Sassier","musique":"6a4a3a","cote":14.2,"poids":"","corde":11,"age":9,"sexe":"M","valeur":"487855"},
+  "12": {"numero":12,"nom":"Ibiscus Man","driver":"M. Mottier","entraineur":"R.-C. Larue","musique":"1a2a3a","cote":5.2,"poids":"","corde":12,"age":8,"sexe":"H","valeur":"519990"}
+}
