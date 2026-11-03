@@ -82,19 +82,8 @@ tr:hover td{background:#f0fdf4}
 .breadcrumb{display:flex;gap:.5rem;align-items:center;font-size:.875rem;color:var(--gray);margin-bottom:1.5rem}
 .breadcrumb a{color:var(--gray);cursor:pointer}
 .page{display:none;animation:fadeIn .4s ease-out}.page.active{display:block}
-section[data-page-id] { display: none; }
-section[data-page-id].active { display: block; }
-section[data-page-id='accueil'].active { display: block; }
-@media(max-width:768px){
-section[data-page-id='accueil'].active,
-section[data-page-id='quinte-du-jour'].active,
-section[data-page-id='resultats'].active,
-section[data-page-id='blog'].active,
-section[data-page-id='archives'].active,
-section[data-page-id='a-propos'].active,
-section[data-page-id='contact'].active { display: block; }
-section[data-page-id]:not(.active) { display: none; }
-}
+section[data-page-id] { display: none !important; }
+section[data-page-id].active { display: block !important; }
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 .site-header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);height:var(--nav-height)}
 .main-nav{display:flex;align-items:center;justify-content:space-between;height:100%;max-width:1280px;margin:0 auto;padding:0 1rem}
