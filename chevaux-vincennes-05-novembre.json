@@ -1,0 +1,20 @@
+{
+  "1": {"numero":1,"nom":"Kotkie","driver":"P.-P. Ploquin","entraineur":"J.-R. Delliaux","musique":"4a2a5a","cote":11.0,"poids":"","corde":1,"age":6,"sexe":"F","valeur":"239870"},
+  "2": {"numero":2,"nom":"Isis d'Herfraie","driver":"D. Thomain","entraineur":"C. Thomain","musique":"6a4a3a","cote":15.0,"poids":"","corde":2,"age":8,"sexe":"F","valeur":"236080"},
+  "3": {"numero":3,"nom":"Mateo di Quattro","driver":"B. Goop","entraineur":"B. Goop","musique":"2a1a0a","cote":9.5,"poids":"","corde":3,"age":7,"sexe":"M","valeur":"228130"},
+  "4": {"numero":4,"nom":"Joker des Chaliers","driver":"G. Gelormini","entraineur":"A. Chavatte","musique":"1a1a2a","cote":3.8,"poids":"","corde":4,"age":7,"sexe":"H","valeur":"239930"},
+  "5": {"numero":5,"nom":"Every Time Winner","driver":"E. Raffin","entraineur":"H. E. Bondo","musique":"2a4a1a","cote":4.2,"poids":"","corde":5,"age":6,"sexe":"H","valeur":"223588"},
+  "6": {"numero":6,"nom":"Humanity Pellini","driver":"D. Békaert","entraineur":"C. Eriksson","musique":"1a3a2a","cote":7.6,"poids":"","corde":6,"age":7,"sexe":"H","valeur":"235546"},
+  "7": {"numero":7,"nom":"Jusséo","driver":"J. Raffestin","entraineur":"J. Raffestin","musique":"5a6a3a","cote":18.0,"poids":"","corde":7,"age":7,"sexe":"H","valeur":"226680"},
+  "8": {"numero":8,"nom":"Hinden","driver":"A. Barrier","entraineur":"P.-J. Cordeau","musique":"5a8a6a","cote":22.0,"poids":"","corde":8,"age":9,"sexe":"M","valeur":"235670"},
+  "9": {"numero":9,"nom":"Ready Star","driver":"M. E. Djuse","entraineur":"J. Westholm","musique":"1a1a3a","cote":5.4,"poids":"","corde":9,"age":7,"sexe":"M","valeur":"238198"},
+  "10": {"numero":10,"nom":"Die Hard","driver":"T. Duvaldestin","entraineur":"P.-L. Desaunette","musique":"0a3a5a","cote":28.0,"poids":"","corde":10,"age":7,"sexe":"M","valeur":"168842"},
+  "11": {"numero":11,"nom":"Kira Bo Face","driver":"M. Brouwer","entraineur":"D. Brouwer","musique":"1a4a2a","cote":13.0,"poids":"","corde":11,"age":6,"sexe":"F","valeur":"177030"},
+  "12": {"numero":12,"nom":"Kaxig In","driver":"A. Collette","entraineur":"D. Persson","musique":"3a2a4a","cote":16.5,"poids":"","corde":12,"age":7,"sexe":"H","valeur":"198092"},
+  "13": {"numero":13,"nom":"Instinct d'Authise","driver":"L. Laudren","entraineur":"L. Laudren","musique":"7a8a6a","cote":45.0,"poids":"","corde":13,"age":8,"sexe":"H","valeur":"142580"},
+  "14": {"numero":14,"nom":"Knockonwood","driver":"R. Lamy","entraineur":"R.-C. Larue","musique":"1a5a3a","cote":19.0,"poids":"","corde":14,"age":6,"sexe":"M","valeur":"219880"},
+  "15": {"numero":15,"nom":"Competivo","driver":"B. Rochard","entraineur":"D. Wäjersten","musique":"2a1a4a","cote":6.2,"poids":"","corde":15,"age":6,"sexe":"H","valeur":"218033"},
+  "16": {"numero":16,"nom":"Zoom Diamant","driver":"M. Abrivard","entraineur":"P. Hagoort","musique":"2a3a5a","cote":8.8,"poids":"","corde":16,"age":6,"sexe":"H","valeur":"211234"},
+  "17": {"numero":17,"nom":"Niagara River","driver":"D. Brouwer","entraineur":"D. Brouwer","musique":"5a4a6a","cote":31.0,"poids":"","corde":17,"age":6,"sexe":"F","valeur":"203092"},
+  "18": {"numero":18,"nom":"Junkie","driver":"C. Frecelle","entraineur":"P. Levesque","musique":"8a7a9a","cote":42.0,"poids":"","corde":18,"age":7,"sexe":"F","valeur":"185931"}
+}
