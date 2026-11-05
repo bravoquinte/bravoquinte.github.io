@@ -1,0 +1,20 @@
+{
+  "1": {"numero":1,"nom":"Hisco de Parniere","driver":"Y. Lebourgeois","entraineur":"Y. Lebourgeois","musique":"7a0a8a","cote":35.0,"poids":"","corde":1,"age":8,"sexe":"H","valeur":"172400"},
+  "2": {"numero":2,"nom":"Indy de Mai","driver":"A. Barrier","entraineur":"S. Guarato","musique":"3a2a4a","cote":15.0,"poids":"","corde":2,"age":9,"sexe":"H","valeur":"171300"},
+  "3": {"numero":3,"nom":"Ivon de la Monerie","driver":"F. Ouvrie","entraineur":"J.-M. Bazire","musique":"4a5a3a","cote":38.0,"poids":"","corde":3,"age":9,"sexe":"H","valeur":"168900"},
+  "4": {"numero":4,"nom":"Isea du Quenne","driver":"D. Bonne","entraineur":"T. Levesque","musique":"2a1a3a","cote":18.0,"poids":"","corde":4,"age":8,"sexe":"F","valeur":"165200"},
+  "5": {"numero":5,"nom":"Hanugan","driver":"A. Lamy","entraineur":"J.-L. Dersoir","musique":"0a0a9a","cote":50.0,"poids":"","corde":5,"age":9,"sexe":"H","valeur":"158400"},
+  "6": {"numero":6,"nom":"Horse de Grammont","driver":"E. Raffin","entraineur":"P. Allaire","musique":"6a3a2a","cote":7.8,"poids":"","corde":6,"age":8,"sexe":"H","valeur":"174600"},
+  "7": {"numero":7,"nom":"Italica","driver":"M. Abrivard","entraineur":"L.-C. Abrivard","musique":"2a1a1a","cote":4.5,"poids":"","corde":7,"age":8,"sexe":"F","valeur":"174100"},
+  "8": {"numero":8,"nom":"Issi Top","driver":"F. Nivard","entraineur":"S. Roger","musique":"1a4a3a","cote":13.0,"poids":"","corde":8,"age":8,"sexe":"H","valeur":"166800"},
+  "9": {"numero":9,"nom":"Iris du Livier","driver":"M. Abrivard","entraineur":"S. Guarato","musique":"3a2a5a","cote":9.2,"poids":"","corde":9,"age":8,"sexe":"F","valeur":"169500"},
+  "10": {"numero":10,"nom":"Heaven d'Ecajeul","driver":"G. Gelormini","entraineur":"J.-M. Bazire","musique":"5a4a6a","cote":20.0,"poids":"","corde":10,"age":9,"sexe":"H","valeur":"162700"},
+  "11": {"numero":11,"nom":"Galopin de Conde","driver":"C. Martens","entraineur":"P. Allaire","musique":"0a0a7a","cote":45.0,"poids":"","corde":11,"age":10,"sexe":"H","valeur":"155900"},
+  "12": {"numero":12,"nom":"Incredible Go","driver":"A. Abrivard","entraineur":"L.-C. Abrivard","musique":"6a3a4a","cote":28.0,"poids":"","corde":12,"age":8,"sexe":"H","valeur":"163100"},
+  "13": {"numero":13,"nom":"Hanack de Vivoin","driver":"E. de Jesus","entraineur":"P. Le Blay","musique":"8a7a9a","cote":42.0,"poids":"","corde":13,"age":9,"sexe":"H","valeur":"160500"},
+  "14": {"numero":14,"nom":"Igliano des Iris","driver":"F. Lecanu","entraineur":"S. Lemonnier","musique":"3a2a3a","cote":32.0,"poids":"","corde":14,"age":8,"sexe":"H","valeur":"157800"},
+  "15": {"numero":15,"nom":"Ici Paris Efji","driver":"T. Le Beller","entraineur":"T. Duvaldestin","musique":"4a2a5a","cote":24.0,"poids":"","corde":15,"age":8,"sexe":"M","valeur":"164400"},
+  "16": {"numero":16,"nom":"Horseris","driver":"D. Thomain","entraineur":"C. Thomain","musique":"5a6a4a","cote":26.0,"poids":"","corde":16,"age":8,"sexe":"H","valeur":"161900"},
+  "17": {"numero":17,"nom":"Hotesse Nay","driver":"A. Abrivard","entraineur":"J.-P. Dubois","musique":"1a3a2a","cote":11.5,"poids":"","corde":17,"age":8,"sexe":"F","valeur":"173600"},
+  "18": {"numero":18,"nom":"Izijal","driver":"D. Thomain","entraineur":"S. Guarato","musique":"2a1a3a","cote":6.5,"poids":"","corde":18,"age":9,"sexe":"H","valeur":"174900"}
+}
