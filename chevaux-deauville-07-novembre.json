@@ -1,0 +1,18 @@
+{
+  "1": {"numero":1,"nom":"Zeloro","driver":"M. Guyon","entraineur":"Ecurie Brandt","musique":"2a3a1a","cote":5.5,"poids":"60","corde":11,"age":5,"sexe":"H","valeur":""},
+  "2": {"numero":2,"nom":"Quiet King","driver":"T. Bachelot","entraineur":"S. Wattel","musique":"1a4a2a","cote":9.0,"poids":"58.5","corde":15,"age":5,"sexe":"H","valeur":""},
+  "3": {"numero":3,"nom":"Human Evolution","driver":"A. Werle","entraineur":"H.-A. Pantall","musique":"1a5a3a","cote":14.0,"poids":"58","corde":5,"age":5,"sexe":"M","valeur":""},
+  "4": {"numero":4,"nom":"Al Max","driver":"A. Lemaitre","entraineur":"P. Decouz","musique":"7a2a4a","cote":8.0,"poids":"57.5","corde":4,"age":4,"sexe":"H","valeur":""},
+  "5": {"numero":5,"nom":"Opalus Road","driver":"M. Berto","entraineur":"J.-M. Beguigne","musique":"8a6a0a","cote":30.0,"poids":"57","corde":16,"age":7,"sexe":"H","valeur":""},
+  "6": {"numero":6,"nom":"Piquoiseau","driver":"S. Pasquier","entraineur":"D. Artu","musique":"6a3a5a","cote":22.0,"poids":"56.5","corde":1,"age":6,"sexe":"H","valeur":""},
+  "7": {"numero":7,"nom":"Fearless Cheetah","driver":"J. Claudic","entraineur":"Mme Bresson","musique":"5a2a3a","cote":11.0,"poids":"56.5","corde":8,"age":6,"sexe":"F","valeur":""},
+  "8": {"numero":8,"nom":"Wedgewood Pearl","driver":"A. Molins","entraineur":"P. de Chevigny","musique":"9a1a4a","cote":26.0,"poids":"56","corde":13,"age":5,"sexe":"F","valeur":""},
+  "9": {"numero":9,"nom":"East Grey","driver":"A. Lemaitre","entraineur":"E. Libaud","musique":"6a7a5a","cote":32.0,"poids":"56","corde":3,"age":4,"sexe":"F","valeur":""},
+  "10": {"numero":10,"nom":"Allurre","driver":"A. Madamet","entraineur":"M. Cesandri","musique":"9a4a6a","cote":28.0,"poids":"55.5","corde":2,"age":7,"sexe":"F","valeur":""},
+  "11": {"numero":11,"nom":"Ciccio Boy","driver":"M. Justum","entraineur":"M. Justum","musique":"6a5a4a","cote":24.0,"poids":"55.5","corde":9,"age":8,"sexe":"M","valeur":""},
+  "12": {"numero":12,"nom":"Almaromy","driver":"A. Crastus","entraineur":"D. Bonilla","musique":"2a1a3a","cote":15.0,"poids":"55","corde":14,"age":4,"sexe":"F","valeur":""},
+  "13": {"numero":13,"nom":"Hermes Wood","driver":"E. Hardouin","entraineur":"C. Fey","musique":"1a2a4a","cote":7.0,"poids":"55","corde":7,"age":4,"sexe":"H","valeur":""},
+  "14": {"numero":14,"nom":"Her Christopher","driver":"D. Provost","entraineur":"M. Cesandri","musique":"1a1a3a","cote":12.0,"poids":"54.5","corde":10,"age":5,"sexe":"H","valeur":""},
+  "15": {"numero":15,"nom":"Lavendin","driver":"H. Lebouc","entraineur":"A. Fouassier","musique":"3a3a7a","cote":17.0,"poids":"54.5","corde":6,"age":5,"sexe":"H","valeur":""},
+  "16": {"numero":16,"nom":"Speedy Green","driver":"C. Grosbois","entraineur":"D. Bonilla","musique":"1a1a3a","cote":4.2,"poids":"54","corde":12,"age":4,"sexe":"H","valeur":""}
+}
