@@ -1,0 +1,17 @@
+{
+  "1": {"numero":1,"nom":"Don't Shut Me Down","driver":"M. Guyon","entraineur":"P. et J. Brandt","musique":"6a1a3a","cote":8.0,"poids":"61","corde":1,"age":4,"sexe":"H","valeur":""},
+  "2": {"numero":2,"nom":"Homo Deus","driver":"P.-C. Boudot","entraineur":"H. Ghabri","musique":"0a5a4a","cote":26.0,"poids":"59.5","corde":2,"age":8,"sexe":"H","valeur":""},
+  "3": {"numero":3,"nom":"Black Saxon","driver":"A. Madamet","entraineur":"N. Bellanger","musique":"5a4a1a","cote":22.0,"poids":"58.5","corde":3,"age":5,"sexe":"H","valeur":""},
+  "4": {"numero":4,"nom":"Mister Gatz","driver":"S. Pasquier","entraineur":"S. Nigge","musique":"8a1a3a","cote":14.0,"poids":"58","corde":4,"age":5,"sexe":"H","valeur":""},
+  "5": {"numero":5,"nom":"A Beauregard","driver":"D. Provost","entraineur":"M. Cesandri","musique":"2a1a4a","cote":5.5,"poids":"57.5","corde":5,"age":5,"sexe":"H","valeur":""},
+  "6": {"numero":6,"nom":"Mon Ricin","driver":"A. Lemaitre","entraineur":"T. Donworth","musique":"7a8a1a","cote":18.0,"poids":"56.5","corde":6,"age":7,"sexe":"H","valeur":""},
+  "7": {"numero":7,"nom":"Orageux","driver":"M. Barzalona","entraineur":"J. Reynier","musique":"1a1a1a","cote":4.5,"poids":"56","corde":7,"age":4,"sexe":"H","valeur":""},
+  "8": {"numero":8,"nom":"Ram Sea","driver":"L.-P. Brechet","entraineur":"D. Mele","musique":"3a1a2a","cote":9.0,"poids":"55.5","corde":8,"age":4,"sexe":"H","valeur":""},
+  "9": {"numero":9,"nom":"Paolino","driver":"A. Hamelin","entraineur":"D. et P. Prod'homme","musique":"6a7a5a","cote":30.0,"poids":"55","corde":9,"age":4,"sexe":"H","valeur":""},
+  "10": {"numero":10,"nom":"Dark Rockster","driver":"C. Lecoeuvre","entraineur":"S. Wattel","musique":"6a1a4a","cote":20.0,"poids":"54.5","corde":10,"age":4,"sexe":"H","valeur":""},
+  "11": {"numero":11,"nom":"Dempy","driver":"C. Soumillon","entraineur":"D. Bonilla","musique":"4a2a3a","cote":7.0,"poids":"54","corde":11,"age":5,"sexe":"H","valeur":""},
+  "12": {"numero":12,"nom":"Lucio Vero","driver":"A. Mekouche","entraineur":"R. Avial Lopez","musique":"1a1a1a","cote":16.0,"poids":"53.5","corde":12,"age":6,"sexe":"H","valeur":""},
+  "13": {"numero":13,"nom":"Garvey","driver":"E. Hardouin","entraineur":"E. Mader","musique":"3a2a3a","cote":24.0,"poids":"53","corde":13,"age":5,"sexe":"M","valeur":""},
+  "14": {"numero":14,"nom":"Zarflight","driver":"F. Veron","entraineur":"G. Leenders","musique":"5a3a4a","cote":13.0,"poids":"52","corde":14,"age":6,"sexe":"H","valeur":""},
+  "15": {"numero":15,"nom":"Good To See You","driver":"A. Crastus","entraineur":"A. Wattel","musique":"2a4a6a","cote":21.0,"poids":"51","corde":15,"age":4,"sexe":"H","valeur":""}
+}
