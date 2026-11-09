@@ -1,0 +1,18 @@
+{
+  "1": {"numero":1,"nom":"Lesslepasser","driver":"P.-C. Boudot","entraineur":"S. Lanslots","musique":"3a5a2a","cote":14.0,"poids":"61.5","corde":1,"age":7,"sexe":"H","valeur":""},
+  "2": {"numero":2,"nom":"Interactiv","driver":"M. Grandin","entraineur":"A. Karkosa","musique":"1a4a6a","cote":16.0,"poids":"60.5","corde":2,"age":4,"sexe":"H","valeur":""},
+  "3": {"numero":3,"nom":"Grand Scoop","driver":"E. Hardouin","entraineur":"G. Mosse","musique":"1a3a4a","cote":8.0,"poids":"58","corde":3,"age":5,"sexe":"H","valeur":""},
+  "4": {"numero":4,"nom":"Mister Chang","driver":"H. Journiac","entraineur":"Y. Barberot","musique":"2a1a7a","cote":12.0,"poids":"57.5","corde":4,"age":4,"sexe":"H","valeur":""},
+  "5": {"numero":5,"nom":"Marbellesa","driver":"C. Soumillon","entraineur":"M. Delcher Sanchez","musique":"1a1a3a","cote":4.8,"poids":"57.5","corde":5,"age":3,"sexe":"F","valeur":""},
+  "6": {"numero":6,"nom":"Waziers","driver":"R. Thomas","entraineur":"F. Foresi","musique":"1a1a4a","cote":9.0,"poids":"57","corde":6,"age":6,"sexe":"F","valeur":""},
+  "7": {"numero":7,"nom":"Prince Aubois","driver":"T. Trullier","entraineur":"S. Penot","musique":"1a3a2a","cote":7.0,"poids":"56.5","corde":7,"age":4,"sexe":"H","valeur":""},
+  "8": {"numero":8,"nom":"Khalinskha","driver":"A. Orani","entraineur":"J. Reynier","musique":"1a2a3a","cote":8.5,"poids":"56.5","corde":8,"age":3,"sexe":"F","valeur":""},
+  "9": {"numero":9,"nom":"Schuman","driver":"A. Madamet","entraineur":"F. Monnier","musique":"2a3a2a","cote":6.5,"poids":"55.5","corde":9,"age":4,"sexe":"M","valeur":""},
+  "10": {"numero":10,"nom":"Laith","driver":"A. Lemaitre","entraineur":"J. Reynier","musique":"1a2a1a","cote":11.0,"poids":"55.5","corde":10,"age":4,"sexe":"M","valeur":""},
+  "11": {"numero":11,"nom":"Royalwood","driver":"F. Valle Skar","entraineur":"C. Barande Barbe","musique":"4a1a6a","cote":18.0,"poids":"55","corde":11,"age":6,"sexe":"F","valeur":""},
+  "12": {"numero":12,"nom":"Mataki","driver":"M. Guyon","entraineur":"V. Dissaux","musique":"6a3a5a","cote":19.0,"poids":"54.5","corde":12,"age":3,"sexe":"M","valeur":""},
+  "13": {"numero":13,"nom":"Zahara","driver":"A. Hamelin","entraineur":"M. Delcher Sanchez","musique":"2a4a5a","cote":15.0,"poids":"53.5","corde":13,"age":3,"sexe":"F","valeur":""},
+  "14": {"numero":14,"nom":"Alparslan","driver":"A. Crastus","entraineur":"J.-P. Carvalho","musique":"1a3a1a","cote":9.5,"poids":"53.5","corde":14,"age":4,"sexe":"H","valeur":""},
+  "15": {"numero":15,"nom":"Paintello","driver":"P. Remoue","entraineur":"A. Budka","musique":"8a7a5a","cote":30.0,"poids":"53","corde":15,"age":5,"sexe":"H","valeur":""},
+  "16": {"numero":16,"nom":"Fata Morgana","driver":"J. Claudic","entraineur":"F. Bresson","musique":"2a9a3a","cote":21.0,"poids":"53","corde":16,"age":3,"sexe":"F","valeur":""}
+}
