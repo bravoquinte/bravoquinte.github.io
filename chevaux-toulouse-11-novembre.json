@@ -1,0 +1,18 @@
+{
+  "1": {"numero":1,"nom":"Agador","driver":"M. Forest","entraineur":"J. Resimont","musique":"1a3a1a","cote":5.5,"poids":"60","corde":1,"age":7,"sexe":"M","valeur":""},
+  "2": {"numero":2,"nom":"Poca Gen","driver":"T. Piccone","entraineur":"C. Herisson de Beauvoir","musique":"3a2a4a","cote":17.0,"poids":"59","corde":2,"age":7,"sexe":"H","valeur":""},
+  "3": {"numero":3,"nom":"Spanish Breeze Cen","driver":"A. Lemaitre","entraineur":"P. Olave Valdivielso","musique":"4a5a3a","cote":7.5,"poids":"59","corde":3,"age":4,"sexe":"M","valeur":""},
+  "4": {"numero":4,"nom":"Sharp Rise","driver":"A. Gavilan","entraineur":"S. Audoy","musique":"1a1a1a","cote":14.0,"poids":"58","corde":4,"age":6,"sexe":"H","valeur":""},
+  "5": {"numero":5,"nom":"Xilofono","driver":"V. Janacek","entraineur":"G. Arizkorreta Elosegui","musique":"1a2a4a","cote":8.0,"poids":"58","corde":5,"age":5,"sexe":"H","valeur":""},
+  "6": {"numero":6,"nom":"Nolito","driver":"G. Guedj-Gay","entraineur":"S. Gavilan","musique":"2a8a5a","cote":22.0,"poids":"57","corde":6,"age":6,"sexe":"H","valeur":""},
+  "7": {"numero":7,"nom":"Sigtuna","driver":"H. Mouesan","entraineur":"D. de Watrigant","musique":"3a2a5a","cote":10.0,"poids":"56.5","corde":7,"age":4,"sexe":"H","valeur":""},
+  "8": {"numero":8,"nom":"Lohengreen","driver":"M. Grandin","entraineur":"C. Escuder","musique":"4a3a6a","cote":19.0,"poids":"56","corde":8,"age":3,"sexe":"M","valeur":""},
+  "9": {"numero":9,"nom":"Zilya","driver":"D. Provost","entraineur":"M. Cesandri","musique":"1a6a3a","cote":13.0,"poids":"56","corde":9,"age":7,"sexe":"F","valeur":""},
+  "10": {"numero":10,"nom":"Britania","driver":"I. Mendizabal","entraineur":"F. Rohaut","musique":"3a2a3a","cote":4.2,"poids":"56","corde":10,"age":4,"sexe":"F","valeur":""},
+  "11": {"numero":11,"nom":"King Trezy","driver":"R. Thomas","entraineur":"C. et Y. Lerner","musique":"2a3a5a","cote":6.0,"poids":"56","corde":11,"age":5,"sexe":"H","valeur":""},
+  "12": {"numero":12,"nom":"Gold Player","driver":"A. Crastus","entraineur":"F. Foresi","musique":"3a7a6a","cote":18.0,"poids":"55.5","corde":12,"age":7,"sexe":"H","valeur":""},
+  "13": {"numero":13,"nom":"Black Ultra","driver":"A. Werle","entraineur":"O. Trigodet","musique":"1a5a4a","cote":16.0,"poids":"55.5","corde":13,"age":4,"sexe":"M","valeur":""},
+  "14": {"numero":14,"nom":"Georges Ville","driver":"R. Dubord","entraineur":"A. J. Baptista Ribeiro De Abreu","musique":"3a2a4a","cote":20.0,"poids":"55.5","corde":14,"age":5,"sexe":"H","valeur":""},
+  "15": {"numero":15,"nom":"Spanish Light","driver":"M. Foulon","entraineur":"R.-C. Montenegro","musique":"2a4a3a","cote":26.0,"poids":"50","corde":15,"age":6,"sexe":"H","valeur":""},
+  "16": {"numero":16,"nom":"Swiss Money","driver":"A. Merou","entraineur":"A.-L. Guildoux","musique":"5a7a8a","cote":30.0,"poids":"54.5","corde":16,"age":6,"sexe":"H","valeur":""}
+}
