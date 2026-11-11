@@ -1,0 +1,18 @@
+{
+  "1": {"numero":1,"nom":"Lombok Jiel","driver":"P.-Y. Verva","entraineur":"J.-L. Dersoir","musique":"1a3a5a","cote":9.5,"poids":"","corde":1,"age":5,"sexe":"M","valeur":"168400"},
+  "2": {"numero":2,"nom":"Frank Gio","driver":"M. Abrivard","entraineur":"S. Guarato","musique":"1a2a1a","cote":2.9,"poids":"","corde":2,"age":5,"sexe":"M","valeur":"192700"},
+  "3": {"numero":3,"nom":"Lionheart","driver":"N. Bazire","entraineur":"N. Bazire","musique":"4a6a4a","cote":14.0,"poids":"","corde":3,"age":5,"sexe":"M","valeur":"171300"},
+  "4": {"numero":4,"nom":"Magic Night","driver":"B. Rochard","entraineur":"P. Allaire","musique":"3a0a3a","cote":16.0,"poids":"","corde":4,"age":4,"sexe":"F","valeur":"158900"},
+  "5": {"numero":5,"nom":"Falco Killer Gar","driver":"C. Duvaldestin","entraineur":"T. Duvaldestin","musique":"2a3a1a","cote":6.5,"poids":"","corde":5,"age":5,"sexe":"M","valeur":"181600"},
+  "6": {"numero":6,"nom":"Liza Josselyn","driver":"J.-M. Bazire","entraineur":"N. Bazire","musique":"9a1a2a","cote":5.2,"poids":"","corde":6,"age":5,"sexe":"F","valeur":"196500"},
+  "7": {"numero":7,"nom":"Maitre Jacques","driver":"L. Abrivard","entraineur":"L.-C. Abrivard","musique":"2a4a3a","cote":18.0,"poids":"","corde":7,"age":4,"sexe":"M","valeur":"154200"},
+  "8": {"numero":8,"nom":"Bullet The Bluesky","driver":"D. Wajersten","entraineur":"D. Wajersten","musique":"1a1a2a","cote":7.5,"poids":"","corde":8,"age":5,"sexe":"M","valeur":"176800"},
+  "9": {"numero":9,"nom":"L'As Desbois","driver":"W. Bigeon","entraineur":"W. Bigeon","musique":"3a4a2a","cote":24.0,"poids":"","corde":9,"age":5,"sexe":"M","valeur":"162400"},
+  "10": {"numero":10,"nom":"Lancier du Goutier","driver":"T. Duvaldestin","entraineur":"T. Duvaldestin","musique":"0a0a0a","cote":11.0,"poids":"","corde":10,"age":5,"sexe":"M","valeur":"188100"},
+  "11": {"numero":11,"nom":"Liberte de Choisel","driver":"A. Barrier","entraineur":"S. G. Dupont","musique":"5a2a1a","cote":34.0,"poids":"","corde":11,"age":5,"sexe":"F","valeur":"151700"},
+  "12": {"numero":12,"nom":"Lord du Bassin","driver":"A. Abrivard","entraineur":"L.-C. Abrivard","musique":"2a1a3a","cote":13.0,"poids":"","corde":12,"age":5,"sexe":"M","valeur":"179500"},
+  "13": {"numero":13,"nom":"Madrid Haufor","driver":"D. Bonne","entraineur":"C. Bigeon","musique":"3a0a2a","cote":26.0,"poids":"","corde":13,"age":4,"sexe":"F","valeur":"149300"},
+  "14": {"numero":14,"nom":"Koogoo Gaagaa","driver":"R. Congard","entraineur":"R. Congard","musique":"4a5a3a","cote":45.0,"poids":"","corde":14,"age":5,"sexe":"M","valeur":"138600"},
+  "15": {"numero":15,"nom":"Mila des Couperies","driver":"L.-C. Abrivard","entraineur":"L.-C. Abrivard","musique":"6a3a4a","cote":38.0,"poids":"","corde":15,"age":4,"sexe":"F","valeur":"142800"},
+  "16": {"numero":16,"nom":"L'Ecrin d'Or","driver":"A. Rebeche","entraineur":"A. Rebeche","musique":"4a6a0a","cote":55.0,"poids":"","corde":16,"age":5,"sexe":"M","valeur":"131200"}
+}
