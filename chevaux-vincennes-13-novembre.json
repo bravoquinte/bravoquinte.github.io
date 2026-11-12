@@ -1,0 +1,20 @@
+{
+  "1": {"numero":1,"nom":"Kaiser Des Granges","driver":"P.-P. Ploquin","entraineur":"C. Nicole","musique":"5a7a3a","cote":20.0,"poids":"","corde":1,"age":6,"sexe":"H","valeur":"164200"},
+  "2": {"numero":2,"nom":"Katia Dhelpa","driver":"B. Rochard","entraineur":"C. Buhigne","musique":"2a4a1a","cote":8.5,"poids":"","corde":2,"age":6,"sexe":"F","valeur":"178600"},
+  "3": {"numero":3,"nom":"Kazy Merite","driver":"A. Collette","entraineur":"A. Buisson","musique":"6a5a4a","cote":45.0,"poids":"","corde":3,"age":6,"sexe":"H","valeur":"139800"},
+  "4": {"numero":4,"nom":"Kingston De Blary","driver":"D. Thomain","entraineur":"C. Thomain","musique":"1a3a2a","cote":14.0,"poids":"","corde":4,"age":6,"sexe":"H","valeur":"171500"},
+  "5": {"numero":5,"nom":"King Look","driver":"T. Duvaldestin","entraineur":"T. Duvaldestin","musique":"3a2a1a","cote":4.8,"poids":"","corde":5,"age":6,"sexe":"H","valeur":"196400"},
+  "6": {"numero":6,"nom":"Eminent Kronos","driver":"J. Untersteiner","entraineur":"J. Untersteiner","musique":"1a1a0a","cote":6.5,"poids":"","corde":6,"age":6,"sexe":"M","valeur":"189700"},
+  "7": {"numero":7,"nom":"Kelly Jane","driver":"J. Dubois","entraineur":"J. Dubois","musique":"1a4a3a","cote":16.0,"poids":"","corde":7,"age":6,"sexe":"F","valeur":"173300"},
+  "8": {"numero":8,"nom":"Savastano","driver":"F. Nivard","entraineur":"A. Kolgjini","musique":"1a1a2a","cote":4.0,"poids":"","corde":8,"age":6,"sexe":"H","valeur":"201800"},
+  "9": {"numero":9,"nom":"Kool And The Gang","driver":"N. Bazire","entraineur":"V. Martens","musique":"1a0a0a","cote":40.0,"poids":"","corde":9,"age":6,"sexe":"M","valeur":"182600"},
+  "10": {"numero":10,"nom":"Khartoum De La Fye","driver":"M. Ionascu","entraineur":"R. Derieux","musique":"0a0a5a","cote":35.0,"poids":"","corde":10,"age":6,"sexe":"H","valeur":"158900"},
+  "11": {"numero":11,"nom":"I Can Win Gardenia","driver":"P.-Y. Verva","entraineur":"J. Lorentzen","musique":"3a5a4a","cote":30.0,"poids":"","corde":11,"age":6,"sexe":"H","valeur":"167700"},
+  "12": {"numero":12,"nom":"Quintus Tooma","driver":"A. Andre","entraineur":"V. Ciotola","musique":"4a6a3a","cote":34.0,"poids":"","corde":12,"age":6,"sexe":"H","valeur":"152400"},
+  "13": {"numero":13,"nom":"Cosmea","driver":"M. Abrivard","entraineur":"W. Nimczyk","musique":"2a3a2a","cote":12.0,"poids":"","corde":13,"age":6,"sexe":"F","valeur":"176900"},
+  "14": {"numero":14,"nom":"Koquery Du Buisson","driver":"R. Lamy","entraineur":"T. Raffegeau","musique":"3a5a6a","cote":22.0,"poids":"","corde":14,"age":6,"sexe":"H","valeur":"169100"},
+  "15": {"numero":15,"nom":"Jubii Vang","driver":"G. Gelormini","entraineur":"C. Eriksson","musique":"5a3a4a","cote":26.0,"poids":"","corde":15,"age":6,"sexe":"H","valeur":"161200"},
+  "16": {"numero":16,"nom":"No Talking You","driver":"F. Ouvrie","entraineur":"L. Charbonnel","musique":"6a4a5a","cote":38.0,"poids":"","corde":16,"age":6,"sexe":"H","valeur":"148300"},
+  "17": {"numero":17,"nom":"Eleonora Grif","driver":"M. Mottier","entraineur":"M. Mottier","musique":"1a2a1a","cote":9.5,"poids":"","corde":17,"age":6,"sexe":"F","valeur":"184500"},
+  "18": {"numero":18,"nom":"Pure Steel","driver":"A. Abrivard","entraineur":"E. Bondo","musique":"1a2a3a","cote":18.0,"poids":"","corde":18,"age":6,"sexe":"M","valeur":"179400"}
+}
