@@ -1,0 +1,20 @@
+{
+  "1": {"numero":1,"nom":"Jade de Navary","driver":"P.-Y. Lesne","entraineur":"P. Hachin","musique":"0a0a0a","cote":0,"poids":"","corde":1,"age":7,"sexe":"F","valeur":"0","non_partant":true},
+  "2": {"numero":2,"nom":"Kapusha Mip","driver":"D. Thomain","entraineur":"S. Guarato","musique":"3a4a2a","cote":9.0,"poids":"","corde":2,"age":6,"sexe":"F","valeur":"168400"},
+  "3": {"numero":3,"nom":"Kaliskana","driver":"M. Abrivard","entraineur":"M. Abrivard","musique":"1a0a2a","cote":12.0,"poids":"","corde":3,"age":6,"sexe":"F","valeur":"174200"},
+  "4": {"numero":4,"nom":"Kanaka de Busset","driver":"G. Gelormini","entraineur":"S. Roger","musique":"4a5a3a","cote":26.0,"poids":"","corde":4,"age":6,"sexe":"F","valeur":"159700"},
+  "5": {"numero":5,"nom":"Kassya","driver":"B. Rochard","entraineur":"D. Locqueneux","musique":"2a3a1a","cote":7.5,"poids":"","corde":5,"age":6,"sexe":"F","valeur":"186300"},
+  "6": {"numero":6,"nom":"Kalita d'Heninel","driver":"F. Lagadeuc","entraineur":"J. G. Van Eeckhaute","musique":"5a7a1a","cote":15.0,"poids":"","corde":6,"age":6,"sexe":"F","valeur":"171800"},
+  "7": {"numero":7,"nom":"Komere de Corday","driver":"A. Desmottes","entraineur":"A. Desmottes","musique":"1a2a4a","cote":8.5,"poids":"","corde":7,"age":6,"sexe":"F","valeur":"178900"},
+  "8": {"numero":8,"nom":"Kaline du Locheur","driver":"D. Brohier","entraineur":"D. Brohier","musique":"3a2a5a","cote":10.0,"poids":"","corde":8,"age":6,"sexe":"F","valeur":"169500"},
+  "9": {"numero":9,"nom":"Hudson Baie","driver":"M. Mottier","entraineur":"D. Chevrier","musique":"1a6a4a","cote":32.0,"poids":"","corde":9,"age":9,"sexe":"F","valeur":"158200"},
+  "10": {"numero":10,"nom":"Kalmia Quick","driver":"A. Rebeche","entraineur":"M. Varin","musique":"3a5a6a","cote":34.0,"poids":"","corde":10,"age":6,"sexe":"F","valeur":"147600"},
+  "11": {"numero":11,"nom":"Jaflosa Girl","driver":"E. Raffin","entraineur":"Y. Dreux","musique":"4a1a3a","cote":14.0,"poids":"","corde":11,"age":7,"sexe":"F","valeur":"181400"},
+  "12": {"numero":12,"nom":"In Race Lorraine","driver":"G. A. Pou Pou","entraineur":"G. A. Pou Pou","musique":"7a8a4a","cote":40.0,"poids":"","corde":12,"age":8,"sexe":"F","valeur":"152900"},
+  "13": {"numero":13,"nom":"Key Lady","driver":"A. Abrivard","entraineur":"L. Baudron","musique":"2a6a5a","cote":16.0,"poids":"","corde":13,"age":6,"sexe":"F","valeur":"163800"},
+  "14": {"numero":14,"nom":"Jalouz d'Oliverie","driver":"P.-P. Ploquin","entraineur":"J.-M. Baudouin","musique":"2a3a4a","cote":13.0,"poids":"","corde":14,"age":7,"sexe":"F","valeur":"176500"},
+  "15": {"numero":15,"nom":"Jaifa de l'Iton","driver":"A. Barrier","entraineur":"H. Levesque","musique":"1a1a1a","cote":5.5,"poids":"","corde":15,"age":7,"sexe":"F","valeur":"192100"},
+  "16": {"numero":16,"nom":"Idreamis","driver":"J.-F. Senet","entraineur":"J.-F. Senet","musique":"6a5a7a","cote":42.0,"poids":"","corde":16,"age":8,"sexe":"F","valeur":"149300"},
+  "17": {"numero":17,"nom":"Koufra Iris'Eyes","driver":"A. Collette","entraineur":"J.-M. Chaineux","musique":"3a2a1a","cote":4.2,"poids":"","corde":17,"age":6,"sexe":"F","valeur":"233400"},
+  "18": {"numero":18,"nom":"Jezabelle Bie","driver":"M. Izzo","entraineur":"M. Izzo","musique":"0a0a5a","cote":45.0,"poids":"","corde":18,"age":7,"sexe":"F","valeur":"165700"}
+}
