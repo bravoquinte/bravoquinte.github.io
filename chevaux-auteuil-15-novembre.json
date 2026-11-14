@@ -1,0 +1,17 @@
+{
+  "1": {"numero":1,"nom":"Bon Garçon","driver":"G. Ré","entraineur":"Chaillé-Chaillé et Pamart","musique":"2s3h1s","cote":8.5,"poids":"","corde":1,"age":6,"sexe":"H","valeur":"486000"},
+  "2": {"numero":2,"nom":"Amy du Kiff","driver":"T. Chevillard","entraineur":"G. Leenders","musique":"3s2s4s","cote":17.0,"poids":"","corde":2,"age":7,"sexe":"H","valeur":"312000"},
+  "3": {"numero":3,"nom":"Toscana du Berlais","driver":"G. Richard","entraineur":"Chaillé-Chaillé et Pamart","musique":"1s7s5s","cote":6.5,"poids":"","corde":3,"age":8,"sexe":"H","valeur":"624000"},
+  "4": {"numero":4,"nom":"Royal Saga","driver":"G. Meunier","entraineur":"D. Bressou","musique":"1s1s3s","cote":7.0,"poids":"","corde":4,"age":6,"sexe":"H","valeur":"298000"},
+  "5": {"numero":5,"nom":"Kalibre","driver":"J. Phelippe","entraineur":"M. Seror","musique":"1s4s2s","cote":13.0,"poids":"","corde":5,"age":6,"sexe":"H","valeur":"246000"},
+  "6": {"numero":6,"nom":"Jojo Lapin","driver":"J. Plouganou","entraineur":"D. Cottin","musique":"3h2s6s","cote":28.0,"poids":"","corde":6,"age":8,"sexe":"H","valeur":"219000"},
+  "7": {"numero":7,"nom":"Kilomètre Illimité","driver":"G. Masure","entraineur":"Chaillé-Chaillé et Pamart","musique":"2s1s3s","cote":9.5,"poids":"","corde":7,"age":7,"sexe":"H","valeur":"341000"},
+  "8": {"numero":8,"nom":"Juntos Ganamos","driver":"Q. Samaria","entraineur":"D. Cottin","musique":"5s4s2s","cote":12.0,"poids":"","corde":8,"age":7,"sexe":"H","valeur":"368000"},
+  "9": {"numero":9,"nom":"Kolokico","driver":"J. Reveley","entraineur":"E. Clayeux","musique":"1s2s3s","cote":6.0,"poids":"","corde":9,"age":7,"sexe":"H","valeur":"452000"},
+  "10": {"numero":10,"nom":"Johnny Roque","driver":"L.-P. Bréchet","entraineur":"D. Mele","musique":"6s4s3s","cote":34.0,"poids":"","corde":10,"age":7,"sexe":"H","valeur":"187000"},
+  "11": {"numero":11,"nom":"Le Petit Cheval","driver":"B. Le Clerc","entraineur":"F. Bellemère","musique":"5s5s4s","cote":26.0,"poids":"","corde":11,"age":8,"sexe":"H","valeur":"231000"},
+  "12": {"numero":12,"nom":"Feu de Dieu","driver":"L. Philipperon","entraineur":"D. Cottin","musique":"2s3s1s","cote":15.0,"poids":"","corde":12,"age":7,"sexe":"H","valeur":"254000"},
+  "13": {"numero":13,"nom":"Kivala du Berlais","driver":"J. Charron","entraineur":"D. Cottin","musique":"1s0s2s","cote":11.0,"poids":"","corde":13,"age":6,"sexe":"H","valeur":"273000"},
+  "14": {"numero":14,"nom":"Ginja des Taillons","driver":"L. Zuliani","entraineur":"E. d'Andigné","musique":"0s4s6s","cote":38.0,"poids":"","corde":14,"age":7,"sexe":"F","valeur":"162000"},
+  "15": {"numero":15,"nom":"Lacokokeldy","driver":"A. Zuliani","entraineur":"F. Nicolle","musique":"0s3s1s","cote":21.0,"poids":"","corde":15,"age":6,"sexe":"F","valeur":"204000"}
+}
