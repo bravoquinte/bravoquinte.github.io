@@ -1,0 +1,20 @@
+{
+  "1": {"numero":1,"nom":"Kémia du Chêne","driver":"B. Rochard","entraineur":"J. Le Mer","musique":"1a3a2a","cote":9.0,"poids":"","corde":0,"age":6,"sexe":"F","valeur":"178000"},
+  "2": {"numero":2,"nom":"Iléo Pierji","driver":"A. Barrier","entraineur":"C.-A. Mary","musique":"0a4a6a","cote":21.0,"poids":"","corde":0,"age":8,"sexe":"H","valeur":"172500"},
+  "3": {"numero":3,"nom":"Light My Fire","driver":"A. Guarato","entraineur":"S. Guarato","musique":"5a2a1a","cote":7.5,"poids":"","corde":0,"age":5,"sexe":"H","valeur":"196000"},
+  "4": {"numero":4,"nom":"Hélios Si","driver":"S. Hardy","entraineur":"S. Hardy","musique":"7a6a5a","cote":34.0,"poids":"","corde":0,"age":9,"sexe":"H","valeur":"181400"},
+  "5": {"numero":5,"nom":"Loulou de Mye","driver":"R.-C. Larue","entraineur":"R.-C. Larue","musique":"3a1a2a","cote":18.0,"poids":"","corde":0,"age":5,"sexe":"H","valeur":"165900"},
+  "6": {"numero":6,"nom":"Iguane de Caponet","driver":"Y. Lebourgeois","entraineur":"C. Raimbaud","musique":"3a2a3a","cote":11.0,"poids":"","corde":0,"age":8,"sexe":"H","valeur":"201800"},
+  "7": {"numero":7,"nom":"Hamilton du Ham","driver":"C. Martens","entraineur":"Y. Desmet","musique":"6a5a4a","cote":29.0,"poids":"","corde":25,"age":9,"sexe":"H","valeur":"210300"},
+  "8": {"numero":8,"nom":"Ialto d'Hertals","driver":"T. Duvaldestin","entraineur":"T. Duvaldestin","musique":"2a3a1a","cote":10.0,"poids":"","corde":25,"age":8,"sexe":"H","valeur":"228600"},
+  "9": {"numero":9,"nom":"Isofou du Chêne","driver":"P.-P. Ploquin","entraineur":"J. Le Mer","musique":"0a2a4a","cote":13.0,"poids":"","corde":25,"age":8,"sexe":"H","valeur":"234700"},
+  "10": {"numero":10,"nom":"J'Aime le Foot","driver":"A. Lhérété","entraineur":"A. Lhérété","musique":"6a5a3a","cote":26.0,"poids":"","corde":25,"age":7,"sexe":"H","valeur":"215400"},
+  "11": {"numero":11,"nom":"Hidalgo des Noés","driver":"J. Travers","entraineur":"S. Provoost","musique":"4a5a7a","cote":24.0,"poids":"","corde":25,"age":9,"sexe":"H","valeur":"219800"},
+  "12": {"numero":12,"nom":"Jingle du Pont","driver":"N. Bazire","entraineur":"N. Bazire","musique":"4a1a3a","cote":12.0,"poids":"","corde":25,"age":7,"sexe":"H","valeur":"241200"},
+  "13": {"numero":13,"nom":"Idéal du Rocher","driver":"C. Duvaldestin","entraineur":"T. Duvaldestin","musique":"2a2a1a","cote":5.5,"poids":"","corde":25,"age":8,"sexe":"H","valeur":"238500"},
+  "14": {"numero":14,"nom":"Hulysse Digeo","driver":"J.-W. Hallais","entraineur":"J.-W. Hallais","musique":"3a1a2a","cote":4.8,"poids":"","corde":25,"age":9,"sexe":"H","valeur":"245600"},
+  "15": {"numero":15,"nom":"Justin Bold","driver":"P.-Y. Verva","entraineur":"J.-R. Delliaux","musique":"6a0a5a","cote":38.0,"poids":"","corde":50,"age":7,"sexe":"H","valeur":"198700"},
+  "16": {"numero":16,"nom":"Jéroboam d'Erable","driver":"D. Thomain","entraineur":"C. Thomain","musique":"5a4a6a","cote":35.0,"poids":"","corde":50,"age":7,"sexe":"H","valeur":"192300"},
+  "17": {"numero":17,"nom":"Jean Balthazar","driver":"P. Castel","entraineur":"P. Castel","musique":"7a6a0a","cote":41.0,"poids":"","corde":50,"age":7,"sexe":"H","valeur":"186900"},
+  "18": {"numero":18,"nom":"Ina du Rib","driver":"J.-L.-C. Dersoir","entraineur":"J. Hallais","musique":"3a5a4a","cote":32.0,"poids":"","corde":50,"age":8,"sexe":"F","valeur":"204100"}
+}
