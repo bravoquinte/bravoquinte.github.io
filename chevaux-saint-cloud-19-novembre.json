@@ -1,0 +1,18 @@
+{
+  "1": {"numero":1,"nom":"Double Up","driver":"A. Madamet","entraineur":"S. Wattel","musique":"3p1p5p","cote":11.0,"poids":"60","corde":15,"age":4,"sexe":"H","valeur":""},
+  "2": {"numero":2,"nom":"Bayamoon","driver":"F. Veron","entraineur":"J. Reynier","musique":"3p2p1p","cote":7.5,"poids":"","corde":9,"age":5,"sexe":"M","valeur":""},
+  "3": {"numero":3,"nom":"Get Set","driver":"T. Brebion","entraineur":"L. Gadbin","musique":"1p1p1p","cote":15.0,"poids":"","corde":1,"age":9,"sexe":"H","valeur":""},
+  "4": {"numero":4,"nom":"Centrical","driver":"B. Marie","entraineur":"K. Kerekes","musique":"1p3p4p","cote":19.0,"poids":"","corde":8,"age":8,"sexe":"H","valeur":""},
+  "5": {"numero":5,"nom":"Mr Fleurant","driver":"A. Hamelin","entraineur":"A. de Watrigant","musique":"2p3p2p","cote":12.0,"poids":"","corde":11,"age":5,"sexe":"H","valeur":""},
+  "6": {"numero":6,"nom":"Zaramix","driver":"M. Guyon","entraineur":"P. et J. Brandt","musique":"4p6p1p","cote":4.5,"poids":"","corde":12,"age":3,"sexe":"H","valeur":""},
+  "7": {"numero":7,"nom":"Homo Deus","driver":"C. Lecoeuvre","entraineur":"H. Ghabri","musique":"5p0p3p","cote":26.0,"poids":"","corde":13,"age":8,"sexe":"H","valeur":""},
+  "8": {"numero":8,"nom":"Flash Girl","driver":"T. Piccone","entraineur":"H.-A. Pantall","musique":"2p2p1p","cote":9.5,"poids":"","corde":14,"age":3,"sexe":"F","valeur":""},
+  "9": {"numero":9,"nom":"American Glory","driver":"A. Lemaitre","entraineur":"N. Perret","musique":"1p5p2p","cote":8.0,"poids":"","corde":16,"age":5,"sexe":"F","valeur":""},
+  "10": {"numero":10,"nom":"Guillerette","driver":"F. Valle Skar","entraineur":"C. Barande Barbe","musique":"1p4p6p","cote":22.0,"poids":"","corde":6,"age":4,"sexe":"F","valeur":""},
+  "11": {"numero":11,"nom":"Plata d'Octobre","driver":"H. Boutin","entraineur":"N. Sigaud","musique":"1p2p1p","cote":13.0,"poids":"","corde":5,"age":4,"sexe":"F","valeur":""},
+  "12": {"numero":12,"nom":"Bon Viveur","driver":"H. Lebouc","entraineur":"G. Pannier","musique":"2p3p5p","cote":14.0,"poids":"","corde":2,"age":3,"sexe":"M","valeur":""},
+  "13": {"numero":13,"nom":"Douriann","driver":"L. Roussel","entraineur":"G. Pannier","musique":"6p1p4p","cote":24.0,"poids":"","corde":4,"age":7,"sexe":"H","valeur":""},
+  "14": {"numero":14,"nom":"Comme Quoi","driver":"S. Pasquier","entraineur":"N. Perret","musique":"2p1p3p","cote":6.0,"poids":"","corde":7,"age":5,"sexe":"H","valeur":""},
+  "15": {"numero":15,"nom":"Trabuco","driver":"A. Molins","entraineur":"P. de Chevigny","musique":"1p2p1p","cote":10.0,"poids":"","corde":10,"age":8,"sexe":"H","valeur":""},
+  "16": {"numero":16,"nom":"Just Jim","driver":"O. d'Andigne","entraineur":"A. Couetil","musique":"4p3p2p","cote":16.0,"poids":"","corde":3,"age":5,"sexe":"H","valeur":""}
+}
