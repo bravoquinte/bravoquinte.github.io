@@ -1,0 +1,17 @@
+{
+  "1": {"numero":1,"nom":"King Fromentro","driver":"D. Thomain","entraineur":"T. Lardillier","musique":"","cote":21.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"139235"},
+  "2": {"numero":2,"nom":"Koquery du Buisson","driver":"A. Lamy","entraineur":"T. Raffegeau","musique":"","cote":29.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"140110"},
+  "3": {"numero":3,"nom":"Ivon de la Monerie","driver":"F. Ouvrie","entraineur":"F. Delenclos","musique":"","cote":26.0,"poids":"","corde":0,"age":8,"sexe":"H","valeur":"140334"},
+  "4": {"numero":4,"nom":"Kervéléan","driver":"P.-Y. Verva","entraineur":"P.-Y. Verva","musique":"","cote":6.5,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"142710"},
+  "5": {"numero":5,"nom":"Keller de l'Iton","driver":"É. Raffin","entraineur":"H. Levesque","musique":"","cote":5.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"145045"},
+  "6": {"numero":6,"nom":"Ketberny","driver":"P.-P. Ploquin","entraineur":"C.-A. Mary","musique":"","cote":15.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"147035"},
+  "7": {"numero":7,"nom":"Kharnas","driver":"A. Collette","entraineur":"G. Thorel","musique":"","cote":24.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"152170"},
+  "8": {"numero":8,"nom":"Jorlando","driver":"R. Congard","entraineur":"L. Abrivard","musique":"","cote":38.0,"poids":"","corde":0,"age":7,"sexe":"H","valeur":"152385"},
+  "9": {"numero":9,"nom":"Kannabis Jeloca","driver":"M. Goetz","entraineur":"V. T. Renault","musique":"","cote":9.5,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"152965"},
+  "10": {"numero":10,"nom":"Karma","driver":"R. Lamy","entraineur":"P. Levesque","musique":"","cote":13.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"153530"},
+  "11": {"numero":11,"nom":"Ker Poulgwen","driver":"B. Robin","entraineur":"J.-L. Bigeon","musique":"","cote":11.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"155700"},
+  "12": {"numero":12,"nom":"Kiki and Co","driver":"Y. Lebourgeois","entraineur":"N. Bazire","musique":"","cote":18.0,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"159380"},
+  "13": {"numero":13,"nom":"King d'Hermès","driver":"M. Abrivard","entraineur":"M. Abrivard","musique":"","cote":4.2,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"162160"},
+  "14": {"numero":14,"nom":"Kancalais","driver":"B. Rochard","entraineur":"C.-A. Mary","musique":"","cote":7.5,"poids":"","corde":0,"age":6,"sexe":"H","valeur":"163000"},
+  "15": {"numero":15,"nom":"Jack des Malberaux","driver":"J. Maillard","entraineur":"G. Thorel","musique":"","cote":34.0,"poids":"","corde":0,"age":7,"sexe":"H","valeur":"164330"}
+}
