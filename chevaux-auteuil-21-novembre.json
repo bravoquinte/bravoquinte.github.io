@@ -1,0 +1,16 @@
+{
+  "1": {"numero":1,"nom":"Silaway","driver":"G. Meunier","entraineur":"D. Bressou","musique":"","cote":5.5,"poids":"70","corde":0,"age":4,"sexe":"F","valeur":""},
+  "2": {"numero":2,"nom":"Falcon Jet","driver":"G. Masure","entraineur":"A. Chaille-Chaille & F. Pamart","musique":"","cote":7.0,"poids":"69.5","corde":0,"age":4,"sexe":"H","valeur":""},
+  "3": {"numero":3,"nom":"Normandy Man","driver":"A. Zuliani","entraineur":"F. Nicolle","musique":"","cote":9.0,"poids":"69.5","corde":0,"age":4,"sexe":"H","valeur":""},
+  "4": {"numero":4,"nom":"Hell Storm","driver":"A. Chesneau","entraineur":"Y. Fouin","musique":"","cote":22.0,"poids":"69","corde":0,"age":4,"sexe":"M","valeur":""},
+  "5": {"numero":5,"nom":"Louminos","driver":"N. Ferreira","entraineur":"R. Schmidlin","musique":"","cote":19.0,"poids":"68.5","corde":0,"age":4,"sexe":"H","valeur":""},
+  "6": {"numero":6,"nom":"Tigress du Berlais","driver":"L. Philipperon","entraineur":"M. Rolland","musique":"","cote":13.0,"poids":"68","corde":0,"age":4,"sexe":"F","valeur":""},
+  "7": {"numero":7,"nom":"Raffles Princess","driver":"B. Frost","entraineur":"Y. Fouin","musique":"","cote":11.0,"poids":"67.5","corde":0,"age":4,"sexe":"F","valeur":""},
+  "8": {"numero":8,"nom":"Pareil Pareil","driver":"K. Nabet","entraineur":"Y. Fouin","musique":"","cote":4.8,"poids":"66","corde":0,"age":4,"sexe":"H","valeur":""},
+  "9": {"numero":9,"nom":"Mousse du Chef","driver":"T. Beaurain","entraineur":"J. Delaunay","musique":"","cote":10.0,"poids":"65","corde":0,"age":4,"sexe":"F","valeur":""},
+  "10": {"numero":10,"nom":"Eh Man","driver":"L. Zuliani","entraineur":"N. George & A. Zetterholm","musique":"","cote":12.0,"poids":"64","corde":0,"age":4,"sexe":"H","valeur":""},
+  "11": {"numero":11,"nom":"Elle a Tout Ca","driver":"T. Chevillard","entraineur":"E. Grall","musique":"","cote":25.0,"poids":"64","corde":0,"age":4,"sexe":"F","valeur":""},
+  "12": {"numero":12,"nom":"Blida","driver":"","entraineur":"","musique":"","cote":28.0,"poids":"63","corde":0,"age":4,"sexe":"F","valeur":""},
+  "13": {"numero":13,"nom":"Optimus","driver":"J. Hondier","entraineur":"","musique":"","cote":30.0,"poids":"62.5","corde":0,"age":4,"sexe":"H","valeur":""},
+  "14": {"numero":14,"nom":"Alhunter","driver":"B. Le Clerc","entraineur":"","musique":"","cote":8.0,"poids":"62.5","corde":0,"age":4,"sexe":"H","valeur":""}
+}
