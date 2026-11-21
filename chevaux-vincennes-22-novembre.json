@@ -1,0 +1,20 @@
+{
+  "1": {"numero":1,"nom":"Kuiper","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "2": {"numero":2,"nom":"Horatius d'Ela","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "3": {"numero":3,"nom":"Jeannette Priory","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "4": {"numero":4,"nom":"King Opera","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "5": {"numero":5,"nom":"Kanto Avis","driver":"B. Rochard","entraineur":"M. Sassier","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "6": {"numero":6,"nom":"Harmony du Rabutin","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "7": {"numero":7,"nom":"Harley Gema","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "8": {"numero":8,"nom":"Keep Going","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "9": {"numero":9,"nom":"Lionheart","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "10": {"numero":10,"nom":"Free Time Jepson","driver":"A. Guzzinati","entraineur":"A. Gocciadoro","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "11": {"numero":11,"nom":"Idéal Ligneries","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "12": {"numero":12,"nom":"Lombok Jiel","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "13": {"numero":13,"nom":"Krack Time Atout","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "14": {"numero":14,"nom":"Inmarosa","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"F","valeur":""},
+  "15": {"numero":15,"nom":"Borups Victory","driver":"D. Wäjersten","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":""},
+  "16": {"numero":16,"nom":"Frank Gio","driver":"M. Abrivard","entraineur":"S. Guarato","musique":"","cote":"","poids":"","corde":0,"age":5,"sexe":"M","valeur":""},
+  "17": {"numero":17,"nom":"Hokkaido Jiel","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":"1 507 720"},
+  "18": {"numero":18,"nom":"Hooker Berry","driver":"","entraineur":"","musique":"","cote":"","poids":"","corde":0,"age":0,"sexe":"","valeur":"1 991 499"}
+}
