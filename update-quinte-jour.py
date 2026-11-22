@@ -373,6 +373,10 @@ if __name__ == '__main__':
     html = re.sub(r'https://youtu\.be/[A-Za-z0-9_-]{11}',
                   f'https://youtu.be/{args.video}', html, count=1)
 
+    # 6bis. Cache-busting vignette hero (?v=date) — force le rechargement de la miniature
+    html = re.sub(r'images/video-hero\.webp(\?v=[0-9-]+)?',
+                  f'images/video-hero.webp?v={args.date}', html)
+
     # 7. BLOG_POSTS
     html = add_blog_post(html, args)
 
