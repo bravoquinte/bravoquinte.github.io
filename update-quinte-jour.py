@@ -24,6 +24,7 @@ python update-quinte-jour.py \
   --scenario    "Scénario court affiché dans le bloc analyse." \
   --chevaux     "@chevaux-vincennes-26-octobre.json" \
   --resultat    "5-2-11-8-14"   # arrivée officielle course PRECEDENTE (optionnel)
+  --chevaux-prev "@chevaux-vincennes-22-novembre.json"  # partants J-1 (optionnel, auto)
   --commit                        # commit + push git (optionnel)
 
 Fichier JSON partants (--chevaux @fichier.json) — format :
@@ -79,6 +80,30 @@ def load_chevaux(chevaux_arg):
         path = os.path.join(REPO, path)
     data = json.loads(read_file(path))
     return sorted(data.values(), key=lambda x: int(x['numero']))
+
+# ── partants de la course précédente (pour les noms de l'arrivée) ─────────────
+
+MOIS_FILENAME = {1:'janvier',2:'fevrier',3:'mars',4:'avril',5:'mai',6:'juin',
+                 7:'juillet',8:'aout',9:'septembre',10:'octobre',11:'novembre',12:'decembre'}
+_MOIS_ALT = {'fevrier':['fevrier','février'], 'aout':['aout','août'],
+             'decembre':['decembre','décembre']}
+
+def load_chevaux_prev(date_str, chevaux_prev_arg):
+    """Partants de la veille : JSON fourni via --chevaux-prev, sinon chevaux-*-JJ-mois.json=@date-1."""
+    if chevaux_prev_arg:
+        return load_chevaux(chevaux_prev_arg)
+    from datetime import date, timedelta
+    d = date.fromisoformat(date_str) - timedelta(days=1)
+    day = f'{d.day:02d}'
+    mois = MOIS_FILENAME[d.month]
+    cands = _MOIS_ALT.get(mois, [mois])
+    pat = re.compile(rf'chevaux-.+-(\d{{2}})-(' + '|'.join(cands) + r')\.json$')
+    import glob
+    for path in sorted(glob.glob(os.path.join(REPO, 'chevaux-*.json'))):
+        m = pat.search(os.path.basename(path))
+        if m and m.group(1) == day:
+            return load_chevaux(os.path.basename(path))
+    return []
 
 # ── construire le bloc JS chevaux ──────────────────────────────────────────────
 
@@ -301,6 +326,7 @@ def parse_args():
     p.add_argument('--chevaux',      default='',     help='@fichier.json ou vide')
     # résultat course précédente
     p.add_argument('--resultat',     default='',     help='ex: 5-2-11-8-14')
+    p.add_argument('--chevaux-prev', default='',     help="partants J-1 (@fichier.json) pour les noms ; auto si vide")
     p.add_argument('--hippo-prev',   default='')
     p.add_argument('--course-prev',  default='')
     p.add_argument('--discipline-prev', default='')
@@ -380,9 +406,12 @@ if __name__ == '__main__':
     # 7. BLOG_POSTS
     html = add_blog_post(html, args)
 
-    # 8. RESULTATS (arrivée précédente)
+    # 8. RESULTATS (arrivée précédente) — noms depuis les partants de la veille
     if args.resultat:
-        html = add_resultat(html, args, chevaux_list)
+        chevaux_prev = load_chevaux_prev(args.date, args.chevaux_prev)
+        if not chevaux_prev:
+            print("  [warn] partants J-1 introuvables -> noms en '#n' (passer --chevaux-prev)")
+        html = add_resultat(html, args, chevaux_prev or chevaux_list)
 
     # 9. Écrire index.html
     write_file(idx_path, html)
