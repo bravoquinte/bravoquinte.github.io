@@ -38,6 +38,8 @@ def charger_poids(chemin=None):
     if os.path.exists(p):
         try:
             w = json.load(open(p, encoding='utf-8'))
+            if 'poids' in w and isinstance(w['poids'], dict):
+                w = w['poids']          # format {poids: {...}, metrics...}
             return {k: float(w.get(k, POIDS_DEFAUT[k])) for k in POIDS_DEFAUT}
         except (ValueError, OSError):
             pass

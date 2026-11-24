@@ -80,16 +80,56 @@ def _f_ok(s):
 
 
 def cotes_depuis_url(url):
-    """Telecharge la page et cherche des paires (numero, cote) plausibles.
-    Best-effort : si < 5 cotes trouvees, on prévient et on rend None."""
+    """Telecharge la page et extrait {numero: cote}.
+    Strategie 1 (robuste) : lignes de table "N - CHEVAL ... cote".
+    Strategie 2 (secours) : paires (numero, cote) plausibles dans le texte.
+    Renvoie (dict ou None, nb_paires)."""
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    html = urllib.request.urlopen(req, timeout=30).read().decode('utf-8', 'ignore')
-    # retire les balises pour avoir le texte, mais garde l'ordre
+    html = None
+    try:
+        html = urllib.request.urlopen(req, timeout=30).read().decode('utf-8', 'ignore')
+    except Exception:
+        pass                      # site qui bloque les robots -> essai curl
+    if html is None:
+        import subprocess
+        for ua in ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                   '(KHTML, like Gecko) Chrome/120.0 Safari/537.36',):
+            r = subprocess.run(['curl', '-s', '-A', ua, '-m', '40', url],
+                               capture_output=True, timeout=60)
+            if r.returncode == 0 and len(r.stdout) > 2000:
+                html = r.stdout.decode('utf-8', 'ignore')
+                break
+    if not html:
+        return None, 0
+
+    # --- strategie 1 : lignes <tr> avec numero-nom puis une cote 1..300 ---
+    pairs = {}
+    html_txt = html.replace('&#45;', '-').replace('&nbsp;', ' ').replace('&amp;', '&')
+    for row in re.findall(r'<tr[^>]*>(.*?)</tr>', html_txt, re.S):
+        cells = [re.sub(r'<[^>]+>', ' ', c) for c in
+                 re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', row, re.S)]
+        if not cells:
+            continue
+        first = re.sub(r'\s+', ' ', cells[0]).strip()
+        m = re.match(r'^(\d{1,2})\s*-\s*\(?([A-Za-zÉÈÊÀÇÙÔÎÏ])', first)
+        if not m:
+            continue
+        n = int(m.group(1))
+        for c in cells[1:]:
+            c = c.strip().replace(',', '.')
+            if re.fullmatch(r'\d{1,3}(\.\d{1,2})?', c):
+                v = float(c)
+                if 1.0 <= v <= 300 and n not in pairs:
+                    pairs[n] = v
+                    break
+    if len(pairs) >= 5:
+        return pairs, len(pairs)
+
+    # --- strategie 2 : texte aplati, paires numero/cote ---
     txt = re.sub(r'<script.*?</script>', ' ', html, flags=re.S)
     txt = re.sub(r'<style.*?</style>', ' ', txt, flags=re.S)
     txt = re.sub(r'<[^>]+>', ' ', txt)
     txt = txt.replace('&nbsp;', ' ').replace(',', '.')
-    pairs = {}
     for m in re.finditer(r'\b(\d{1,2})\b\D{0,24}?\b(\d{1,2}(?:\.\d{1,2})?)\b', txt):
         n, c = int(m.group(1)), float(m.group(2))
         if 1 <= n <= 24 and 1.0 <= c <= 300 and n not in pairs:
@@ -195,7 +235,8 @@ def main():
         if cotes:
             chevaux = fusionner_cotes(chevaux, cotes, 'URL')
         else:
-            print(f'[warn] URL: seulement {n} paires plausibles -> ignoree')
+            print(f'[warn] URL: seulement {n} cotes lisibles (site peut bloquer les robots)')
+            print('       -> collez les cotes en texte avec --cotes "14: 3.1, ..."')
     if args.cotes:
         cotes = cotes_depuis_texte(args.cotes)
         if cotes:
