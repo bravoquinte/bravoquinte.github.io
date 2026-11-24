@@ -419,7 +419,7 @@ if __name__ == '__main__':
 
     # 10. Regen sitemap + resultats
     print("3. Régénération sitemap + résultats...")
-    for script in ['regen-resultats.py', 'gen-sitemap.py']:
+    for script in ['regen-resultats.py', 'regen-all.py', 'gen-sitemap.py']:
         sp = os.path.join(REPO, script)
         if os.path.exists(sp):
             r = run(f'python "{sp}"', capture_output=True, text=True)

@@ -15,7 +15,7 @@ REPO = _os.path.dirname(_os.path.abspath(__file__))
 def update(repo=REPO):
     L = json.load(io.open(os.path.join(repo, 'predictions-ledger.json'), encoding='utf-8'))
     preds = L['predictions']
-    val = [p for p in preds if p.get('metrics')]
+    val = [p for p in preds if p.get('metrics') and p['metrics'].get('top5')]
 
     n_val = len(val)
     n_tot = len(preds)
