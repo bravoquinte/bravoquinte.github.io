@@ -55,6 +55,52 @@ archives_html = f'''<!DOCTYPE html>
 io.open(os.path.join(repo, 'archives.html'), 'w', encoding='utf-8', newline='').write(archives_html)
 print(f'archives.html: {len(articles)} articles')
 
+# 1bis. blog.html : hub des guides + liste des articles (vraie URL indexable)
+guides_html = (
+    '<div class="guide-card"><a href="' + base + 'guide-lire-pronostic-quinte.html">'
+    '<strong>Comment lire un pronostic de quint&eacute;</strong><br>'
+    'Musique, base, tocard, corde, cotes : le guide complet.</a></div>'
+    '<div class="guide-card"><a href="' + base + 'jouer-quinte-regles-mises-tickets.html">'
+    '<strong>Comment jouer le Quint&eacute;+</strong><br>'
+    'R&egrave;gles, mises minimales, champ r&eacute;duit, Multi, 2sur4, tickets.</a></div>'
+)
+rows_blog = NL.join(
+    f'<div class="bravo-post"><h3 class="post-title"><a href="{base}{slug}.html">{title}</a></h3>'
+    f'<p class="post-meta">{date}</p><p class="post-excerpt">{excerpt}</p></div>'
+    for title, date, slug, excerpt, img in sorted(articles, key=lambda x: x[1], reverse=True))
+css_blog = (':root{--primary:#16a34a;--dark:#0f172a;--gray:#64748b;--border:#e2e8f0}'
+            'body{font-family:Inter,system-ui,sans-serif;margin:0;padding:0;color:var(--dark);background:#fff;line-height:1.6}'
+            '.container{max-width:900px;margin:0 auto;padding:1.5rem}'
+            'h1{font-size:2rem;margin:1rem 0}.meta{color:var(--gray);font-size:.9rem;margin-bottom:1.5rem}'
+            '.guide-card{border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:10px;padding:1rem 1.25rem;margin:1rem 0;background:#f8fafc}'
+            '.guide-card a{text-decoration:none;color:var(--primary)}'
+            '.bravo-post{padding:1.25rem 0;border-bottom:1px solid var(--border)}'
+            '.post-title a{text-decoration:none;color:var(--dark);font-weight:600}'
+            '.post-title a:hover{color:var(--primary)}'
+            '.post-meta{font-size:.8rem;color:var(--gray);margin:.25rem 0}'
+            '.post-excerpt{margin:0;font-size:.95rem;color:#334155}'
+            'footer{text-align:center;padding:2rem;color:var(--gray);font-size:.85rem;border-top:1px solid var(--border);margin-top:2rem}')
+blog_html = ('<!DOCTYPE html>' + NL + '<html lang="fr"><head><meta charset="UTF-8">'
+             '<meta name="viewport" content="width=device-width,initial-scale=1.0">' + NL
+             + GA_SNIPPET + NL
+             + '<title>Blog - Conseils hippiques et m&eacute;thodes Quint&eacute;+ | Bravo Quint&eacute;</title>' + NL
+             + '<meta name="description" content="Guides et conseils pour le Quint&eacute;+ : lire un pronostic, la musique d\'un cheval, jouer ses tickets, g&eacute;rer sa bankroll.">' + NL
+             + '<link rel="canonical" href="' + base + 'blog.html">' + NL
+             + '<style>' + css_blog + '</style></head><body>' + NL
+             + '<div class="container">' + NL
+             + '<h1>Blog &amp; Conseils hippiques</h1>' + NL
+             + '<p class="meta">Guides pour mieux lire et mieux jouer le Quint&eacute;+, et tous les articles du site.</p>' + NL
+             + guides_html + NL
+             + '<h2 style="font-size:1.4rem;margin:2rem 0 0;">Tous les articles</h2>' + NL
+             + rows_blog + NL
+             + '</div>' + NL + BTN + NL
+             + '<footer><p><strong>Bravo Quint&eacute;</strong> &#8212; publication &eacute;crite de la cha&icirc;ne <a href="https://www.youtube.com/@bravoturf" rel="noopener" target="_blank">Bravoturf</a></p>'
+             + '<p><a href="' + base + 'archives.html">Archives</a> &#183; <a href="' + base + 'methodologie.html">M&eacute;thodologie</a> &#183; <a href="' + base + 'track-record.html">Track Record</a> &#183; <a href="' + base + 'feed.xml">RSS</a></p>'
+             + '<p>Jeu responsable : 09 74 75 13 13</p></footer>'
+             + NL + '</body></html>')
+io.open(os.path.join(repo, 'blog.html'), 'w', encoding='utf-8', newline='').write(blog_html)
+print(f'blog.html : {len(articles)} articles + 2 guides')
+
 # 2. feed.xml
 entries = '\n'.join(f'''<entry>
 <title>{title}</title>
