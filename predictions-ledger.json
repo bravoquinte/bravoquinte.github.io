@@ -1,14 +1,14 @@
 {
- "generated": "2026-10-26T12:58:03.000Z",
+ "generated": "2026-11-24T18:32:54.000Z",
  "stats": {
-  "total_validated": 28,
-  "base_in_top5_rate": "15/28",
-  "base_wins_rate": "5/28",
+  "total_validated": 57,
+  "base_in_top5_rate": "28/57",
+  "base_wins_rate": "9/57",
   "selection_avg_in_top5": "3.3/5",
-  "winner_in_selection_rate": "21/28",
-  "top3_in_top5_rate": "24/28",
-  "desordre_rate": "0/28",
-  "top5_avg_in_top5": "2.1/5"
+  "winner_in_selection_rate": "44/57",
+  "top3_in_top5_rate": "46/57",
+  "desordre_rate": "0/57",
+  "top5_avg_in_top5": "2.3/5"
  },
  "predictions": [
   {
@@ -112,7 +112,36 @@
     ],
     "winner": 13,
     "top5_in_top5": 2
-   }
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-09-26",
+   "hippo": "",
+   "course": "",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-auteuil-26-septembre",
+   "selection": [
+    11,
+    2,
+    13,
+    6,
+    4,
+    10,
+    1,
+    12
+   ],
+   "base": 11,
+   "resultat": null,
+   "arrivee": null,
+   "metrics": {
+    "top5": [],
+    "selection_in_top5": 0,
+    "base_in_top5": null,
+    "exact_order": false
+   },
+   "statut": "en_attente"
   },
   {
    "date": "2026-09-27",
@@ -169,7 +198,8 @@
     ],
     "winner": 8,
     "top5_in_top5": 2
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-09-28",
@@ -226,7 +256,8 @@
     ],
     "winner": 15,
     "top5_in_top5": 3
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-09-29",
@@ -283,7 +314,8 @@
     ],
     "winner": 1,
     "top5_in_top5": 3
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-09-30",
@@ -340,7 +372,8 @@
     ],
     "winner": 5,
     "top5_in_top5": 2
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-10-01",
@@ -397,7 +430,8 @@
     ],
     "winner": 15,
     "top5_in_top5": 2
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-10-02",
@@ -454,7 +488,8 @@
     ],
     "winner": 4,
     "top5_in_top5": 2
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-10-03",
@@ -511,7 +546,8 @@
      3
     ],
     "winner": 4
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-10-04",
@@ -568,7 +604,8 @@
      9
     ],
     "winner": 1
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-10-05",
@@ -625,7 +662,8 @@
      11
     ],
     "winner": 3
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-10-06",
@@ -682,7 +720,8 @@
      15
     ],
     "winner": 8
-   }
+   },
+   "statut": "valide"
   },
   {
    "date": "2026-10-07",
@@ -1242,6 +1281,34 @@
    "statut": "valide"
   },
   {
+   "date": "2026-10-18",
+   "hippo": "",
+   "course": "",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-longchamp-18-octobre",
+   "selection": [
+    10,
+    2,
+    8,
+    4,
+    12,
+    7,
+    5,
+    3
+   ],
+   "base": 10,
+   "resultat": null,
+   "arrivee": null,
+   "metrics": {
+    "top5": [],
+    "selection_in_top5": 0,
+    "base_in_top5": null,
+    "exact_order": false
+   },
+   "statut": "en_attente"
+  },
+  {
    "date": "2026-10-19",
    "hippo": "Deauville",
    "course": "Prix de la Forêt de Lyons",
@@ -1489,6 +1556,1368 @@
     7
    ],
    "base": 3,
+   "resultat": [
+    12,
+    3,
+    10,
+    13,
+    9
+   ],
+   "arrivee": [
+    12,
+    3,
+    10,
+    13,
+    9
+   ],
+   "metrics": {
+    "top5": [
+     12,
+     3,
+     10,
+     13,
+     9
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-27",
+   "hippo": "Deauville",
+   "course": "Prix d'Utah Beach",
+   "discipline": "Galop PSF",
+   "dist": "1300m",
+   "slug": "pronostic-quinte-deauville-27-octobre",
+   "selection": [
+    13,
+    4,
+    9,
+    10,
+    5,
+    2,
+    1,
+    14
+   ],
+   "base": 13,
+   "resultat": [
+    10,
+    6,
+    9,
+    15,
+    3
+   ],
+   "arrivee": [
+    10,
+    6,
+    9,
+    15,
+    3
+   ],
+   "metrics": {
+    "top5": [
+     10,
+     6,
+     9,
+     15,
+     3
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-28",
+   "hippo": "Auteuil",
+   "course": "Prix Santo Pietro",
+   "discipline": "Haies",
+   "dist": "3600m",
+   "slug": "pronostic-quinte-auteuil-28-octobre",
+   "selection": [
+    8,
+    3,
+    15,
+    6,
+    1,
+    10,
+    11,
+    2
+   ],
+   "base": 8,
+   "resultat": [
+    14,
+    12,
+    11,
+    7,
+    4
+   ],
+   "arrivee": [
+    14,
+    12,
+    11,
+    7,
+    4
+   ],
+   "metrics": {
+    "top5": [
+     14,
+     12,
+     11,
+     7,
+     4
+    ],
+    "selection_in_top5": 1,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-29",
+   "hippo": "Paris-Vincennes",
+   "course": "Prix des Cévennes",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-vincennes-29-octobre",
+   "selection": [
+    12,
+    14,
+    3,
+    5,
+    11,
+    8,
+    10,
+    7
+   ],
+   "base": 12,
+   "resultat": [
+    14,
+    10,
+    5,
+    3,
+    12
+   ],
+   "arrivee": [
+    14,
+    10,
+    5,
+    3,
+    12
+   ],
+   "metrics": {
+    "top5": [
+     14,
+     10,
+     5,
+     3,
+     12
+    ],
+    "selection_in_top5": 5,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-30",
+   "hippo": "Paris-Vincennes",
+   "course": "Prix Mebsuta",
+   "discipline": "Trot Attelé",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-30-octobre",
+   "selection": [
+    17,
+    10,
+    16,
+    13,
+    12,
+    8,
+    7,
+    5
+   ],
+   "base": 17,
+   "resultat": [
+    7,
+    12,
+    5,
+    3,
+    4
+   ],
+   "arrivee": [
+    7,
+    12,
+    5,
+    3,
+    4
+   ],
+   "metrics": {
+    "top5": [
+     7,
+     12,
+     5,
+     3,
+     4
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-10-31",
+   "hippo": "Deauville",
+   "course": "Prix du Pays de Bray",
+   "discipline": "Plat PSF",
+   "dist": "1900m",
+   "slug": "pronostic-quinte-deauville-31-octobre",
+   "selection": [
+    6,
+    11,
+    9,
+    16,
+    7,
+    1,
+    3,
+    4
+   ],
+   "base": 6,
+   "resultat": [
+    9,
+    11,
+    3,
+    1,
+    5
+   ],
+   "arrivee": [
+    9,
+    11,
+    3,
+    1,
+    5
+   ],
+   "metrics": {
+    "top5": [
+     9,
+     11,
+     3,
+     1,
+     5
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-01",
+   "hippo": "Bellevue-la-Forêt (Laval)",
+   "course": "Grand Prix de la Ville de Laval",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-laval-01-novembre",
+   "selection": [
+    4,
+    17,
+    5,
+    18,
+    6,
+    7,
+    3,
+    2
+   ],
+   "base": 4,
+   "resultat": [
+    17,
+    2,
+    5,
+    12,
+    7
+   ],
+   "arrivee": [
+    17,
+    2,
+    5,
+    12,
+    7
+   ],
+   "metrics": {
+    "top5": [
+     17,
+     2,
+     5,
+     12,
+     7
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-02",
+   "hippo": "Fontainebleau",
+   "course": "Prix de la Seine-et-Marne",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-fontainebleau-02-novembre",
+   "selection": [
+    11,
+    1,
+    5,
+    3,
+    2,
+    6,
+    4,
+    16
+   ],
+   "base": 11,
+   "resultat": null,
+   "arrivee": null,
+   "metrics": {
+    "top5": [],
+    "selection_in_top5": 0,
+    "base_in_top5": null,
+    "exact_order": false
+   },
+   "statut": "en_attente"
+  },
+  {
+   "date": "2026-11-03",
+   "hippo": "Paris-Vincennes",
+   "course": "Prix de Vienne",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-vincennes-03-novembre",
+   "selection": [
+    8,
+    16,
+    11,
+    17,
+    14,
+    5,
+    10,
+    15
+   ],
+   "base": 8,
+   "resultat": [
+    11,
+    13,
+    17,
+    15,
+    16
+   ],
+   "arrivee": [
+    11,
+    13,
+    17,
+    15,
+    16
+   ],
+   "metrics": {
+    "top5": [
+     11,
+     13,
+     17,
+     15,
+     16
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-04",
+   "hippo": "Nantes",
+   "course": "Prix du Petit Port",
+   "discipline": "Trot Attelé",
+   "dist": "3000m",
+   "slug": "pronostic-quinte-nantes-04-novembre",
+   "selection": [
+    7,
+    12,
+    6,
+    9,
+    1,
+    8,
+    10,
+    11
+   ],
+   "base": 7,
+   "resultat": [
+    12,
+    8,
+    6,
+    3,
+    7
+   ],
+   "arrivee": [
+    12,
+    8,
+    6,
+    3,
+    7
+   ],
+   "metrics": {
+    "top5": [
+     12,
+     8,
+     6,
+     3,
+     7
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-05",
+   "hippo": "Paris-Vincennes",
+   "course": "Prix d'Avranches",
+   "discipline": "Trot Attelé",
+   "dist": "2100m",
+   "slug": "pronostic-quinte-vincennes-05-novembre",
+   "selection": [
+    4,
+    9,
+    5,
+    6,
+    15,
+    16,
+    12,
+    14
+   ],
+   "base": 4,
+   "resultat": [
+    9,
+    6,
+    15,
+    1,
+    5
+   ],
+   "arrivee": [
+    9,
+    6,
+    15,
+    1,
+    5
+   ],
+   "metrics": {
+    "top5": [
+     9,
+     6,
+     15,
+     1,
+     5
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-06",
+   "hippo": "Paris-Vincennes",
+   "course": "Prix Palatia",
+   "discipline": "Trot Attelé",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-vincennes-06-novembre",
+   "selection": [
+    7,
+    18,
+    6,
+    9,
+    17,
+    8,
+    2,
+    4
+   ],
+   "base": 7,
+   "resultat": [
+    18,
+    2,
+    10,
+    15,
+    3
+   ],
+   "arrivee": [
+    18,
+    2,
+    10,
+    15,
+    3
+   ],
+   "metrics": {
+    "top5": [
+     18,
+     2,
+     10,
+     15,
+     3
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-07",
+   "hippo": "Deauville",
+   "course": "Prix de l'Operation Epsom",
+   "discipline": "Plat",
+   "dist": "1900m",
+   "slug": "pronostic-quinte-deauville-07-novembre",
+   "selection": [
+    16,
+    1,
+    13,
+    2,
+    4,
+    7,
+    6,
+    15
+   ],
+   "base": 16,
+   "resultat": [
+    1,
+    14,
+    9,
+    13,
+    12
+   ],
+   "arrivee": [
+    1,
+    14,
+    9,
+    13,
+    12
+   ],
+   "metrics": {
+    "top5": [
+     1,
+     14,
+     9,
+     13,
+     12
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-08",
+   "hippo": "Saint-Cloud",
+   "course": "Prix Sagaro",
+   "discipline": "Plat",
+   "dist": "3100m",
+   "slug": "pronostic-quinte-saint-cloud-08-novembre",
+   "selection": [
+    7,
+    5,
+    11,
+    1,
+    8,
+    14,
+    10,
+    6
+   ],
+   "base": 7,
+   "resultat": [
+    7,
+    1,
+    10,
+    11,
+    4
+   ],
+   "arrivee": [
+    7,
+    1,
+    10,
+    11,
+    4
+   ],
+   "metrics": {
+    "top5": [
+     7,
+     1,
+     10,
+     11,
+     4
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-09",
+   "hippo": "Bordeaux-Le Bouscat",
+   "course": "Grand Prix de l'Hippodrome du Bouscat",
+   "discipline": "Trot Attelé",
+   "dist": "2650m",
+   "slug": "pronostic-quinte-bordeaux-09-novembre",
+   "selection": [
+    5,
+    4,
+    11,
+    13,
+    15,
+    7,
+    10,
+    3
+   ],
+   "base": 5,
+   "resultat": [
+    5,
+    6,
+    15,
+    13,
+    10
+   ],
+   "arrivee": [
+    5,
+    6,
+    15,
+    13,
+    10
+   ],
+   "metrics": {
+    "top5": [
+     5,
+     6,
+     15,
+     13,
+     10
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-10",
+   "hippo": "Fontainebleau",
+   "course": "Prix Roland Fougedoire",
+   "discipline": "Plat",
+   "dist": "1200m",
+   "slug": "pronostic-quinte-fontainebleau-10-novembre",
+   "selection": [
+    5,
+    9,
+    14,
+    8,
+    7,
+    10,
+    12,
+    16
+   ],
+   "base": 5,
+   "resultat": [
+    4,
+    9,
+    15,
+    5,
+    13
+   ],
+   "arrivee": [
+    4,
+    9,
+    15,
+    5,
+    13
+   ],
+   "metrics": {
+    "top5": [
+     4,
+     9,
+     15,
+     5,
+     13
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-11",
+   "hippo": "Toulouse",
+   "course": "Prix de la Ville de Toulouse",
+   "discipline": "Plat",
+   "dist": "2400m",
+   "slug": "pronostic-quinte-toulouse-11-novembre",
+   "selection": [
+    10,
+    11,
+    1,
+    5,
+    3,
+    7,
+    15,
+    12
+   ],
+   "base": 10,
+   "resultat": [
+    5,
+    3,
+    7,
+    9,
+    6
+   ],
+   "arrivee": [
+    5,
+    3,
+    7,
+    9,
+    6
+   ],
+   "metrics": {
+    "top5": [
+     5,
+     3,
+     7,
+     9,
+     6
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-12",
+   "hippo": "Vincennes",
+   "course": "Prix Marcel Laurent",
+   "discipline": "Trot Attelé",
+   "dist": "2100m",
+   "slug": "pronostic-quinte-vincennes-12-novembre",
+   "selection": [
+    2,
+    6,
+    8,
+    5,
+    10,
+    12,
+    1,
+    4
+   ],
+   "base": 2,
+   "resultat": [
+    2,
+    1,
+    13,
+    6,
+    12
+   ],
+   "arrivee": [
+    2,
+    1,
+    13,
+    6,
+    12
+   ],
+   "metrics": {
+    "top5": [
+     2,
+     1,
+     13,
+     6,
+     12
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-13",
+   "hippo": "Vincennes",
+   "course": "Grand Prix du Vendredi Treize",
+   "discipline": "Trot Attelé",
+   "dist": "2100m",
+   "slug": "pronostic-quinte-vincennes-13-novembre",
+   "selection": [
+    8,
+    5,
+    6,
+    2,
+    17,
+    4,
+    13,
+    7
+   ],
+   "base": 8,
+   "resultat": [
+    8,
+    13,
+    2,
+    6,
+    5
+   ],
+   "arrivee": [
+    8,
+    13,
+    2,
+    6,
+    5
+   ],
+   "metrics": {
+    "top5": [
+     8,
+     13,
+     2,
+     6,
+     5
+    ],
+    "selection_in_top5": 5,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-14",
+   "hippo": "Vincennes",
+   "course": "Prix Atlantic",
+   "discipline": "Trot Attelé",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-14-novembre",
+   "selection": [
+    17,
+    15,
+    5,
+    8,
+    7,
+    14,
+    11,
+    13
+   ],
+   "base": 17,
+   "resultat": [
+    8,
+    13,
+    5,
+    3,
+    2
+   ],
+   "arrivee": [
+    8,
+    13,
+    5,
+    3,
+    2
+   ],
+   "metrics": {
+    "top5": [
+     8,
+     13,
+     5,
+     3,
+     2
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-15",
+   "hippo": "Auteuil",
+   "course": "Prix La Haye Jousselin",
+   "discipline": "Steeple-chase",
+   "dist": "5500m",
+   "slug": "pronostic-quinte-auteuil-15-novembre",
+   "selection": [
+    3,
+    1,
+    7,
+    9,
+    4,
+    13,
+    5,
+    8
+   ],
+   "base": 3,
+   "resultat": [
+    9,
+    4,
+    15,
+    10,
+    1
+   ],
+   "arrivee": [
+    9,
+    4,
+    15,
+    10,
+    1
+   ],
+   "metrics": {
+    "top5": [
+     9,
+     4,
+     15,
+     10,
+     1
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-16",
+   "hippo": "Vincennes",
+   "course": "Prix d'Aigues-Mortes",
+   "discipline": "Trot Attelé",
+   "dist": "2100m",
+   "slug": "pronostic-quinte-vincennes-16-novembre",
+   "selection": [
+    4,
+    6,
+    10,
+    2,
+    8,
+    14,
+    5,
+    15
+   ],
+   "base": 4,
+   "resultat": [
+    6,
+    4,
+    13,
+    10,
+    14
+   ],
+   "arrivee": [
+    6,
+    4,
+    13,
+    10,
+    14
+   ],
+   "metrics": {
+    "top5": [
+     6,
+     4,
+     13,
+     10,
+     14
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-17",
+   "hippo": "Chantilly",
+   "course": "Prix de Beauvais",
+   "discipline": "Plat",
+   "dist": "1600m",
+   "slug": "pronostic-quinte-chantilly-17-novembre",
+   "selection": [
+    4,
+    2,
+    8,
+    13,
+    3,
+    5,
+    10,
+    14
+   ],
+   "base": 4,
+   "resultat": [
+    8,
+    1,
+    14,
+    2,
+    7
+   ],
+   "arrivee": [
+    8,
+    1,
+    14,
+    2,
+    7
+   ],
+   "metrics": {
+    "top5": [
+     8,
+     1,
+     14,
+     2,
+     7
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-18",
+   "hippo": "Rouen-Mauquenchy",
+   "course": "Prix Jacques Brion",
+   "discipline": "Trot Attele",
+   "dist": "2850m",
+   "slug": "pronostic-quinte-mauquenchy-18-novembre",
+   "selection": [
+    14,
+    3,
+    13,
+    9,
+    1,
+    6,
+    8,
+    12
+   ],
+   "base": 14,
+   "resultat": [
+    2,
+    1,
+    14,
+    12,
+    8
+   ],
+   "arrivee": [
+    2,
+    1,
+    14,
+    12,
+    8
+   ],
+   "metrics": {
+    "top5": [
+     2,
+     1,
+     14,
+     12,
+     8
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-19",
+   "hippo": "Saint-Cloud",
+   "course": "Prix de Windsor",
+   "discipline": "Plat",
+   "dist": "2000m",
+   "slug": "pronostic-quinte-saint-cloud-19-novembre",
+   "selection": [
+    6,
+    14,
+    9,
+    2,
+    16,
+    1,
+    8,
+    12
+   ],
+   "base": 6,
+   "resultat": [
+    13,
+    16,
+    7,
+    4,
+    1
+   ],
+   "arrivee": [
+    13,
+    16,
+    7,
+    4,
+    1
+   ],
+   "metrics": {
+    "top5": [
+     13,
+     16,
+     7,
+     4,
+     1
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-20",
+   "hippo": "Vincennes",
+   "course": "Prix Triton",
+   "discipline": "Trot Attele",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-20-novembre",
+   "selection": [
+    13,
+    5,
+    4,
+    14,
+    9,
+    11,
+    10,
+    1
+   ],
+   "base": 13,
+   "resultat": [
+    5,
+    4,
+    6,
+    13,
+    9
+   ],
+   "arrivee": [
+    5,
+    4,
+    6,
+    13,
+    9
+   ],
+   "metrics": {
+    "top5": [
+     5,
+     4,
+     6,
+     13,
+     9
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-21",
+   "hippo": "Auteuil",
+   "course": "Prix Marc Antony",
+   "discipline": "Haies",
+   "dist": "3900m",
+   "slug": "pronostic-quinte-auteuil-21-novembre",
+   "selection": [
+    1,
+    8,
+    2,
+    14,
+    3,
+    7,
+    6,
+    10
+   ],
+   "base": 1,
+   "resultat": [
+    12,
+    8,
+    1,
+    11,
+    5
+   ],
+   "arrivee": [
+    12,
+    8,
+    1,
+    11,
+    5
+   ],
+   "metrics": {
+    "top5": [
+     12,
+     8,
+     1,
+     11,
+     5
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-22",
+   "hippo": "Vincennes",
+   "course": "Prix de Bretagne - Amerique Races Q1",
+   "discipline": "Trot Attelé",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-22-novembre",
+   "selection": [
+    16,
+    10,
+    5,
+    12,
+    15,
+    14,
+    7,
+    13
+   ],
+   "base": 16,
+   "resultat": [
+    14,
+    10,
+    8,
+    1,
+    16
+   ],
+   "arrivee": [
+    14,
+    10,
+    8,
+    1,
+    16
+   ],
+   "metrics": {
+    "top5": [
+     14,
+     10,
+     8,
+     1,
+     16
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-23",
+   "hippo": "Vincennes",
+   "course": "Prix de Montignac-Charente",
+   "discipline": "Trot Attelle",
+   "dist": "2700m",
+   "slug": "pronostic-quinte-vincennes-23-novembre",
+   "selection": [
+    14,
+    17,
+    13,
+    11,
+    16,
+    12,
+    3,
+    9
+   ],
+   "base": 14,
+   "resultat": [
+    15,
+    13,
+    3,
+    16,
+    9
+   ],
+   "arrivee": [
+    15,
+    13,
+    3,
+    16,
+    9
+   ],
+   "metrics": {
+    "top5": [
+     15,
+     13,
+     3,
+     16,
+     9
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-24",
+   "hippo": "Deauville",
+   "course": "Prix du Chateau de Bayeux",
+   "discipline": "Galop PSF",
+   "dist": "2500m",
+   "slug": "pronostic-quinte-deauville-24-novembre",
+   "selection": [
+    12,
+    3,
+    13,
+    16,
+    10,
+    6,
+    1,
+    7
+   ],
+   "base": 12,
+   "resultat": [
+    16,
+    8,
+    3,
+    2,
+    1
+   ],
+   "arrivee": [
+    16,
+    8,
+    3,
+    2,
+    1
+   ],
+   "metrics": {
+    "top5": [
+     16,
+     8,
+     3,
+     2,
+     1
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": false,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-25",
+   "hippo": "Deauville",
+   "course": "Prix de Saint-Céneri-le-Gérei",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-deauville-25-novembre",
+   "selection": [
+    11,
+    7,
+    12,
+    6,
+    9,
+    15,
+    10,
+    8
+   ],
+   "base": 11,
    "resultat": null,
    "arrivee": null,
    "metrics": {
