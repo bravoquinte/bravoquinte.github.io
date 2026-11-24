@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-24T18:32:54.000Z",
+ "generated": "2026-11-24T18:52:02.000Z",
  "stats": {
-  "total_validated": 57,
-  "base_in_top5_rate": "28/57",
-  "base_wins_rate": "9/57",
-  "selection_avg_in_top5": "3.3/5",
-  "winner_in_selection_rate": "44/57",
-  "top3_in_top5_rate": "46/57",
-  "desordre_rate": "0/57",
+  "total_validated": 60,
+  "base_in_top5_rate": "30/60",
+  "base_wins_rate": "9/60",
+  "selection_avg_in_top5": "3.4/5",
+  "winner_in_selection_rate": "47/60",
+  "top3_in_top5_rate": "49/60",
+  "desordre_rate": "0/60",
   "top5_avg_in_top5": "2.3/5"
  },
  "predictions": [
@@ -133,15 +133,33 @@
     12
    ],
    "base": 11,
-   "resultat": null,
-   "arrivee": null,
+   "resultat": [
+    6,
+    5,
+    12,
+    4,
+    1
+   ],
+   "arrivee": [
+    6,
+    5,
+    12,
+    4,
+    1
+   ],
    "metrics": {
-    "top5": [],
-    "selection_in_top5": 0,
-    "base_in_top5": null,
+    "top5": [
+     6,
+     5,
+     12,
+     4,
+     1
+    ],
+    "selection_in_top5": 4,
+    "base_in_top5": false,
     "exact_order": false
    },
-   "statut": "en_attente"
+   "statut": "valide"
   },
   {
    "date": "2026-09-27",
@@ -1298,15 +1316,33 @@
     3
    ],
    "base": 10,
-   "resultat": null,
-   "arrivee": null,
+   "resultat": [
+    4,
+    5,
+    9,
+    10,
+    11
+   ],
+   "arrivee": [
+    4,
+    5,
+    9,
+    10,
+    11
+   ],
    "metrics": {
-    "top5": [],
-    "selection_in_top5": 0,
-    "base_in_top5": null,
+    "top5": [
+     4,
+     5,
+     9,
+     10,
+     11
+    ],
+    "selection_in_top5": 3,
+    "base_in_top5": true,
     "exact_order": false
    },
-   "statut": "en_attente"
+   "statut": "valide"
   },
   {
    "date": "2026-10-19",
@@ -1878,15 +1914,33 @@
     16
    ],
    "base": 11,
-   "resultat": null,
-   "arrivee": null,
+   "resultat": [
+    1,
+    5,
+    3,
+    6,
+    11
+   ],
+   "arrivee": [
+    1,
+    5,
+    3,
+    6,
+    11
+   ],
    "metrics": {
-    "top5": [],
-    "selection_in_top5": 0,
-    "base_in_top5": null,
+    "top5": [
+     1,
+     5,
+     3,
+     6,
+     11
+    ],
+    "selection_in_top5": 5,
+    "base_in_top5": true,
     "exact_order": false
    },
-   "statut": "en_attente"
+   "statut": "valide"
   },
   {
    "date": "2026-11-03",
