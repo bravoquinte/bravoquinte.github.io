@@ -18,20 +18,37 @@ if not articles:
     articles = re.findall(r"\{title:\"([^\"]+)\",date:\"([^\"]+)\",slug:\"([^\"]+)\"", idx)
 
 # 1. archives.html
-rows = '\n'.join(f'<tr><td>{date}</td><td><a href="{base}{slug}.html">{title}</a></td><td>{excerpt}</td></tr>'
-                 for title, date, slug, excerpt, img in sorted(articles, key=lambda x: x[1], reverse=True))
+NL = chr(10)
+# groupement par mois (sections repliables)
+MOIS_FR = ['janvier','f&eacute;vrier','mars','avril','mai','juin',
+           'juillet','ao&ucirc;t','septembre','octobre','novembre','d&eacute;cembre']
+groups = {}
+for title, date, slug, excerpt, img in sorted(articles, key=lambda x: x[1], reverse=True):
+    groups.setdefault(date[:7], []).append((title, date, slug, excerpt, img))
+
+sections = []
+for i, (ym, arts) in enumerate(groups.items()):
+    y, m = ym.split('-')
+    rows = NL.join(f'<tr><td>{date}</td><td><a href="{base}{slug}.html">{title}</a></td><td>{excerpt}</td></tr>'
+                   for title, date, slug, excerpt, img in arts)
+    open_attr = ' open' if i == 0 else ''
+    n = len(arts)
+    sections.append(
+        f'<details{open_attr}><summary>{MOIS_FR[int(m)-1][0].upper() + MOIS_FR[int(m)-1][1:]} {y} &#183; {n} pronostic{"s" if n > 1 else ""}</summary>'
+        f'<table><thead><tr><th>Date</th><th>Article</th><th>R&eacute;sum&eacute;</th></tr></thead><tbody>'
+        + NL + rows + NL + '</tbody></table></details>')
+
+sections_html = NL.join(sections)
 archives_html = f'''<!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 {GA_SNIPPET}<title>Archives - Pronostics Quinté+ Bravo Quinté</title>
 <meta name="description" content="Archives des pronostics Quinté+ publiés sur Bravo Quinté.">
 <link rel="canonical" href="{base}archives.html">
-<style>:root{{--primary:#16a34a;--dark:#0f172a;--gray:#64748b;--border:#e2e8f0}}body{{font-family:'Inter',system-ui,sans-serif;margin:0;padding:0;color:var(--dark);background:#fff;line-height:1.6}}.container{{max-width:900px;margin:0 auto;padding:1.5rem}}h1{{font-size:2rem;margin:1rem 0}}.meta{{color:var(--gray);font-size:.9rem;margin-bottom:1.5rem}}table{{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}}th{{background:var(--dark);color:#fff;padding:.75rem;text-align:left}}td{{padding:.75rem;border-bottom:1px solid var(--border)}}tr:nth-child(even){{background:#f8fafc}}a{{color:var(--primary)}}footer{{text-align:center;padding:2rem;color:var(--gray);font-size:.85rem;border-top:1px solid var(--border);margin-top:2rem}}</style></head><body>
+<style>:root{{--primary:#16a34a;--dark:#0f172a;--gray:#64748b;--border:#e2e8f0}}body{{font-family:'Inter',system-ui,sans-serif;margin:0;padding:0;color:var(--dark);background:#fff;line-height:1.6}}.container{{max-width:900px;margin:0 auto;padding:1.5rem}}h1{{font-size:2rem;margin:1rem 0}}.meta{{color:var(--gray);font-size:.9rem;margin-bottom:1.5rem}}table{{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}}th{{background:var(--dark);color:#fff;padding:.75rem;text-align:left}}td{{padding:.75rem;border-bottom:1px solid var(--border)}}tr:nth-child(even){{background:#f8fafc}}a{{color:var(--primary)}}details{{margin:.75rem 0;border:1px solid #e2e8f0;border-radius:10px;background:#fff;overflow:hidden}}summary{{cursor:pointer;padding:.85rem 1rem;font-weight:700;background:#f1f5f9;list-style:none}}summary::after{{content:'›';color:#16a34a;display:inline-block;font-size:1.1em;transition:transform .15s}}details[open]>summary::after{{transform:rotate(90deg)}}details[open]>summary{{background:#dcfce7;color:#15803d}}details table{{margin:0}} footer{{text-align:center;padding:2rem;color:var(--gray);font-size:.85rem;border-top:1px solid var(--border);margin-top:2rem}}</style></head><body>
 <div class="container">
 <h1>Archives des pronostics</h1>
 <p class="meta">{len(articles)} pronostics publiés</p>
-<table><thead><tr><th>Date</th><th>Article</th><th>Résumé</th></tr></thead><tbody>
-{rows}
-</tbody></table></div>
+{sections_html}</div>
 {BTN}
 <footer><p><strong>Bravo Quinté</strong> &#8212; publication écrite de la chaîne <a href="https://www.youtube.com/@bravoturf" rel="noopener" target="_blank">Bravoturf</a> &#183; <a href="https://www.instagram.com/bravoturf" rel="noopener" target="_blank">Instagram</a> &#183; <a href="https://www.facebook.com/profile.php?id=100092648388721" rel="noopener" target="_blank">Facebook</a> &#183; <a href="https://www.tiktok.com/@bravo.quinte" rel="noopener" target="_blank">TikTok</a></p><p><a href="methodologie.html">Méthodologie</a> &#183; <a href="mentions-legales.html">Mentions légales</a> &#183; <a href="apropos.html">À propos</a> &#183; <a href="https://bravoquinte.github.io/presse.html">Presse</a> &#183; <a href="track-record.html">Track Record</a> &#183; <a href="feed.xml">RSS</a></p><p>Jeu responsable : 09 74 75 13 13</p></footer>
 </body></html>'''
