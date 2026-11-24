@@ -1,0 +1,21 @@
+{
+ "commentaire": "ponderations calibrees par backtest walk-forward sur le ledger",
+ "date_run": "2026-11-24",
+ "n_jours": 19,
+ "metrics_model": {
+  "base": 11,
+  "pres": 61,
+  "win": 13
+ },
+ "metrics_baseline": {
+  "base": 10,
+  "pres": 61,
+  "win": 14
+ },
+ "poids": {
+  "forme": 0.5,
+  "handicap": 1.0,
+  "corde": 1.0,
+  "cote": 1.0
+ }
+}
