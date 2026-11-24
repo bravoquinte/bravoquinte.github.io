@@ -1,0 +1,22 @@
+[
+  {
+    "date_course": "2026-11-25",
+    "hippo": "Deauville",
+    "course": "Prix de Saint-Céneri-le-Gérei",
+    "date_proposition": "2026-11-24",
+    "scout_selection": [7, 10, 6, 14, 16, 11, 9, 13],
+    "scout_top5": [7, 10, 6, 14, 16],
+    "scout_base": 7,
+    "scout_confiance": 22,
+    "utilisateur_selection": [11, 7, 12, 6, 9, 15, 10, 8],
+    "utilisateur_top5": [11, 7, 12, 6, 9],
+    "utilisateur_base": 11,
+    "decision": "utilisateur",
+    "cotes_source": "turfoo.fr (PMU 18h40)",
+    "communs": 5,
+    "alertes": ["VALUE 14 Royalwood (marche 12e, modele 4e)", "VALUE 16 Paintello (marche 11e, modele 5e)", "SURCOTE 12 Salalah (marche 5e, modele 10e)"],
+    "resultat_arrivee": null,
+    "scout_score": null,
+    "utilisateur_score": null
+  }
+]
