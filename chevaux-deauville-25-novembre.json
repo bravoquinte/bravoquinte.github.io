@@ -1,0 +1,167 @@
+{
+ "1": {
+  "numero": 1,
+  "nom": "Weeken",
+  "driver": "T. Piccone",
+  "entraineur": "H.-A. Pantall",
+  "musique": "-",
+  "cote": "-",
+  "poids": "60 kg",
+  "corde": 11,
+  "valeur": 3
+ },
+ "2": {
+  "numero": 2,
+  "nom": "Tissimo",
+  "driver": "S. Pasquier",
+  "entraineur": "H.-A. Pantall",
+  "musique": "-",
+  "cote": "-",
+  "poids": "59,5 kg",
+  "corde": 10,
+  "valeur": 4
+ },
+ "3": {
+  "numero": 3,
+  "nom": "Félix aux Ormes",
+  "driver": "H. Journiac",
+  "entraineur": "Y. Barberot",
+  "musique": "-",
+  "cote": "-",
+  "poids": "58,5 kg",
+  "corde": 16,
+  "valeur": 40.5
+ },
+ "4": {
+  "numero": 4,
+  "nom": "Ozan",
+  "driver": "A. Lemaitre",
+  "entraineur": "G. Doleuze",
+  "musique": "-",
+  "cote": "-",
+  "poids": "58,5 kg",
+  "corde": 13,
+  "valeur": 8
+ },
+ "5": {
+  "numero": 5,
+  "nom": "Grand Scoop",
+  "driver": "I. Mendizabal",
+  "entraineur": "G. Mossé",
+  "musique": "-",
+  "cote": "-",
+  "poids": "58 kg",
+  "corde": 3
+ },
+ "6": {
+  "numero": 6,
+  "nom": "Bourgoin",
+  "driver": "M. Grandin",
+  "entraineur": "F. Chappet",
+  "musique": "-",
+  "cote": "-",
+  "poids": "57,5 kg",
+  "corde": 8,
+  "valeur": 39.5
+ },
+ "7": {
+  "numero": 7,
+  "nom": "Saint Saens",
+  "driver": "M. Vélon",
+  "entraineur": "Y. Barberot",
+  "musique": "-",
+  "cote": "-",
+  "poids": "57 kg",
+  "corde": 2
+ },
+ "8": {
+  "numero": 8,
+  "nom": "Awaiting Christmas",
+  "driver": "T. Bachelot",
+  "entraineur": "V. Luka",
+  "musique": "-",
+  "cote": "-",
+  "poids": "57 kg",
+  "corde": 15
+ },
+ "9": {
+  "numero": 9,
+  "nom": "Omicrone",
+  "driver": "A. Hamelin",
+  "entraineur": "P. Groualle",
+  "musique": "-",
+  "cote": "-",
+  "poids": "56,5 kg",
+  "corde": 6
+ },
+ "10": {
+  "numero": 10,
+  "nom": "Fire Rebel",
+  "driver": "F. Lefebvre",
+  "entraineur": "A. Spanu",
+  "musique": "-",
+  "cote": "-",
+  "poids": "56 kg",
+  "corde": 5
+ },
+ "11": {
+  "numero": 11,
+  "nom": "Tanques",
+  "driver": "M. Guyon",
+  "entraineur": "É. Libaud",
+  "musique": "-",
+  "cote": "-",
+  "poids": "56 kg",
+  "corde": 9
+ },
+ "12": {
+  "numero": 12,
+  "nom": "Salalah",
+  "driver": "E. Hardouin",
+  "entraineur": "J. Andreu",
+  "musique": "-",
+  "cote": "-",
+  "poids": "55 kg",
+  "corde": 14
+ },
+ "13": {
+  "numero": 13,
+  "nom": "Spirito",
+  "driver": "P. Le Digabel",
+  "entraineur": "P.-É. Dubois",
+  "musique": "-",
+  "cote": "-",
+  "poids": "55 kg",
+  "corde": 7
+ },
+ "14": {
+  "numero": 14,
+  "nom": "Royalwood",
+  "driver": "F. Valle Skar",
+  "entraineur": "C. Barande Barbe",
+  "musique": "-",
+  "cote": "-",
+  "poids": "54,5 kg",
+  "corde": 1
+ },
+ "15": {
+  "numero": 15,
+  "nom": "Apogeo",
+  "driver": "C. Lecoeuvre",
+  "entraineur": "M. Guarnieri",
+  "musique": "-",
+  "cote": "-",
+  "poids": "54,5 kg",
+  "corde": 12
+ },
+ "16": {
+  "numero": 16,
+  "nom": "Paintello",
+  "driver": "P. Remoué",
+  "entraineur": "A. Budka",
+  "musique": "-",
+  "cote": "-",
+  "poids": "53,5 kg",
+  "corde": 4
+ }
+}
