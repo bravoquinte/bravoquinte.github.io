@@ -95,8 +95,8 @@ kpis = f'''<div class="container">
 rows = []
 for p in sorted(preds, key=lambda x: x['date'], reverse=True):
     sel = ', '.join(str(x) for x in p['selection'][:5])
-    if p.get('metrics'):
-        mm = p['metrics']
+    mm = p.get('metrics') or {}
+    if mm.get('top5'):
         top5 = ', '.join(str(x) for x in mm['top5'])
         bm = '<span class="ok">&#10003;</span>' if mm['base_in_top5'] else '<span class="miss">&#10007;</span>'
         sm = f'<strong>{mm["selection_in_top5"]}</strong>/5'
