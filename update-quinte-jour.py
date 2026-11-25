@@ -297,7 +297,14 @@ def add_resultat(html, args, chevaux_prev):
         f'arrivee:[{arrivee}],'
         f'rapports:"https://www.pmu.fr/turf/"}},'
     )
-    return html.replace('var RESULTATS=[', 'var RESULTATS=[\n' + new_entry, 1)
+    html = html.replace('var RESULTATS=[', 'var RESULTATS=[\n' + new_entry, 1)
+    # garde-fou : chaque element du tableau doit finir par une virgule
+    i = html.find('var RESULTATS=[')
+    j = html.find('];', i)
+    if i > -1 and j > i:
+        block = re.sub(r'\}(?=\s*\n\s*\{date:)', '},', html[i:j])
+        html = html[:i] + block + html[j:]
+    return html
 
 # ── BLOG_POSTS : insérer l'article du jour en tête ────────────────────────────
 
