@@ -79,7 +79,13 @@ def load_chevaux(chevaux_arg):
     if not os.path.isabs(path):
         path = os.path.join(REPO, path)
     data = json.loads(read_file(path))
-    return sorted(data.values(), key=lambda x: int(x['numero']))
+    items = data.values() if isinstance(data, dict) else data
+    out = []
+    for v in items:
+        if 'numero' not in v and 'num' in v:
+            v['numero'] = v['num']
+        out.append(v)
+    return sorted(out, key=lambda x: int(x['numero']))
 
 # ── partants de la course précédente (pour les noms de l'arrivée) ─────────────
 

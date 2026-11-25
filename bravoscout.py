@@ -37,8 +37,11 @@ def charger_chevaux(arg):
     if not os.path.isabs(path):
         path = os.path.join(REPO, path)
     data = json.load(open(path, encoding='utf-8'))
+    items = data.values() if isinstance(data, dict) else data
     out = []
-    for v in data.values():
+    for v in items:
+        if 'numero' not in v and 'num' in v:
+            v['numero'] = v['num']
         if v.get('non_partant'):
             continue
         out.append(v)

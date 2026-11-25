@@ -1,0 +1,146 @@
+[
+ {
+  "num": 1,
+  "nom": "Oscar Van Halbeek",
+  "sexe_age": "HONGRES/8",
+  "driver": "D. THOMAIN",
+  "entraineur": "Mme S. L.",
+  "musique": "3a8a2aDaDaDaDa2a8a3a",
+  "cote": 16.0
+ },
+ {
+  "num": 2,
+  "nom": "Harpy",
+  "sexe_age": "MALES/7",
+  "driver": "R. BERGH",
+  "entraineur": "R. BERGH",
+  "musique": "2a5a2a2a4a4a2a(25)3a5a",
+  "cote": 12.2
+ },
+ {
+  "num": 3,
+  "nom": "Ruger",
+  "sexe_age": "HONGRES/8",
+  "driver": "F. DESMIGNEUX",
+  "entraineur": "E. LINDEGREN",
+  "musique": "9a1a2a1a1a1a0a1a2aDa",
+  "cote": 14.0
+ },
+ {
+  "num": 4,
+  "nom": "Jusseo",
+  "sexe_age": "HONGRES/7",
+  "driver": "E. RAFFIN",
+  "entraineur": "Julien RAFFESTIN",
+  "musique": "Da9a6a1aDa(24)1aDa1aDa",
+  "cote": 11.5
+ },
+ {
+  "num": 5,
+  "nom": "Mateo Di Quattro",
+  "sexe_age": "MALES/7",
+  "driver": "B. GOOP",
+  "entraineur": "B. GOOP",
+  "musique": "0a9a4a6a0a7a(25)0a6a4a",
+  "cote": 101.6
+ },
+ {
+  "num": 6,
+  "nom": "Diva Del Ronco",
+  "sexe_age": "FEMELLES/7",
+  "driver": "V. CIOTOLA",
+  "entraineur": "Vitale CIOTOLA",
+  "musique": "0a2a8a6aDa3a7a2a1a0a",
+  "cote": 118.5
+ },
+ {
+  "num": 7,
+  "nom": "Laredo Boko",
+  "sexe_age": "MALES/8",
+  "driver": "G. GELORMINI",
+  "entraineur": "R. BERGH",
+  "musique": "9a0a7a2a6a8a2a(24)6a4a",
+  "cote": 87.5
+ },
+ {
+  "num": 8,
+  "nom": "Ready Star",
+  "sexe_age": "MALES/7",
+  "driver": "MATS DJUSE",
+  "entraineur": "J. WESTHOLM",
+  "musique": "1a1a2a1a2a3a",
+  "cote": 16.0
+ },
+ {
+  "num": 9,
+  "nom": "Diabel",
+  "sexe_age": "FEMELLES/7",
+  "driver": "B. ROCHARD",
+  "entraineur": "H.E. BONDO",
+  "musique": "7a9a8a5a2a5a5a2a9a2a",
+  "cote": 17.8
+ },
+ {
+  "num": 10,
+  "nom": "Hall Black Mess",
+  "sexe_age": "HONGRES/9",
+  "driver": "TH. CHALON",
+  "entraineur": "CH. CHALON",
+  "musique": "4aDa7a0a0aDaDaDa0aDa",
+  "cote": 113.9
+ },
+ {
+  "num": 11,
+  "nom": "Jack Des Ass",
+  "sexe_age": "HONGRES/7",
+  "driver": "THEO DUVALDESTIN",
+  "entraineur": "TH. DUVALDESTIN",
+  "musique": "Da1aDa3a1aDaDa1a1aDa",
+  "cote": 14.0
+ },
+ {
+  "num": 12,
+  "nom": "Ibis Petteviniere",
+  "sexe_age": "HONGRES/8",
+  "driver": "A. COLLETTE",
+  "entraineur": "F. TERRY",
+  "musique": "3a1a2a9a0aAa2aDa1a8m",
+  "cote": 128.0
+ },
+ {
+  "num": 13,
+  "nom": "Honey King",
+  "sexe_age": "HONGRES/9",
+  "driver": "P.PH. PLOQUIN",
+  "entraineur": "M. IZZO",
+  "musique": "7a5a0aDa0aDa7a0a7a9a",
+  "cote": 32.9
+ },
+ {
+  "num": 14,
+  "nom": "Irish Nice Elge",
+  "sexe_age": "HONGRES/8",
+  "driver": "M. ABRIVARD",
+  "entraineur": "Lucka STAEL",
+  "musique": "5a5a1a3aDa0a2a1aDa3a",
+  "cote": 2.0
+ },
+ {
+  "num": 15,
+  "nom": "Cool Kronos",
+  "sexe_age": "HONGRES/8",
+  "driver": "CH. MARTENS",
+  "entraineur": "Sté. Ent. Christophe M.",
+  "musique": "6a4a5a3a7a8a0a0a2a(25)",
+  "cote": 52.4
+ },
+ {
+  "num": 16,
+  "nom": "Greg De Niro",
+  "sexe_age": "HONGRES/10",
+  "driver": "CEDRIC TERRY",
+  "entraineur": "F. TERRY",
+  "musique": "4a5a2a2a1a1a7a9a8a3a",
+  "cote": 54.5
+ }
+]
