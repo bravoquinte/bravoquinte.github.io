@@ -2999,6 +2999,34 @@
     "exact_order": false
    },
    "statut": "valide"
+  },
+  {
+   "date": "2026-11-26",
+   "hippo": "Vincennes",
+   "course": "Prix de Sillé-le-Guillaume",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-vincennes-26-novembre",
+   "selection": [
+    8,
+    2,
+    11,
+    9,
+    14,
+    4,
+    5,
+    7
+   ],
+   "base": 8,
+   "resultat": null,
+   "arrivee": null,
+   "metrics": {
+    "top5": [],
+    "selection_in_top5": 0,
+    "base_in_top5": null,
+    "exact_order": false
+   },
+   "statut": "en_attente"
   }
  ]
 }
