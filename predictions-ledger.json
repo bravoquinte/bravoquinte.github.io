@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-26T13:27:51.000Z",
+ "generated": "2026-11-26T13:37:08.000Z",
  "stats": {
-  "total_validated": 61,
-  "base_in_top5_rate": "30/61",
-  "base_wins_rate": "9/61",
+  "total_validated": 62,
+  "base_in_top5_rate": "31/62",
+  "base_wins_rate": "10/62",
   "selection_avg_in_top5": "3.3/5",
-  "winner_in_selection_rate": "48/61",
-  "top3_in_top5_rate": "50/61",
-  "desordre_rate": "0/61",
-  "top5_avg_in_top5": "2.3/5"
+  "winner_in_selection_rate": "49/62",
+  "top3_in_top5_rate": "50/62",
+  "desordre_rate": "0/62",
+  "top5_avg_in_top5": "2.2/5"
  },
  "predictions": [
   {
@@ -3018,6 +3018,52 @@
     7
    ],
    "base": 8,
+   "resultat": [
+    8,
+    1,
+    7,
+    15,
+    16
+   ],
+   "arrivee": [
+    8,
+    1,
+    7,
+    15,
+    16
+   ],
+   "metrics": {
+    "top5": [
+     8,
+     1,
+     7,
+     15,
+     16
+    ],
+    "selection_in_top5": 2,
+    "base_in_top5": true,
+    "exact_order": false
+   },
+   "statut": "valide"
+  },
+  {
+   "date": "2026-11-27",
+   "hippo": "Vincennes (Fontenay-sous-Bois)",
+   "course": "Prix Mélusina",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-vincennes-27-novembre",
+   "selection": [
+    5,
+    8,
+    4,
+    11,
+    10,
+    14,
+    7,
+    3
+   ],
+   "base": 5,
    "resultat": null,
    "arrivee": null,
    "metrics": {

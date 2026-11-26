@@ -433,7 +433,7 @@ if __name__ == '__main__':
     # 10. Regen sitemap + resultats
     print("3. Régénération sitemap + résultats...")
     # ledger (synchronisation entrees + stats) puis regeneration complete
-    for script in ['sync-ledger.py', 'update-track-record.py', 'regen-resultats.py',
+    for script in ['regen-resultats.py', 'sync-ledger.py', 'update-track-record.py',
                    'regen-all.py', 'gen-sitemap.py']:
         sp = os.path.join(REPO, script)
         if os.path.exists(sp):
