@@ -132,6 +132,12 @@ guides_html = (
 
     'R&egrave;gles, mises minimales, champ r&eacute;duit, Multi, 2sur4, tickets.</a></div>'
 
+    '<div class="guide-card"><a href="' + base + 'ferrure-trot-d4-dp-deferre-signification.html">'
+
+    '<strong>D&eacute;ferr&eacute; D4, DP : la ferrure au trot</strong><br>'
+
+    'Sigles, plaquage, cale : d&eacute;coder le programme et l&#8217;intention de course.</a></div>'
+
 )
 
 rows_blog = NL.join(
