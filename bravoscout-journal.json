@@ -1,11 +1,63 @@
 [
  {
+  "course": "Prix Ville de Fontenay-sous-Bois (Prix Mélusina)",
+  "hippodrome": "Vincennes (soir)",
+  "discipline": "Trot attelé",
+  "dist": 2700,
+  "date_course": "2026-11-27",
+  "resultat_arrivee": null,
+  "utilisateur_selection": [
+   5,
+   8,
+   4,
+   11,
+   10,
+   14,
+   7,
+   3
+  ],
+  "utilisateur_top5": [
+   5,
+   8,
+   4,
+   11,
+   10
+  ],
+  "utilisateur_base": 5,
+  "scout_selection": [
+   12,
+   8,
+   6,
+   10,
+   5,
+   7,
+   11,
+   4
+  ],
+  "scout_top5": [
+   12,
+   8,
+   6,
+   10,
+   5
+  ],
+  "scout_base": 12,
+  "scout_note": "base 12 June d'Erable favori cote 2.6 (presse refuse: 3 echecs/3 quintes); surcote 11 Kelly Jane; cherche aussi 6 Kelly Gede 4.5",
+  "choix": "selection utilisateur publiee (validee via narration)"
+ },
+ {
   "course": "Prix de Sille-le-Guillaume",
   "hippodrome": "Vincennes",
   "discipline": "Trot attelé",
   "dist": 2850,
   "date_course": "2026-11-26",
-  "resultat_arrivee": null,
+  "resultat_arrivee": [
+   8,
+   1,
+   7,
+   15,
+   16
+  ],
   "utilisateur_selection": [
    8,
    2,
@@ -43,7 +95,24 @@
   ],
   "scout_base": 14,
   "scout_note": "base 14 Irish Nice Elge cote 2.0 (deferré des 4, marché ultra-favori); value 12 Ibis Petteviniere",
-  "choix": "selection utilisateur publiee (validee via narration)"
+  "choix": "selection utilisateur publiee (validee via narration)",
+  "utilisateur_score": {
+   "base_in_top5": true,
+   "presence": 2,
+   "gagnant": true
+  },
+  "scout_score": {
+   "base_in_top5": false,
+   "presence": 3,
+   "gagnant": true
+  },
+  "noms_arrivee": {
+   "8": "Ready Star",
+   "1": "Oscar Van Halbeek",
+   "7": "Laredo Boko",
+   "15": "Cool Kronos",
+   "16": "Greg de Niro"
+  }
  },
  {
   "date_course": "2026-11-25",

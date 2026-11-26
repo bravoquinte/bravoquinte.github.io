@@ -1,0 +1,128 @@
+[
+ {
+  "num": 1,
+  "nom": "Jongleuse De Bry",
+  "sexe_age": "FEMELLES/7",
+  "driver": "M. IONESCU",
+  "entraineur": "R. DERIEUX",
+  "musique": "Da0a0a1a1a2a(25)9a3a1a",
+  "cote": 184.3
+ },
+ {
+  "num": 2,
+  "nom": "Kiss Me De Navary",
+  "sexe_age": "FEMELLES/6",
+  "driver": "F. NIVARD",
+  "entraineur": "P. HACHIN",
+  "musique": "3a0a3a8aDaDa2a4a7aDa",
+  "cote": 43.0
+ },
+ {
+  "num": 3,
+  "nom": "Kara D'Or",
+  "sexe_age": "FEMELLES/6",
+  "driver": "R. HEMERY",
+  "entraineur": "M. DUPUIS",
+  "musique": "2a8a7a1a5aDa9a7aDaDm",
+  "cote": 52.4
+ },
+ {
+  "num": 4,
+  "nom": "Kunamatata",
+  "sexe_age": "FEMELLES/6",
+  "driver": "P.PH. PLOQUIN",
+  "entraineur": "W. BIGEON",
+  "musique": "Da3a0a9a3aDa1a4a0a6a",
+  "cote": 19.5
+ },
+ {
+  "num": 5,
+  "nom": "Kaliakie Phedo",
+  "sexe_age": "FEMELLES/6",
+  "driver": "F. LAGADEUC",
+  "entraineur": "H. TOUVAIS",
+  "musique": "4a4a1aAa1a6a2a9a1aDa",
+  "cote": 36.6
+ },
+ {
+  "num": 6,
+  "nom": "Kelly Gede",
+  "sexe_age": "FEMELLES/6",
+  "driver": "D. BONNE",
+  "entraineur": "A. PILLON",
+  "musique": "0aDm0a2a0a4a1aDa3a2a",
+  "cote": 4.5
+ },
+ {
+  "num": 7,
+  "nom": "Kynte Flush",
+  "sexe_age": "FEMELLES/6",
+  "driver": "A. ABRIVARD",
+  "entraineur": "L.CL. ABRIVARD",
+  "musique": "Da6aDa3a4aDa0a3aDa7a",
+  "cote": 13.9
+ },
+ {
+  "num": 8,
+  "nom": "Kiss Me Du Livet",
+  "sexe_age": "FEMELLES/6",
+  "driver": "E. RAFFIN",
+  "entraineur": "J.M. MAILLARD",
+  "musique": "1a2a4a4a1a6a3a6a7a8a",
+  "cote": 15.9
+ },
+ {
+  "num": 9,
+  "nom": "Jade De Navary",
+  "sexe_age": "FEMELLES/7",
+  "driver": "A. COLLETTE",
+  "entraineur": "P. HACHIN",
+  "musique": "0a0a0aDa8a8a2a2a0a5a",
+  "cote": 158.2
+ },
+ {
+  "num": 10,
+  "nom": "Jacinthe Du Boiron",
+  "sexe_age": "FEMELLES/7",
+  "driver": "M. ABRIVARD",
+  "entraineur": "E. PLANCHENAULT",
+  "musique": "1a6a5a7a5a3a1aDa(25)2a",
+  "cote": 20.6
+ },
+ {
+  "num": 11,
+  "nom": "Kelly Jane",
+  "sexe_age": "FEMELLES/6",
+  "driver": "J. DUBOIS",
+  "entraineur": "J. DUBOIS",
+  "musique": "0a0a0a0a8a4m4a1a(25)4a",
+  "cote": 5.8
+ },
+ {
+  "num": 12,
+  "nom": "June D'Erable",
+  "sexe_age": "FEMELLES/7",
+  "driver": "D. THOMAIN",
+  "entraineur": "CL. THOMAIN",
+  "musique": "5a7aDa1a5a2a4a7aDa1a",
+  "cote": 2.6
+ },
+ {
+  "num": 13,
+  "nom": "Kalinka Du Grenat",
+  "sexe_age": "FEMELLES/6",
+  "driver": "F. OUVRIE",
+  "entraineur": "E. SZIRMAY",
+  "musique": "9a6a5a1a9a8a1aDa6a5a",
+  "cote": 124.2
+ },
+ {
+  "num": 14,
+  "nom": "Kiphyle Desbois",
+  "sexe_age": "FEMELLES/6",
+  "driver": "B. ROCHARD",
+  "entraineur": "P.Y. ROCHARD",
+  "musique": "7a0a6a7a5a0a7a4a7a7a",
+  "cote": 105.8
+ }
+]
