@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T19:29:47.000Z",
+ "generated": "2026-11-27T19:33:05.000Z",
  "stats": {
   "total_validated": 63,
   "base_in_top5_rate": "31/63",
@@ -3091,6 +3091,34 @@
     "exact_order": false
    },
    "statut": "valide"
+  },
+  {
+   "date": "2026-11-28",
+   "hippo": "Vincennes",
+   "course": "Prix d'Oraison",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-vincennes-28-novembre",
+   "selection": [
+    7,
+    10,
+    9,
+    12,
+    1,
+    15,
+    3,
+    4
+   ],
+   "base": 7,
+   "resultat": null,
+   "arrivee": null,
+   "metrics": {
+    "top5": [],
+    "selection_in_top5": 0,
+    "base_in_top5": null,
+    "exact_order": false
+   },
+   "statut": "en_attente"
   }
  ]
 }
