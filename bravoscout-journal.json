@@ -1,11 +1,63 @@
 [
  {
+  "course": "Prix d'Oraison",
+  "hippodrome": "Vincennes",
+  "discipline": "Trot attelé",
+  "dist": 2700,
+  "date_course": "2026-11-28",
+  "resultat_arrivee": null,
+  "utilisateur_selection": [
+   7,
+   10,
+   9,
+   12,
+   1,
+   15,
+   3,
+   4
+  ],
+  "utilisateur_top5": [
+   7,
+   10,
+   9,
+   12,
+   1
+  ],
+  "utilisateur_base": 7,
+  "scout_selection": [
+   3,
+   10,
+   12,
+   1,
+   7,
+   9,
+   4,
+   6
+  ],
+  "scout_top5": [
+   3,
+   10,
+   12,
+   1,
+   7
+  ],
+  "scout_base": 3,
+  "scout_note": "base 3 Mustang Haufor (forme 8/9 top4, cote 6.1); surcotes 7 Moji de Vandel (marche 1er, musiques 2 DAs) et 15 Madmax Jef",
+  "choix": "selection utilisateur publiee (validee via narration); 7/8 communs"
+ },
+ {
   "course": "Prix Ville de Fontenay-sous-Bois (Prix Mélusina)",
   "hippodrome": "Vincennes (soir)",
   "discipline": "Trot attelé",
   "dist": 2700,
   "date_course": "2026-11-27",
-  "resultat_arrivee": null,
+  "resultat_arrivee": [
+   4,
+   8,
+   10,
+   3,
+   14
+  ],
   "utilisateur_selection": [
    5,
    8,
@@ -43,7 +95,24 @@
   ],
   "scout_base": 12,
   "scout_note": "base 12 June d'Erable favori cote 2.6 (presse refuse: 3 echecs/3 quintes); surcote 11 Kelly Jane; cherche aussi 6 Kelly Gede 4.5",
-  "choix": "selection utilisateur publiee (validee via narration)"
+  "choix": "selection utilisateur publiee (validee via narration)",
+  "utilisateur_score": {
+   "base_in_top5": false,
+   "presence": 5,
+   "gagnant": true
+  },
+  "scout_score": {
+   "base_in_top5": false,
+   "presence": 3,
+   "gagnant": true
+  },
+  "noms_arrivee": {
+   "4": "Kunamatata",
+   "8": "Kiss Me du Livet",
+   "10": "Jacinthe du Boiron",
+   "3": "Kara d'Or",
+   "14": "Kiphyle Desbois"
+  }
  },
  {
   "course": "Prix de Sille-le-Guillaume",
