@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T14:41:54.000Z",
+ "generated": "2026-11-28T14:44:34.000Z",
  "stats": {
   "total_validated": 64,
   "base_in_top5_rate": "32/64",
@@ -3137,6 +3137,34 @@
     "exact_order": false
    },
    "statut": "valide"
+  },
+  {
+   "date": "2026-11-29",
+   "hippo": "Auteuil",
+   "course": "Prix François de Ganay",
+   "discipline": "-",
+   "dist": "-",
+   "slug": "pronostic-quinte-auteuil-29-novembre",
+   "selection": [
+    11,
+    7,
+    12,
+    6,
+    9,
+    15,
+    10,
+    8
+   ],
+   "base": 11,
+   "resultat": null,
+   "arrivee": null,
+   "metrics": {
+    "top5": [],
+    "selection_in_top5": 0,
+    "base_in_top5": null,
+    "exact_order": false
+   },
+   "statut": "en_attente"
   }
  ]
 }
