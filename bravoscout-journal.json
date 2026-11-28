@@ -1,11 +1,63 @@
 [
  {
+  "course": "Prix François de Ganay",
+  "hippodrome": "Auteuil",
+  "discipline": "Steeple-chase (haies)",
+  "dist": 3600,
+  "date_course": "2026-11-29",
+  "resultat_arrivee": null,
+  "utilisateur_selection": [
+   11,
+   7,
+   12,
+   6,
+   9,
+   15,
+   10,
+   8
+  ],
+  "utilisateur_top5": [
+   11,
+   7,
+   12,
+   6,
+   9
+  ],
+  "utilisateur_base": 11,
+  "scout_selection": [
+   5,
+   7,
+   15,
+   6,
+   1,
+   8,
+   11,
+   13
+  ],
+  "scout_top5": [
+   5,
+   7,
+   15,
+   6,
+   1
+  ],
+  "scout_base": 5,
+  "scout_note": "base 5 Mon Petit Prince (favori cote 4.6); cotes partielles seulement (marche Auteuil non forme, placeholders ignorees), biais vers les chevaux cotes",
+  "choix": "selection utilisateur publiee (narration)"
+ },
+ {
   "course": "Prix d'Oraison",
   "hippodrome": "Vincennes",
   "discipline": "Trot attelé",
   "dist": 2700,
   "date_course": "2026-11-28",
-  "resultat_arrivee": null,
+  "resultat_arrivee": [
+   7,
+   10,
+   5,
+   12,
+   4
+  ],
   "utilisateur_selection": [
    7,
    10,
@@ -43,7 +95,24 @@
   ],
   "scout_base": 3,
   "scout_note": "base 3 Mustang Haufor (forme 8/9 top4, cote 6.1); surcotes 7 Moji de Vandel (marche 1er, musiques 2 DAs) et 15 Madmax Jef",
-  "choix": "selection utilisateur publiee (validee via narration); 7/8 communs"
+  "choix": "selection utilisateur publiee (validee via narration); 7/8 communs",
+  "utilisateur_score": {
+   "base_in_top5": true,
+   "presence": 4,
+   "gagnant": true
+  },
+  "scout_score": {
+   "base_in_top5": false,
+   "presence": 4,
+   "gagnant": true
+  },
+  "noms_arrivee": {
+   "7": "Moji de Vandel",
+   "10": "Martin Dol",
+   "5": "Money Di Malavita",
+   "12": "Maestro de Brion",
+   "4": "Mec de Mutrecy"
+  }
  },
  {
   "course": "Prix Ville de Fontenay-sous-Bois (Prix Mélusina)",

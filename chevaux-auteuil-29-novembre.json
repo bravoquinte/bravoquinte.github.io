@@ -1,0 +1,146 @@
+[
+ {
+  "num": 1,
+  "nom": "Grand Art",
+  "driver": "C. Lefebvre",
+  "entraineur": "J.Ph. Dubois",
+  "poids": 72,
+  "musique": "5p3p1p4p4p(25)5h2h6p9p",
+  "cote": 5.2
+ },
+ {
+  "num": 2,
+  "nom": "Jost",
+  "driver": "L. Philipperon",
+  "entraineur": "M. Seror",
+  "poids": 70.5,
+  "musique": "5h4h5h(25)7s4s7h3s5h3s",
+  "cote": null
+ },
+ {
+  "num": 3,
+  "nom": "Caligramme",
+  "driver": "L.P. Bréchet",
+  "entraineur": "D. Mele",
+  "poids": 70.5,
+  "musique": "1h9s3h7s1h(25)1s5hAs",
+  "cote": null
+ },
+ {
+  "num": 4,
+  "nom": "Moty Marc",
+  "driver": "E. Bonnet",
+  "entraineur": "F. Bellemere",
+  "poids": 70,
+  "musique": "Ah3h(25)TsTs2s1sTs5h4h",
+  "cote": null
+ },
+ {
+  "num": 5,
+  "nom": "Mon Petit Prince",
+  "driver": "T. Chevillard",
+  "entraineur": "Gab. Leenders",
+  "poids": 69,
+  "musique": "1h3h2s3s3h2h2h(25)5h5h",
+  "cote": 4.6
+ },
+ {
+  "num": 6,
+  "nom": "Aulko",
+  "driver": "M. Bars Hugonot",
+  "entraineur": "G. Juillet",
+  "poids": 68.5,
+  "musique": "1s1s2h2h0h5h0h(25)9h1h",
+  "cote": 6.5
+ },
+ {
+  "num": 7,
+  "nom": "Liprika d'Anjou",
+  "driver": "F. de Giles",
+  "entraineur": "H. Mérienne",
+  "poids": 67.5,
+  "musique": "2h1s1h0h2h7h5s(25)5sAs",
+  "cote": 5.2
+ },
+ {
+  "num": 8,
+  "nom": "Karysmatika",
+  "driver": "K. Nabet",
+  "entraineur": "E. Allaire",
+  "poids": 67.5,
+  "musique": "5h5h(24)1h",
+  "cote": 10.4
+ },
+ {
+  "num": 9,
+  "nom": "Tatoo",
+  "driver": "B. Le Clerc",
+  "entraineur": "F. Bellemere",
+  "poids": 67,
+  "musique": "0h6h5h1h(25)Ah0h2h4hAh",
+  "cote": null
+ },
+ {
+  "num": 10,
+  "nom": "Lestru",
+  "driver": "A. Duvacher",
+  "entraineur": "M. Seror",
+  "poids": 66.5,
+  "musique": "As2s5s7hThThAh(25)4h2h",
+  "cote": null
+ },
+ {
+  "num": 11,
+  "nom": "Parfum d'Une Reine",
+  "driver": "J. Majorcryk",
+  "entraineur": "H. Mérienne",
+  "poids": 65,
+  "musique": "2h8h(25)5h8h4h4hTh8s1s",
+  "cote": 52.4
+ },
+ {
+  "num": 12,
+  "nom": "Magic Flight",
+  "driver": "T. Vabois",
+  "entraineur": "J.Ph. Dubois",
+  "poids": 64.5,
+  "musique": "Ah0hAh0p1p4h0p(25)Th0h",
+  "cote": 52.4
+ },
+ {
+  "num": 13,
+  "nom": "Dinozaure",
+  "driver": "Th. Journiac",
+  "entraineur": "M. Rolland",
+  "poids": 64,
+  "musique": "0hAh2hAh1h(25)AhAh3h4h",
+  "cote": null
+ },
+ {
+  "num": 14,
+  "nom": "Jumper Baie",
+  "driver": "N. Ferreira",
+  "entraineur": "R. Schmidlin",
+  "poids": 63.5,
+  "musique": "4h3h9h0h0h4h6h3h1h3h",
+  "cote": null
+ },
+ {
+  "num": 15,
+  "nom": "Lou Fast",
+  "driver": "T. Beaurain",
+  "entraineur": "R. Collet",
+  "poids": 63.5,
+  "musique": "1h8h7s5s0h0h0h7h7h9h",
+  "cote": 5.2
+ },
+ {
+  "num": 16,
+  "nom": "The Must",
+  "driver": "T. Lemaire",
+  "entraineur": "G. Menato",
+  "poids": 63.5,
+  "musique": "7h9h7s0h5h8h1h1hAh5h",
+  "cote": 52.4
+ }
+]
